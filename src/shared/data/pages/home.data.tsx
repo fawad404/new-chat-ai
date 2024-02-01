@@ -108,18 +108,18 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        HERE’S WHAT YOU’LL GET INSIDE <span className="whitespace-nowrap">THE WGMI ACADEMY</span>
       </>
     ),
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+      "100% ACTIONABLE. NO FLUFF. NO THEORY",
+    tagline: 'Courses',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Future Dev: Build SaaS with NoCode',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        'Transform your ideas into software',
       icon: IconBrandTailwind,
       callToAction: {
         text: 'Discover now',
@@ -127,9 +127,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'The productized agency playbook',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'Turn any skill into cashflow assets',
       icon: IconComponents,
       callToAction: {
         text: 'Discover now',
@@ -137,39 +137,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Best Practices',
+      title: 'Become an AI Expert',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-      icon: IconListCheck,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Excellent Page Speed',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+        'Become an expert on AI tools to unleash massive freelancing opportunities and start businesses',
       icon: IconBulb,
       callToAction: {
         text: 'Discover now',
@@ -184,27 +154,32 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Aliquip definiebas ad est',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
+    title: 'GAIN INSTANT ACCESS TO PROGRAMS ',
+    subtitle: 'Designed to developo top in-demand business skills',
     tagline: 'Content',
   },
   content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+    'FUTURE DEV: BUILD A PROFITABLE SAAS BUSINESS',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Learn an In-Demand High-Income Skill ',
       description:
         'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Get Full Training on Bubble & Make.com ',
       description:
         'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Watch Us Build A Popular SaaS From Scratch ',
       description:
         'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+    },
+    {
+      title: 'Join A No Code Support Community ',
+      description:
+        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix.odus.',
     },
   ],
   image: {
@@ -219,26 +194,21 @@ export const contentHomeOne: ContentProps = {
 export const contentHomeTwo: ContentProps = {
   id: 'contentOne-on-home-two',
   hasBackground: true,
+  
   content:
-    'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
+    'Generate cash flow when selling your skill as a productized service. The Productized Agency Playbook is designed to take your unique abilities and help you earn a full-time income from a laptop through a new and improved agency model. Inside you’ll learn everything about selling your skills online from clients to cashflow.  ',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Turn Your Skill Into A Money-Making Machine',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Run an Agency on Autopilot ',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Learn How To Run, Operate, And Manage A Profitable Agency ',
     },
     {
-      title: 'Per ei quaeque sensibus',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Join A Productized Agency Support Community ',
     },
   ],
   image: {
@@ -248,6 +218,35 @@ export const contentHomeTwo: ContentProps = {
   isReversed: true,
   isAfterContent: true,
 };
+
+// Content data on Home page *******************
+export const contentHomeThree: ContentProps = {
+  id: 'contentOne-on-home-one',
+  hasBackground: true,
+  content:
+    'What do most of the young millionaires online have in common…? That’s right, they create high-quality content and monetize their following, and the next generation of millionaires will be those who can create the best content. In Creatorize, Brett Malinowski will show you the exact step-by-step playbook for growing your personal brand through content creation.    ',
+  items: [
+    {
+      title: 'Inside Information On The Most Effective Growth Strategies That Are Currently Working ',
+      },
+    {
+      title: 'A Full Walkthrough On Creating World-Class Content For The Masses ',
+    },
+    {
+      title: 'Classroom and Q&A sessions with Experts ',
+    },
+    {
+      title: 'Learn How To Scale & Monetize Your Personal Brand ',
+    },
+  ],
+  image: {
+    src: cameraFrontImg,
+    alt: 'Colorful Image',
+  },
+  isReversed: false,
+  isAfterContent: false,
+};
+
 
 // Steps data on Home page *******************
 export const stepsHome: StepsProps = {
@@ -260,7 +259,7 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
+    title: 'HERE’S WHAT YOU’LL LEARN  ',
   },
   items: [
     {
@@ -283,6 +282,47 @@ export const stepsHome: StepsProps = {
     },
     {
       title: 'Ready!',
+    },
+  ],
+};
+
+// Feature2 data on Services page *******************
+export const features2Services: FeaturesProps = {
+  id: 'featuresTwo-on-services',
+  header: {
+    title: 'HERE’S WHAT YOU’LL LEARN',
+  },
+  items: [
+    {
+      title: 'No Code Tools',
+      description: 'Learn how to become a Future Dev by mastering no code tools Bubble and Make.',
+      icon: IconBrandTailwind,
+    },
+    {
+      title: 'Build SAAS',
+      description: 'Bring your software ideas to life with zero coding skills or technical experience.',
+      icon: IconComponents,
+    },
+    {
+      title: 'Automation',
+      description: 'Learn how to build systems that put business operations on auto pilot.',
+      icon: IconListCheck,
+    },
+    {
+      title: 'AI Integration',
+      description: 'Plug powerful AI models (like GPT-4) directly into your software application.',
+      icon: IconRocket,
+    },
+    {
+      title: 'APIs',
+      description:
+        'Give your software all types of functionality with APIs in just a few minutes.',
+      icon: IconArrowsRightLeft,
+    },
+    {
+      title: 'Full Stack Development',
+      description: 'Build complete web applications (front end and back end).',
+      icon: IconBulb,
     },
   ],
 };
@@ -372,28 +412,29 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'What is WGMI Academy?',
+      description: `The WGMI Academy is a hub of business training programs, tools and resources. Each program shows you exactly how to start and grow a profitable online business from scratch. At the WGMI Academy, our focus is to teach you how to build businesses of the future.
+      `,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What is included in the WGMI Academy membership?',
+      description: `Membership at WGMI Academy encompasses a suite of educational courses, including expert-led live classroom sessions, exclusive access to a curated collection of resources, and membership in a dynamic, supportive community network `,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: "How do I get a WGMI Academy membership?",
+      description: `To secure your WGMI Academy membership, simply click on the 'Pricing' tab you see at the top of this website. It will guide you through our straightforward enrollment process for our exclusive membership option`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: "What are payment options for the  membership?",
+      description: `Our payment processing is handled by Stripe, offering a range of payment choices. These include the use of credit and debit cards, PayPal, along with additional local payment methods that might be available in your region.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'How does the 14 day refund guarantee work?',
+      description: `WGMI Academy provides a 14-day money-back guarantee for all our members. This means you have a period of 14 days from the date of your purchase to request a full refund, irrespective of your usage or engagement with our courses. To initiate the refund process, please send an email to support@wgmiacademy.io.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Will the price of the WGMI Academy Increase in the future?',
+      description: `Yes. We have limited spots available at today’s current price point. After these spots have been filled, we will raise the yearly membership fee. If you become a member of WGMI Academy today, you will lock in today’s yearly membership fee forever. That means you will not be subject to any price increases when it comes to renewing your yearly membership.`,
     },
   ],
 };
@@ -403,88 +444,47 @@ export const pricingHome: PricingProps = {
   id: 'pricing-on-home',
   hasBackground: true,
   header: {
-    title: 'Prices for each plan',
+    title: 'WGMI MEMBERSHIP',
     subtitle:
-      'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
+      'Get Instant Access Now (Limited Time Discount) ',
     // tagline: 'Pricing',
   },
   prices: [
     {
-      title: 'basic',
-      price: 29,
-      period: 'per month',
-      items: [
-        {
-          description: 'Etiam in libero, et volutpat',
-        },
-        {
-          description: 'Aenean ac nunc dolor tristique',
-        },
-        {
-          description: 'Cras scelerisque accumsan lib',
-        },
-        {
-          description: 'In hac habitasse',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 7-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-    {
       title: 'standard',
-      price: 69,
-      period: 'per month',
+      price: 99,
+      period: 'per year',
       items: [
         {
-          description: 'Proin vel laoreet',
+          description: 'Future Dev: Build SaaS with No Code Tools',
         },
         {
-          description: 'Ut efficitur egestas',
+          description: 'Productized Agency Playbook: The new way to sell services',
         },
         {
-          description: 'Pellentesque ut nibh',
+          description: 'Creatorize: Become a professional creator (Coming soon)',
         },
         {
-          description: 'Donec fringilla sem',
+          description: 'Access to All Future Courses ',
+        },
+        {
+          description: 'Live Classroom Sessions ',
+        },
+        {
+          description: 'Resources and templates you can copy and paste ',
+        },
+        {
+          description: 'Access to a community of internet entrepreneurs ',
         },
       ],
       callToAction: {
         targetBlank: true,
-        text: 'Free 15-day trial',
-        href: '/',
+        text: 'Register Now',
+        href: 'https://buy.stripe.com/test_28oaFSbK9emS97G7ss',
       },
       hasRibbon: true,
       ribbonTitle: 'Popular',
-    },
-    {
-      title: 'premium',
-      price: 199,
-      period: 'per month',
-      items: [
-        {
-          description: 'Curabitur suscipit risus',
-        },
-        {
-          description: 'Aliquam blandit malesuada',
-        },
-        {
-          description: 'Suspendisse sit amet',
-        },
-        {
-          description: 'Suspendisse auctor dui',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 30-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
+    } 
   ],
 };
 
@@ -617,16 +617,6 @@ export const contactHome: ContactProps = {
       title: 'Our Address',
       description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
       icon: IconMapPin,
-    },
-    {
-      title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
-      icon: IconPhoneCall,
-    },
-    {
-      title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
-      icon: IconClock,
     },
   ],
   form: {

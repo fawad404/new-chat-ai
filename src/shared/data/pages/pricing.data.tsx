@@ -31,32 +31,6 @@ export const pricingPricing: PricingProps = {
   },
   prices: [
     {
-      title: 'basic',
-      subtitle: 'Optimal choice for personal use',
-      price: 29,
-      period: 'per month',
-      items: [
-        {
-          description: 'Access to a selection of professionally designed website templates.',
-        },
-        {
-          description: 'Email support to assist you with any questions or issues.',
-        },
-        {
-          description: 'Adequate storage space for small to medium-sized websites.',
-        },
-        {
-          description: 'Core features for a functional online presence, such as SEO tools and contact forms.',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 7-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-    {
       title: 'standard',
       subtitle: 'Optimal choice for small teams',
       price: 69,
@@ -82,32 +56,6 @@ export const pricingPricing: PricingProps = {
       },
       hasRibbon: true,
       ribbonTitle: 'Popular',
-    },
-    {
-      title: 'premium',
-      subtitle: 'Optimal choice for companies',
-      price: 199,
-      period: 'per month',
-      items: [
-        {
-          description: 'Access to exclusive and customizable premium website templates.',
-        },
-        {
-          description: 'Round-the-clock customer support for immediate assistance.',
-        },
-        {
-          description: 'No limits on storage, ideal for extensive websites and media.',
-        },
-        {
-          description: 'Advanced SEO, analytics, and marketing tools for optimal performance and growth.',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 30-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
     },
   ],
 };

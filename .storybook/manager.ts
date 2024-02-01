@@ -6,7 +6,7 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'TailNext',
+    brandTitle: 'Wgmi Academy',
     brandUrl: 'https://github.com/onwidget/tailnext',
     brandTarget: '_blank',
   }),

@@ -13,11 +13,15 @@ import Pricing from '~/components/widgets/Pricing';
 import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
 import Contact from '~/components/widgets/Contact';
+import Features2 from '~/components/widgets/Features2';
+
 import {
   callToAction2Home,
   contactHome,
   contentHomeOne,
   contentHomeTwo,
+  contentHomeThree,
+  features2Services,
   faqs2Home,
   featuresHome,
   heroHome,
@@ -40,13 +44,15 @@ export default function Page() {
       <Features {...featuresHome} />
       <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
-      <Steps {...stepsHome} />
-      <Testimonials {...testimonialsHome} />
+      <Content {...contentHomeThree} />
+      {/* <Steps {...stepsHome} /> */}
+      <Features2 {...features2Services} />
+      {/* <Testimonials {...testimonialsHome} /> */}
       <FAQs2 {...faqs2Home} />
       <Pricing {...pricingHome} />
-      <Team {...teamHome} />
-      <Contact {...contactHome} />
-      <CallToAction2 {...callToAction2Home} />
+      {/* <Team {...teamHome} /> */}
+      {/* <Contact {...contactHome} /> */}
+      {/* <CallToAction2 {...callToAction2Home} /> */}
     </>
   );
 }

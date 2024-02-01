@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
-      <Hero {...heroPricing} />
+      {/* <Hero {...heroPricing} /> */}
       <Pricing {...pricingPricing} />
-      <Comparison {...comparisonPricing} />
-      <FAQs3 {...faqs3Pricing} />
+      {/* <Comparison {...comparisonPricing} /> */}
+      {/* <FAQs3 {...faqs3Pricing} /> */}
     </>
   );
 };

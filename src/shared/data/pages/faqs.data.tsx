@@ -32,8 +32,8 @@ export const faqs4Faqs: FAQsProps = {
       },
       items: [
         {
-          title: 'What do I need to start?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          title: 'What is Wgmi ?',
+          description: `The WGMI Academy is a hub of business training programs, tools and resources. Each program shows you exactly how to start and grow a profitable online business from scratch. At the WGMI Academy, our focus is to teach you how to build businesses of the future.`,
         },
         {
           title: 'How to install the NextJS + Tailwind CSS template?',
