@@ -6,7 +6,7 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'Future University',
+    brandTitle: 'Drums Studio',
     brandUrl: 'https://github.com/asfandyar-malik',
     brandTarget: '_blank',
   }),

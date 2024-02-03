@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'Future University',
+  name: 'Drums Studio',
 
   origin: 'https://tailnext.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'Future University',
-  description: 'AI, Nocode, SaaS',
+  title: 'Drums Studio',
+  description: 'Lets build your product in AI, Nocode, SaaS ',
 };

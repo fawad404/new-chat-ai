@@ -206,7 +206,7 @@ export const footerData: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
-     Future Builder 2024. All rights reserved.  
+     Drums Studio 2024. All rights reserved.  
     </div>
   ),
 };
@@ -246,7 +246,7 @@ export const footerData2: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm">
-       Future Builder 2024. All rights reserved.
+       Drums Studio 2024. All rights reserved.
     </div>
   ),
 };
