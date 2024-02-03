@@ -6,7 +6,7 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'Future Builder Academy',
+    brandTitle: 'Future University',
     brandUrl: 'https://github.com/asfandyar-malik',
     brandTarget: '_blank',
   }),

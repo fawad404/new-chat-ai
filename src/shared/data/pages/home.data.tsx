@@ -51,7 +51,7 @@ export const heroHome: HeroProps = {
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           Learn 
         </span>{' '}
-         everything about starting a software business in just a few weeks (even if you are a complete beginner).
+         everything about starting a business in just a few weeks (even if you are a complete beginner).
       </span>{' '}
       AI, Nocode, SaaS has changed the world and opened up millions of opportunities
     </>
