@@ -58,7 +58,7 @@ export const heroHome: HeroProps = {
   ),
   callToAction: {
     text: 'Yes, build my future business',
-    href: '/contact',
+    href: 'https://buy.stripe.com/test_28oaFSbK9emS97G7ss',
     icon: IconDownload,
     targetBlank: true,
   },
