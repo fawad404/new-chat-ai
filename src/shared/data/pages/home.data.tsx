@@ -28,7 +28,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/myimage.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -41,24 +41,37 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Build businesses <span className="hidden md:inline"> of the future</span> <span>SaaS</span> +{' '}
-      <span className="sm:whitespace-nowrap">AI  </span>  + {' '} <span>NoCode</span>
+      Magic <span className="hidden md:inline"> as a service</span> 
     </>
   ),
   subtitle: (
     <>
+
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          Learn 
+          Fine Tune AI Models
         </span>{' '}
-         everything about starting a business in just a few weeks (even if you are a complete beginner).
+        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
+          Build Software in Record Time   
+        </span>{' '}
+        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
+          Integrate AI in your Company
+        </span>{' '}
+      </span>
+
+      <br></br><br></br>
+
+      <span className="hidden md:inline">
+        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
+        We 
+        </span>{' '}
+         are an Engineering team focused on building Software Products, Finetuning AI Models and integrating latest AI solutions in your company.
       </span>{' '}
-      AI, Nocode, SaaS has changed the world and opened up millions of opportunities
     </>
   ),
   callToAction: {
-    text: 'Yes, build my future business',
-    href: 'https://buy.stripe.com/test_28oaFSbK9emS97G7ss',
+    text: 'Talk to us',
+    href: 'https://zcal.co/i/cL7eACvt',
     icon: IconDownload,
     targetBlank: true,
   },
