@@ -108,7 +108,7 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        HERE’S WHAT YOU’LL GET INSIDE <span className="whitespace-nowrap">THE WGMI ACADEMY</span>
+        HERE’S WHAT YOU’LL GET INSIDE <span className="whitespace-nowrap">FUTURE BUILDER UNIVERSITY</span>
       </>
     ),
     subtitle:
@@ -412,17 +412,17 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'What is WGMI Academy?',
-      description: `The WGMI Academy is a hub of business training programs, tools and resources. Each program shows you exactly how to start and grow a profitable online business from scratch. At the WGMI Academy, our focus is to teach you how to build businesses of the future.
+      title: 'What is Future University?',
+      description: `The Future University is a hub of business training programs, tools and resources. Each program shows you exactly how to start and grow a profitable online business from scratch. At the Future University, our focus is to teach you how to build businesses of the future.
       `,
     },
     {
-      title: 'What is included in the WGMI Academy membership?',
-      description: `Membership at WGMI Academy encompasses a suite of educational courses, including expert-led live classroom sessions, exclusive access to a curated collection of resources, and membership in a dynamic, supportive community network `,
+      title: 'What is included in the Future University membership?',
+      description: `Membership at Future University encompasses a suite of educational courses, including expert-led live classroom sessions, exclusive access to a curated collection of resources, and membership in a dynamic, supportive community network `,
     },
     {
-      title: "How do I get a WGMI Academy membership?",
-      description: `To secure your WGMI Academy membership, simply click on the 'Pricing' tab you see at the top of this website. It will guide you through our straightforward enrollment process for our exclusive membership option`,
+      title: "How do I get a Future University membership?",
+      description: `To secure your Future University membership, simply click on the 'Pricing' tab you see at the top of this website. It will guide you through our straightforward enrollment process for our exclusive membership option`,
     },
     {
       title: "What are payment options for the  membership?",
@@ -430,11 +430,11 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'How does the 14 day refund guarantee work?',
-      description: `WGMI Academy provides a 14-day money-back guarantee for all our members. This means you have a period of 14 days from the date of your purchase to request a full refund, irrespective of your usage or engagement with our courses. To initiate the refund process, please send an email to support@wgmiacademy.io.`,
+      description: `Future University provides a 14-day money-back guarantee for all our members. This means you have a period of 14 days from the date of your purchase to request a full refund, irrespective of your usage or engagement with our courses. To initiate the refund process, please send an email to malikasfandyarashraf@gmail.com`,
     },
     {
-      title: 'Will the price of the WGMI Academy Increase in the future?',
-      description: `Yes. We have limited spots available at today’s current price point. After these spots have been filled, we will raise the yearly membership fee. If you become a member of WGMI Academy today, you will lock in today’s yearly membership fee forever. That means you will not be subject to any price increases when it comes to renewing your yearly membership.`,
+      title: 'Will the price of the Future University Increase in the future?',
+      description: `Yes. We have limited spots available at today’s current price point. After these spots have been filled, we will raise the yearly membership fee. If you become a member of Future University today, you will lock in today’s yearly membership fee forever. That means you will not be subject to any price increases when it comes to renewing your yearly membership.`,
     },
   ],
 };
@@ -444,7 +444,7 @@ export const pricingHome: PricingProps = {
   id: 'pricing-on-home',
   hasBackground: true,
   header: {
-    title: 'WGMI MEMBERSHIP',
+    title: 'Future Membership',
     subtitle:
       'Get Instant Access Now (Limited Time Discount) ',
     // tagline: 'Pricing',

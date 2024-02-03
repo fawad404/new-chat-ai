@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'WGMI Academy',
+  name: 'Future Builder Academy',
 
   origin: 'https://tailnext.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'WGMI Academy',
+  title: 'Future Builder Academy',
   description: 'AI, Nocode, SaaS',
 };

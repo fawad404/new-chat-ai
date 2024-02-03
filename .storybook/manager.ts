@@ -6,8 +6,8 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'Wgmi Academy',
-    brandUrl: 'https://github.com/onwidget/tailnext',
+    brandTitle: 'Future Builder Academy',
+    brandUrl: 'https://github.com/asfandyar-malik',
     brandTarget: '_blank',
   }),
 });

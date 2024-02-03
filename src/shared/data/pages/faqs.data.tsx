@@ -32,8 +32,8 @@ export const faqs4Faqs: FAQsProps = {
       },
       items: [
         {
-          title: 'What is Wgmi ?',
-          description: `The WGMI Academy is a hub of business training programs, tools and resources. Each program shows you exactly how to start and grow a profitable online business from scratch. At the WGMI Academy, our focus is to teach you how to build businesses of the future.`,
+          title: 'What is Future University ?',
+          description: `The Future University is a hub of business training programs, tools and resources. Each program shows you exactly how to start and grow a profitable online business from scratch. At the Future University Academy, our focus is to teach you how to build businesses of the future.`,
         },
         {
           title: 'How to install the NextJS + Tailwind CSS template?',
