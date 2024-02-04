@@ -43,7 +43,7 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Magic <span className="hidden md:inline"> as a service</span> 
+      Magic as a service
     </>
   ),
   subtitle: (
@@ -128,7 +128,7 @@ export const heroHomeTwo: HeroProps = {
 export const heroHomeThree: HeroProps = {
   title: (
     <>
-      Adding AI <span className="hidden md:inline"> in your business  </span> 
+      Adding AI in your business 
     </>
   ),
   subtitle: (
@@ -147,7 +147,7 @@ export const heroHomeThree: HeroProps = {
 export const heroHomeFour: HeroProps = {
   title: (
     <>
-      We build <span className="hidden md:inline"> everyday  </span> 
+      We build everyday
     </>
   ),
   subtitle: (
@@ -400,36 +400,6 @@ export const testimonialsHome: TestimonialsProps = {
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Kelsey Arden',
-      },
-      href: '/',
-    },
-    {
-      name: 'Sarah Johnson',
-      job: 'Business Owner',
-      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Sarah Johnson',
-      },
-      href: '/',
-    },
-    {
-      name: 'Keith Young',
-      job: 'Freelance Developer',
-      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Keith Young',
-      },
-      href: '/',
-    },
-    {
-      name: 'Lisa Gordon',
-      job: 'Project Manager',
-      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Lisa Gordon',
       },
       href: '/',
     },
