@@ -25,11 +25,14 @@ import {
   faqs2Home,
   featuresHome,
   heroHome,
+  heroHomeTwo,
+  heroHomeThree,
   pricingHome,
   socialProofHome,
   stepsHome,
   teamHome,
   testimonialsHome,
+  heroHomeFour,
 } from '~/shared/data/pages/home.data';
 
 export const metadata: Metadata = {
@@ -41,18 +44,21 @@ export default function Page() {
     <>
       <Hero {...heroHome} />
       <SocialProof {...socialProofHome} />
-      <Features {...featuresHome} />
-      <Content {...contentHomeOne} />
-      <Content {...contentHomeTwo} />
-      <Content {...contentHomeThree} />
+      <Hero {...heroHomeTwo} />
+      <Hero {...heroHomeThree} />
+      <Testimonials {...testimonialsHome} />
+      <Hero {...heroHomeFour} />
+      <CallToAction2 {...callToAction2Home} />
+      {/* <Features {...featuresHome} /> */}
+      {/* <Content {...contentHomeOne} /> */}
+      {/* <Content {...contentHomeTwo} /> */}
+      {/* <Content {...contentHomeThree} /> */}
       {/* <Steps {...stepsHome} /> */}
-      <Features2 {...features2Services} />
-      {/* <Testimonials {...testimonialsHome} /> */}
-      <FAQs2 {...faqs2Home} />
-      <Pricing {...pricingHome} />
-      {/* <Team {...teamHome} /> */}
+      {/* <Features2 {...features2Services} /> */}
+      {/* <FAQs2 {...faqs2Home} /> */}
+      {/* <Pricing {...pricingHome} /> */}
+      {/* <Team {...teamHome} />  */}
       {/* <Contact {...contactHome} /> */}
-      {/* <CallToAction2 {...callToAction2Home} /> */}
     </>
   );
 }

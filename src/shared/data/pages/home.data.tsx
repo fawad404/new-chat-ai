@@ -29,6 +29,7 @@ import {
   TestimonialsProps,
 } from '../../types';
 import heroImg from '~/assets/images/myimage.png';
+import heroImgAI from '~/assets/images/AddAI.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -79,10 +80,6 @@ export const heroHome: HeroProps = {
     text: 'Learn more',
     href: '/',
   },
-  image: {
-    src: heroImg,
-    alt: 'Hero TailNext',
-  },
 };
 
 // SocialProof data on Home page *******************
@@ -113,6 +110,63 @@ export const socialProofHome: SocialProofProps = {
   ],
 };
 
+export const heroHomeTwo: HeroProps = {
+  title: (
+    <>
+      Build Software <span className="hidden md:inline"> from Scratch </span> 
+    </>
+  ),
+  subtitle: (
+    <>
+      <span className="hidden md:inline">
+      We build out your software in record time. From SaaS to enterprise grade Software using NoCode, AI and also entire full coding.
+      </span>{' '}
+    </>
+  ),
+  image: {
+    src: heroImg,
+    alt: 'Hero TailNext',
+  },
+};
+
+export const heroHomeThree: HeroProps = {
+  title: (
+    <>
+      Adding AI <span className="hidden md:inline"> in your business  </span> 
+    </>
+  ),
+  subtitle: (
+    <>
+      <span className="hidden md:inline">
+        We serve as an AI solution partner, which blends your stack with modern tech
+      </span>
+    </>
+  ),
+  image: {
+    src: heroImgAI,
+    alt: 'Hero TailNext',
+  },
+};
+
+export const heroHomeFour: HeroProps = {
+  title: (
+    <>
+      Adding AI <span className="hidden md:inline"> in your business  </span> 
+    </>
+  ),
+  subtitle: (
+    <>
+      <span className="hidden md:inline">
+        We serve as an AI solution partner, which blends your stack with modern tech
+      </span>
+    </>
+  ),
+  image: {
+    src: heroImgAI,
+    alt: 'Hero TailNext',
+  },
+};
+
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
   id: 'features-on-home',
@@ -121,45 +175,18 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        HERE’S WHAT YOU’LL GET INSIDE <span className="whitespace-nowrap">FUTURE BUILDER UNIVERSITY</span>
+        BUILD SOFTWARE FROM <span className="whitespace-nowrap">SCRATCH</span>
       </>
     ),
     subtitle:
-      "100% ACTIONABLE. NO FLUFF. NO THEORY",
+      "We build out your software in record time. From SaaS to enterprise grade Software using NoCode, AI and also entire full coding.",
     tagline: 'Courses',
   },
-  items: [
-    {
-      title: 'Future Dev: Build SaaS with NoCode',
-      description:
-        'Transform your ideas into software',
-      icon: IconBrandTailwind,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'The productized agency playbook',
-      description:
-        'Turn any skill into cashflow assets',
-      icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Become an AI Expert',
-      description:
-        'Become an expert on AI tools to unleash massive freelancing opportunities and start businesses',
-      icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-  ],
+  isImageDisplayed: true,
+  image: {
+    src: heroImg,
+    alt: 'Hero TailNext',
+  },
 };
 
 // Content data on Home page *******************
@@ -345,15 +372,15 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What our customers say about us',
+    title: 'Success stories',
     subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+      'Listen to our power customers reaching goals.',
   },
   testimonials: [
     {
       name: 'Tayla Kirsten',
       job: 'Marketing Manager',
-      testimonial: `I'm impressed by the speed and performance of these templates. My website now loads in the blink of an eye, significantly enhancing my visitors' experience. Thanks to TailNext, my online business is thriving.`,
+      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Tayla Kirsten',
@@ -363,7 +390,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Silver Jordan',
       job: 'Senior Marketer',
-      testimonial: `I had never found it so easy to customize a website. TailNext's templates are incredibly flexible, and with Tailwind CSS, I've managed to give my website the look and feel I always wanted. Highly recommended!`,
+      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Silver Jordan',
@@ -373,7 +400,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Kelsey Arden',
       job: 'Co-Founder & CEO',
-      testimonial: `As a beginner in web development, I really needed clear guidance. Tailnext made it possible. I was able to install and customize my website seamlessly, and I'm thrilled with the results!`,
+      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Kelsey Arden',
@@ -383,7 +410,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Sarah Johnson',
       job: 'Business Owner',
-      testimonial: `They've not only saved me a ton of time but have also made my websites look incredibly professional. The level of detail and thought that went into designing these templates is truly impressive.`,
+      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
       image: {
         src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Sarah Johnson',
@@ -393,7 +420,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Keith Young',
       job: 'Freelance Developer',
-      testimonial: `The clean code and integration with Next.js make my projects a breeze. Plus, the responsive design ensures that my clients' websites look amazing on any device. These templates have become my secret weapon for success!`,
+      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
       image: {
         src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Keith Young',
@@ -403,7 +430,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Lisa Gordon',
       job: 'Project Manager',
-      testimonial: `Their templates are not only stunning but also user-friendly. The support I received from their community has been exceptional. I'm proud to say that I've built my dream website with TailNext.`,
+      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
       image: {
         src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Lisa Gordon',
@@ -663,41 +690,14 @@ export const contactHome: ContactProps = {
 
 // CallToAction data *******************
 export const callToAction2Home: CallToActionProps = {
-  title: 'Next.js + Tailwind CSS',
+  title: 'Read to Launch ?',
   subtitle:
-    'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-  },
+    'Build Software in Record Time, Fine Tune AI Models, Integrate AI in your Company ',
   items: [
     {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/onwidget/tailnext',
-    },
-    {
-      title: 'Learn more',
-      description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-      href: '/',
-    },
-    {
-      title: 'Subscribe',
-      description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-      form: {
-        icon: IconMail,
-        input: {
-          type: 'email',
-          name: 'email',
-          autocomplete: 'email',
-          placeholder: 'Enter your email address',
-        },
-        btn: {
-          title: 'Subscribe',
-          type: 'submit',
-        },
-      },
+      title: 'Talk to us',
+      description: 'Book a call and talk to us',
+      href: 'https://zcal.co/i/cL7eACvt',
     },
   ],
 };
