@@ -30,6 +30,7 @@ import {
 } from '../../types';
 import heroImg from '~/assets/images/myimage.png';
 import heroImgAI from '~/assets/images/AddAI.png';
+import buildEveryday from '~/assets/images/build-everday.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -47,7 +48,6 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
-
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           Fine Tune AI Models
@@ -75,10 +75,6 @@ export const heroHome: HeroProps = {
     href: 'https://zcal.co/i/cL7eACvt',
     icon: IconDownload,
     targetBlank: true,
-  },
-  callToAction2: {
-    text: 'Learn more',
-    href: '/',
   },
 };
 
@@ -151,18 +147,18 @@ export const heroHomeThree: HeroProps = {
 export const heroHomeFour: HeroProps = {
   title: (
     <>
-      Adding AI <span className="hidden md:inline"> in your business  </span> 
+      We build <span className="hidden md:inline"> everyday  </span> 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        We serve as an AI solution partner, which blends your stack with modern tech
+        We are always testing new AI models, in different industries with varying amount of custom data
       </span>
     </>
   ),
   image: {
-    src: heroImgAI,
+    src: buildEveryday,
     alt: 'Hero TailNext',
   },
 };

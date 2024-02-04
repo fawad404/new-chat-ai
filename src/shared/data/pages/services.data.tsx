@@ -2,7 +2,7 @@ import {
   IconArrowsRightLeft,
   IconBrandTailwind,
   IconBulb,
-  IconChevronsRight,
+  IconChevronsRight,  
   IconComponents,
   IconListCheck,
   IconRocket,
