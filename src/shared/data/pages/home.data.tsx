@@ -51,18 +51,6 @@ export const heroHome: HeroProps = {
     <>
       We are an Engineering team focused on building Software Products, Finetuning AI Models and integrating latest AI solutions in your company.
       <br></br><br></br>       
-      
-      <span className="md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          Fine Tune AI Models
-        </span>{' '}
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          Build Software in Record Time   
-        </span>{' '}
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          Integrate AI in your Company
-        </span>{' '}
-      </span>
 
     </>
   ),
