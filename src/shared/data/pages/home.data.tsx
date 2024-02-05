@@ -122,7 +122,7 @@ export const heroHomeThree: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-        We serve as an AI solution partner, which blends your stack with modern tech
+        We serve as an AI solution partner, which blends your stack with modern AI tech
       </span>
     </>
   ),
