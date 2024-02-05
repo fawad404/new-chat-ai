@@ -44,6 +44,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
           )}
         </div>
       </div>
+      <br></br>
     </section>
   );
 };
