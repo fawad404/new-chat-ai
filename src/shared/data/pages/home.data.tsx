@@ -30,6 +30,7 @@ import {
 } from '../../types';
 import heroImg from '~/assets/images/myimage.png';
 import heroImgAI from '~/assets/images/AddAI.png';
+import heroImgTwo from '~/assets/images/hero1.png';
 import buildEveryday from '~/assets/images/build-everday.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
@@ -49,12 +50,7 @@ export const heroHome: HeroProps = {
   subtitle: (
     <>
       We are an Engineering team focused on building Software Products, Finetuning AI Models and integrating latest AI solutions in your company.
-      <br></br>
-
-      <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-       
-       </span>{' '}
-       <br></br>       
+      <br></br><br></br>       
       
       <span className="md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
@@ -67,7 +63,7 @@ export const heroHome: HeroProps = {
           Integrate AI in your Company
         </span>{' '}
       </span>
-  
+
     </>
   ),
   callToAction: {
@@ -75,6 +71,10 @@ export const heroHome: HeroProps = {
     href: 'https://zcal.co/i/cL7eACvt',
     icon: IconDownload,
     targetBlank: true,
+  },
+  image: {
+    src: heroImg,
+    alt: 'Hero TailNext',
   },
 };
 
