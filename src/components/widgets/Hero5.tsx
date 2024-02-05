@@ -4,8 +4,8 @@ import CTA from '../common/CTA';
 
 const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
   return (
-    // <section id="heroOne">
-    <section id="heroOne" style={{ background: "linear-gradient(to bottom, #165FF2 66.6%, white 66.6%)" }}>
+    // <section id="heroOne" className="bg-[#EDF3FF]">
+    <section id="heroOne">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="mx-auto max-w-4xl pb-10 text-center md:pb-16">
@@ -15,12 +15,12 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
               </p>
             )}
             {title && (
-              <h1 className="leading-tighter font-heading mb-6 text-white text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
+              <h1 className="leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
                 {title}
               </h1>
             )}
             <div className="mx-auto max-w-3xl">
-              {subtitle && <p className="mb-6 text-xl font-normal text-white dark:text-slate-400">{subtitle}</p>}
+              {subtitle && <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
               <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
                 {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
                 {callToAction2 && <CTA callToAction={callToAction2} linkClass="btn" />}

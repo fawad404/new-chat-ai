@@ -48,6 +48,14 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
+      We are an Engineering team focused on building Software Products, Finetuning AI Models and integrating latest AI solutions in your company.
+      <br></br>
+
+      <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
+       
+       </span>{' '}
+       <br></br>       
+      
       <span className="md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           Fine Tune AI Models
@@ -59,13 +67,7 @@ export const heroHome: HeroProps = {
           Integrate AI in your Company
         </span>{' '}
       </span>
-
-      <br></br><br></br>
-
-      <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-       
-      </span>{' '}
-      We are an Engineering team focused on building Software Products, Finetuning AI Models and integrating latest AI solutions in your company.
+  
     </>
   ),
   callToAction: {
