@@ -50,7 +50,9 @@ export const heroHome: HeroProps = {
   subtitle: (
     <>
     Find the information you need, faster
-      <br></br><br></br>       
+    <br></br>
+    The Open Source, AI-powered search engine across your company's docs, apps, and people
+      <br></br>    
 
     </>
   ),
@@ -97,13 +99,13 @@ export const socialProofHome: SocialProofProps = {
 export const heroHomeTwo: HeroProps = {
   title: (
     <>
-      Build Software <span className="hidden md:inline"> from Scratch </span> 
+      CONNECTED TO ALL YOUR APPS </span> 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-      We build out your software in record time. From SaaS to enterprise grade Software using NoCode, AI and also entire full coding.
+      25+ integrations available and adding new ones daily.
       </span>{' '}
     </>
   ),
@@ -116,13 +118,13 @@ export const heroHomeTwo: HeroProps = {
 export const heroHomeThree: HeroProps = {
   title: (
     <>
-      Adding AI in your business 
+      AI responses that reference real sources 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        We serve as an AI solution partner, which blends your stack with modern AI tech
+       We can host anywhere you want
       </span>
     </>
   ),
