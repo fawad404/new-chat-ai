@@ -44,12 +44,12 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Magic as a service
+      ChatGPT for your Enterprise
     </>
   ),
   subtitle: (
     <>
-      We are an Engineering team focused on building Software Products, Finetuning AI Models and integrating latest AI solutions in your company.
+    Find the information you need, faster
       <br></br><br></br>       
 
     </>
