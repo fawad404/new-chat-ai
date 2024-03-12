@@ -49,11 +49,9 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
-    Find the information you need, faster, AI-powered search engine across your company's docs, apps, and people
-    <br></br>
-    The Open Source, AI-powered search engine across your company's docs, apps, and people
-      <br></br>    
-
+    Find the information you need, faster, AI-powered search engine across your companys docs, apps, and people
+    <br></br><br></br>
+    The Open Source, AI-powered search engine across your companys docs, apps, and people    
     </>
   ),
   callToAction: {
