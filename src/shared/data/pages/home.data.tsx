@@ -49,7 +49,7 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
-    Find the information you need, faster
+    Find the information you need, faster, AI-powered search engine across your company's docs, apps, and people
     <br></br>
     The Open Source, AI-powered search engine across your company's docs, apps, and people
       <br></br>    
@@ -98,7 +98,7 @@ export const socialProofHome: SocialProofProps = {
 
 export const heroHomeTwo: HeroProps = {
   title: (
-    <>
+    <> <span>
       CONNECTED TO ALL YOUR APPS </span> 
     </>
   ),
