@@ -39,6 +39,9 @@ import typescriptLogo from '~/assets/images/typescript-logo.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import gasImg from '~/assets/images/gas.jpg';
+import saadPic from '~/assets/images/saad.jpeg';
+import teodorPic from '~/assets/images/teodor.jpeg';
+import yassinPic from '~/assets/images/yassin.jpeg';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -49,9 +52,9 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
-    Find the information you need, faster, AI-powered search engine across your companys docs, apps, and people
+    Find the information you need, faster
     <br></br><br></br>
-    The Open Source, AI-powered search engine across your companys docs, apps, and people    
+     AI-powered search engine across your companys docs, apps, and people    
     </>
   ),
   callToAction: {
@@ -97,13 +100,13 @@ export const socialProofHome: SocialProofProps = {
 export const heroHomeTwo: HeroProps = {
   title: (
     <> <span>
-      CONNECTED TO ALL YOUR APPS </span> 
+      25+ integrations available </span> 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-      25+ integrations available and adding new ones daily.
+      Connected to all your apps and adding new integrations daily
       </span>{' '}
     </>
   ),
@@ -116,13 +119,13 @@ export const heroHomeTwo: HeroProps = {
 export const heroHomeThree: HeroProps = {
   title: (
     <>
-      AI responses that reference real sources 
+      AI responses with real sources 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-       We can host anywhere you want
+       Host anywhere you want, integrates directly into your messaging app, create tailored personas and much more ...
       </span>
     </>
   ),
@@ -362,32 +365,32 @@ export const testimonialsHome: TestimonialsProps = {
   },
   testimonials: [
     {
-      name: 'Tayla Kirsten',
-      job: 'Marketing Manager',
-      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
+      name: 'Saad Saeed',
+      job: 'CEO Layla',
+      testimonial: `Drums substantially increases our productivity and everything becomes very easy to find. I would say the best Enterprise and Secure chat out there`,
       image: {
-        src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Tayla Kirsten',
+        src: saadPic,
+        alt: 'Saad Saeed',
       },
       href: '/',
     },
     {
-      name: 'Silver Jordan',
-      job: 'Senior Marketer',
-      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
+      name: 'Teodor Rupi',
+      job: 'CTO allO',
+      testimonial: `Love how it connects with all our data sources and how the team has been able to ship custom integrations for us.`,
       image: {
-        src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Silver Jordan',
+        src: teodorPic,
+        alt: 'Teodor Rupi',
       },
       href: '/',
     },
     {
-      name: 'Kelsey Arden',
-      job: 'Co-Founder & CEO',
-      testimonial: `Drums is one of the best technology partners we could hope for. Experts in AI and brought us up to speed`,
+      name: 'Yassin Baum',
+      job: 'CEO Mailscale.ai',
+      testimonial: `I love that our data is on our secure servers and we dont have to send it to American comapniess. Also the speed of out put, with sources is very fast. Very happy with it`,
       image: {
-        src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Kelsey Arden',
+        src: yassinPic,
+        alt: 'Yassin Baum',
       },
       href: '/',
     },
