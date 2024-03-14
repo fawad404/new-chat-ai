@@ -53,7 +53,7 @@ export const heroHome: HeroProps = {
   subtitle: (
     <>
     Find the information you need, faster
-    <br></br><br></br>
+    <br></br>
      AI-powered search engine across your companys docs, apps, and people    
     </>
   ),
