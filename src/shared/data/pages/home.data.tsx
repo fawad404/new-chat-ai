@@ -387,7 +387,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Yassin Baum',
       job: 'CEO Mailscale.ai',
-      testimonial: `I love that our data is on our secure servers and we dont have to send it to American comapniess. Also the speed of out put, with sources is very fast. Very happy with it`,
+      testimonial: `Its like a secure Chatgpt on our private data and private servers. We don't have to send it to American comapniess. Also the speed of output, with sources is very fast. Very happy with it`,
       image: {
         src: yassinPic,
         alt: 'Yassin Baum',
@@ -647,9 +647,9 @@ export const contactHome: ContactProps = {
 
 // CallToAction data *******************
 export const callToAction2Home: CallToActionProps = {
-  title: 'Read to Launch ?',
+  title: 'Ready to 10x producitivity? ',
   subtitle:
-    'Build Software in Record Time, Fine Tune AI Models, Integrate AI in your Company ',
+    'Enterprise Search on your data, Connect to > 25+ data sources. Finetune on your content ',
   items: [
     {
       title: 'Talk to us',

@@ -50,7 +50,7 @@ export default function Page() {
       <Hero3 {...heroHomeTwo} />
       <Hero5 {...heroHomeThree} />
       <Testimonials {...testimonialsHome} />
-      <Hero4 {...heroHomeFour} />
+      {/* <Hero4 {...heroHomeFour} /> */}
       <CallToAction2 {...callToAction2Home} />
       {/* <Features {...featuresHome} /> */}
       {/* <Content {...contentHomeOne} /> */}
