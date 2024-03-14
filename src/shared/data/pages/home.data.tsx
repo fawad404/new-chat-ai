@@ -42,6 +42,9 @@ import gasImg from '~/assets/images/gas.jpg';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
+import drumsChat from '~/assets/images/drums-chat.jpeg';
+import drumsConnector from '~/assets/images/drums-connector.png';
+
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -64,7 +67,7 @@ export const heroHome: HeroProps = {
     targetBlank: true,
   },
   image: {
-    src: heroImg,
+    src: drumsChat,
     alt: 'Hero TailNext',
   },
 };
@@ -111,7 +114,7 @@ export const heroHomeTwo: HeroProps = {
     </>
   ),
   image: {
-    src: heroImg,
+    src: drumsConnector,
     alt: 'Hero TailNext',
   },
 };
