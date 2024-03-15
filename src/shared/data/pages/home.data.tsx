@@ -42,7 +42,7 @@ import gasImg from '~/assets/images/gas.jpg';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
-import drumsChat from '~/assets/images/drums-chat.jpeg';
+import drumsChat from '~/assets/images/drums-chat.png';
 import drumsConnector from '~/assets/images/drums-connector.png';
 
 
