@@ -245,7 +245,7 @@ export const footerData2: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm">
-       Drums Studio 2024. All rights reserved.
+       Drums Enterprise LLM 2024. All rights reserved.
     </div>
   ),
 };

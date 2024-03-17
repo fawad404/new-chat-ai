@@ -1,6 +1,6 @@
-# Drums Studio
+# Drums Enterprise LLM on your private data
 
-**Drums Studio** is a free and open-source template to make your website using **[NextJS](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
+**Drums Enterprise LLM** is a free and open-source template to make your website using **[NextJS](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
 
 ## Features
 
@@ -12,7 +12,7 @@
 
 <br>
 
-<img src="./screenshot.jpg" alt="Drums Studio Theme Screenshot">
+<img src="./screenshot.jpg" alt="Drums Enterprise LLM Theme Screenshot">
 
 [![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
 [![License](https://img.shields.io/github/license/onwidget/tailnext?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/tailnext/blob/main/LICENSE.md)
@@ -56,7 +56,7 @@
 
 ### Project structure
 
-Inside **Drums Studio** template, you'll see the following folders and files:
+Inside **Drums Enterprise LLM** template, you'll see the following folders and files:
 
 ```
 /

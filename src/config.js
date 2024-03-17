@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'Drums Studio',
+  name: 'Drums Enterprise LLM',
 
   origin: 'https://tailnext.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'Drums Studio',
-  description: 'Lets build your product in AI, Nocode, SaaS ',
+  title: 'Drums Enterprise LLM',
+  description: 'ChatGPT on your private data, in a secure way and can be hosted on your server, without leaving your walls',
 };

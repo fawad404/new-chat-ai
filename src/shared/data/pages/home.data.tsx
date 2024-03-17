@@ -109,7 +109,7 @@ export const heroHomeTwo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Connected to all your apps and adding new integrations daily
+      We can connect to any datasource, you can point at. No matter where your data resides, we got you covered. 
       </span>{' '}
     </>
   ),

@@ -6,7 +6,7 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'Drums Studio',
+    brandTitle: 'Drums Enterprise LLM',
     brandUrl: 'https://github.com/asfandyar-malik',
     brandTarget: '_blank',
   }),
