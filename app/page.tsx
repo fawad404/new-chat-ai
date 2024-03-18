@@ -36,6 +36,7 @@ import {
   teamHome,
   testimonialsHome,
   heroHomeFour,
+  featuresHomeTwo,
 } from '~/shared/data/pages/home.data';
 
 export const metadata: Metadata = {
@@ -48,10 +49,13 @@ export default function Page() {
       <Hero {...heroHome} />
       <SocialProof {...socialProofHome} />
       <Hero3 {...heroHomeTwo} />
+      <Features {...featuresHomeTwo} />
+
       <Hero5 {...heroHomeThree} />
       <Testimonials {...testimonialsHome} />
       {/* <Hero4 {...heroHomeFour} /> */}
       <CallToAction2 {...callToAction2Home} />
+
       {/* <Features {...featuresHome} /> */}
       {/* <Content {...contentHomeOne} /> */}
       {/* <Content {...contentHomeTwo} /> */}

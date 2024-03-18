@@ -179,6 +179,43 @@ export const featuresHome: FeaturesProps = {
   },
 };
 
+// Features data on Home page *******************
+export const featuresHomeTwo: FeaturesProps = {
+  id: 'features-on-home',
+  hasBackground: false,
+  columns: 3,
+  header: {
+    title: (
+      <>
+        Why we built <span className="whitespace-nowrap">Drums</span>
+      </>
+    ),
+    subtitle:
+      "We believe everyone could contribute more if there were fewer repetitive tasks and more time for creative thinking. Gen AI offers an unprecedented opportunity to enable this. However, current solutions are inadequate because they are:",
+  },
+  items: [
+    {
+      title: 'Slow and Complex',
+      description:
+        'Gen AI tool chain is fragmented and current platforms cannot operate across multiple enterprise applications.',
+      icon: IconBrandTailwind,
+    },
+    {
+      title: 'High Risk',
+      description:
+        'Lack of robust security measures cause leakage of private data. LLM outcomes are not observable or explainable.',
+      icon: IconComponents,
+    },
+    {
+      title: 'Low ROI',
+      description:
+        'Public LLMs are susceptible to hallucinations when using enterprise data, making them unreliable.',
+      icon: IconListCheck,
+    },
+
+  ],
+};
+
 // Content data on Home page *******************
 export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
