@@ -4,6 +4,7 @@ import WidgetWrapper from '../common/WidgetWrapper';
 
 const SocialProof = ({ images, id, hasBackground = false }: SocialProofProps) => (
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
+    <h2 className="text-center text-xl font-bold mb-4">What our customers say</h2> {/* Hardcoded heading */}
     <div className="flex items-center justify-center gap-6 md:gap-9">
       {images &&
         images.map(({ src, alt, link }, index) => (

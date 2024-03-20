@@ -226,27 +226,22 @@ export const contentHomeOne: ContentProps = {
     tagline: 'Content',
   },
   content:
-    'FUTURE DEV: BUILD A PROFITABLE SAAS BUSINESS',
+    'Data Professional',
   items: [
     {
-      title: 'Learn an In-Demand High-Income Skill ',
+      title: 'Combs structured & unstructured data',
       description:
         'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
     },
     {
-      title: 'Get Full Training on Bubble & Make.com ',
+      title: 'Discovers hidden insights',
       description:
         'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
     },
     {
-      title: 'Watch Us Build A Popular SaaS From Scratch ',
+      title: 'Designs infographics and charts',
       description:
         'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
-    },
-    {
-      title: 'Join A No Code Support Community ',
-      description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix.odus.',
     },
   ],
   image: {
@@ -263,19 +258,19 @@ export const contentHomeTwo: ContentProps = {
   hasBackground: true,
   
   content:
-    'Generate cash flow when selling your skill as a productized service. The Productized Agency Playbook is designed to take your unique abilities and help you earn a full-time income from a laptop through a new and improved agency model. Inside you’ll learn everything about selling your skills online from clients to cashflow.  ',
+    'Trusted',
   items: [
     {
-      title: 'Turn Your Skill Into A Money-Making Machine',
+      title: 'Drums data governance redacts sensitive information before passing it to public LLMs. ',
     },
     {
-      title: 'Run an Agency on Autopilot ',
+      title: 'Get unbeatable security with top-tier encryption',
     },
     {
-      title: 'Learn How To Run, Operate, And Manage A Profitable Agency ',
+      title: 'Customizable, private models',
     },
     {
-      title: 'Join A Productized Agency Support Community ',
+      title: 'Enjoy compliance with all leading standards ',
     },
   ],
   image: {
@@ -291,19 +286,16 @@ export const contentHomeThree: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   content:
-    'What do most of the young millionaires online have in common…? That’s right, they create high-quality content and monetize their following, and the next generation of millionaires will be those who can create the best content. In Creatorize, Brett Malinowski will show you the exact step-by-step playbook for growing your personal brand through content creation.    ',
+    'Accurate (With Sources)',
   items: [
     {
-      title: 'Inside Information On The Most Effective Growth Strategies That Are Currently Working ',
+      title: 'Maximizes accuracy at the lowest possible cost',
       },
     {
-      title: 'A Full Walkthrough On Creating World-Class Content For The Masses ',
+      title: 'Gives probabilty on answers to find the most accurate answer ',
     },
     {
-      title: 'Classroom and Q&A sessions with Experts ',
-    },
-    {
-      title: 'Learn How To Scale & Monetize Your Personal Brand ',
+      title: 'Drums is future proof. Adding new integraitons and models',
     },
   ],
   image: {
@@ -357,38 +349,38 @@ export const stepsHome: StepsProps = {
 export const features2Services: FeaturesProps = {
   id: 'featuresTwo-on-services',
   header: {
-    title: 'HERE’S WHAT YOU’LL LEARN',
+    title: 'Our Top Features',
   },
   items: [
     {
-      title: 'No Code Tools',
-      description: 'Learn how to become a Future Dev by mastering no code tools Bubble and Make.',
+      title: 'Avoid model provider lock-in',
+      description: 'Avoid model provider lock-in',
       icon: IconBrandTailwind,
     },
     {
-      title: 'Build SAAS',
-      description: 'Bring your software ideas to life with zero coding skills or technical experience.',
+      title: 'Reference real sources',
+      description: 'No Hallucinations. LLM powered answering capability backed up by your teams own documents.',
       icon: IconComponents,
     },
     {
-      title: 'Automation',
-      description: 'Learn how to build systems that put business operations on auto pilot.',
+      title: 'Create tailored personas',
+      description: 'Customize the answering experience for every role in your organization.',
       icon: IconListCheck,
     },
     {
-      title: 'AI Integration',
+      title: 'All Data privately stored',
       description: 'Plug powerful AI models (like GPT-4) directly into your software application.',
       icon: IconRocket,
     },
     {
-      title: 'APIs',
+      title: 'Multiple Models',
       description:
-        'Give your software all types of functionality with APIs in just a few minutes.',
+        'Model selection (GPT-4, Claude, Llama2, etc. Hybrid search powered by cutting-edge NLP ',
       icon: IconArrowsRightLeft,
     },
     {
-      title: 'Full Stack Development',
-      description: 'Build complete web applications (front end and back end).',
+      title: 'Connect to any data source',
+      description: 'Connect to 25+ apps ',
       icon: IconBulb,
     },
   ],
@@ -444,34 +436,50 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Ask me anything',
     tagline: 'FAQS',
   },
   items: [
     {
-      title: 'What is Future University?',
-      description: `The Future University is a hub of business training programs, tools and resources. Each program shows you exactly how to start and grow a profitable online business from scratch. At the Future University, our focus is to teach you how to build businesses of the future.
+      title: 'What is Drums?',
+      description: `Drums is an Enterprise AI solution, seamlessly integrated into your organization’s existing IT infrastructure. She’s designed to enhance productivity, streamline processes, and empower your teams.
       `,
     },
     {
-      title: 'What is included in the Future University membership?',
-      description: `Membership at Future University encompasses a suite of educational courses, including expert-led live classroom sessions, exclusive access to a curated collection of resources, and membership in a dynamic, supportive community network `,
+      title: 'How can Drums help my organization?',
+      description: `Drums is like a versatile AI colleague ready to support various vital roles within your organization. She can assist everyone from customer support specialists to finding any information for you, with sources.`,
     },
     {
-      title: "How do I get a Future University membership?",
-      description: `To secure your Future University membership, simply click on the 'Pricing' tab you see at the top of this website. It will guide you through our straightforward enrollment process for our exclusive membership option`,
+      title: 'Can Drums work with any data types?',
+      description: `Drums works with any data types, independent of where the data resides or in what format does it exist. `,
     },
     {
-      title: "What are payment options for the  membership?",
-      description: `Our payment processing is handled by Stripe, offering a range of payment choices. These include the use of credit and debit cards, PayPal, along with additional local payment methods that might be available in your region.`,
+      title: "Is Drums Secure? ",
+      description: `Drums prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.`,
     },
     {
-      title: 'How does the 14 day refund guarantee work?',
-      description: `Future University provides a 14-day money-back guarantee for all our members. This means you have a period of 14 days from the date of your purchase to request a full refund, irrespective of your usage or engagement with our courses. To initiate the refund process, please send an email to malikasfandyarashraf@gmail.com`,
+      title: "Does keep our data private?",
+      description: `Drums offers private LLM deployment options to keep data within your organization. It never leaves your servers, jurisdiction, country`,
     },
     {
-      title: 'Will the price of the Future University Increase in the future?',
-      description: `Yes. We have limited spots available at today’s current price point. After these spots have been filled, we will raise the yearly membership fee. If you become a member of Future University today, you will lock in today’s yearly membership fee forever. That means you will not be subject to any price increases when it comes to renewing your yearly membership.`,
+      title: 'Is my company’s data used to train AI models?',
+      description: `We never use your data to train our AI models. For your usecase, we can use your data to fine-tune the private results that you get. However, its private to your company`,
+    },
+    {
+      title: 'How does Drums work?',
+      description: `Drums transforms Enterprise Generative AI, making it easy to implement AI accurately in your system. Drums scalable architecture handles numerous tasks effortlessly. The DrumsFusion™ model merges top public LLMs with our specialized private LLMs for unmatched accuracy.`,
+    },
+    {
+      title: 'Can Drums integrate with existing enterprise applications?',
+      description: `Drums is readily integrated with multiple enterprise apps for quick deployment and seamless workflow integration. Other external apps could also be connected using APIs `,
+    },
+    {
+      title: 'This seems fantastic. How can I begin using Drums?',
+      description: `The best way to check Drums game-changing potential is to try it yourself. Start by requesting a demo at https://zcal.co/i/cL7eACvt to learn what Drums can do for you. Work with Drums and start revolutionizing how you do business.`,
+    },
+    {
+      title: 'What industries can benefit from Drums?',
+      description: `Drums' adaptable AI capabilities serve a broad spectrum of industries, such as healthcare, retail, travel, hospitality, finance, manufacturing, e-commerce, technology, and beyond. Its versatility and customization options render it an indispensable tool for any business, regardless of the industry. `,
     },
   ],
 };
@@ -687,9 +695,9 @@ export const contactHome: ContactProps = {
 
 // CallToAction data *******************
 export const callToAction2Home: CallToActionProps = {
-  title: 'Ready to 10x producitivity? ',
+  title: 'Revolutionize the way you do business',
   subtitle:
-    'Enterprise Search on your data, Connect to > 25+ data sources. Finetune on your content ',
+    '',
   items: [
     {
       title: 'Talk to us',
