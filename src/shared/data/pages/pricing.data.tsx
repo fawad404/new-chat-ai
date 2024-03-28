@@ -67,7 +67,7 @@ export const pricingPricing: PricingProps = {
       period: 'per user per month',
       items: [
         {
-          description: 'Everything in standard',
+          description: 'Everything in basic',
         },
         {
           description: 'Query History',
@@ -89,29 +89,29 @@ export const pricingPricing: PricingProps = {
     },
     {
       title: 'Enterprise',
-      subtitle: 'Custom',
-      price: 12,
-      period: 'per user per month',
+      subtitle: 'Starts at',
+      price: 999,
+      period: 'per month',
       items: [
         {
-          description: 'A larger variety of premium website templates to choose from.',
+          description: 'Everything in Standard.',
         },
         {
-          description: 'Faster response times and priority customer support.',
+          description: 'Hosted on your server or on your dedicated cloud',
         },
         {
-          description: 'More storage space to accommodate growing websites and content.',
+          description: 'We build any feature you want us to and provide our engineers',
         },
         {
-          description: 'Enable e-commerce capabilities to sell products or services online.',
+          description: 'Founders do customer support',
         },
       ],
       callToAction: {
         targetBlank: true,
-        text: 'Get Started',
-        href: '/',
+        text: 'Contact Founders',
+        href: 'mailto:founders@trydrums.com',
       },
-      hasRibbon: true,
+      hasRibbon: false,
       ribbonTitle: 'Popular',
     },
   ],
