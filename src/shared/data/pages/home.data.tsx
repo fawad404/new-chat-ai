@@ -50,12 +50,14 @@ import drumsConnector from '~/assets/images/drums-connector.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      ChatGPT for your organization
+      Custom ChatGPT for your organization
     </>
   ),
   subtitle: (
     <>
-    Secure, Private, Works with your data
+    It's like having ChatGPT specifically for your products. 
+
+    Completely Secure, Private & Works with your data
     <br></br>
     <br></br>
     You, Your Team, Everyone loves it

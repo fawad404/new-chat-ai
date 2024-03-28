@@ -21,11 +21,10 @@ export const pricingPricing: PricingProps = {
   id: 'pricing-on-pricing',
   hasBackground: true,
   header: {
-    title: 'Our plans',
+    title: 'Pays for itself in saved time and increased Efficiency',
     subtitle: (
       <>
-        Discover our flexible pricing options designed to fit your needs perfectly.{' '}
-        <span className="hidden md:inline">{`No matter the size of your project, we have the right plan for you.`}</span>
+        Whether you're just getting started or are a large enterprise, we have a plan for you.{' '}
       </>
     ),
   },
