@@ -223,10 +223,10 @@ export const footerData2: FooterProps = {
     },
   ],
   columns: [
-    // {
-    //   title: 'Free Courses',
-    //   texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
-    // },
+    {
+      title: 'Contact',
+      texts: ['founders@trydrums.com'],
+    },
     // {
     //   title: 'Phone',
     //   texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],

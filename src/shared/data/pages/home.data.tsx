@@ -50,17 +50,16 @@ import drumsConnector from '~/assets/images/drums-connector.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Private LLM for your Enterprise
+      ChatGPT for your organization
     </>
   ),
   subtitle: (
     <>
-    Revolutionlize your business with AI
+    Secure, Private, Works with your data
     <br></br>
-    Find the information you need, faster
     <br></br>
-     AI-powered search engine across your companys docs, apps, and people    
-
+    You, Your Team, Everyone loves it
+    <br></br>
     </>
   ),
   callToAction: {
@@ -112,7 +111,7 @@ export const heroHomeTwo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      We can connect to any datasource, you can point at. No matter where your data resides, we got you covered. We have 25+ integrations to different softwares and extending it beyond 200 soon 
+      We can connect to any datasource, you can point at. No matter where your data is, we got you covered.  
       </span>{' '}
     </>
   ),
