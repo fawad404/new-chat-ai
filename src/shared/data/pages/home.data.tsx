@@ -5,7 +5,7 @@ import {
   IconBrandTailwind,
   IconBrandTwitter,
   IconBulb,
-  IconCheck,
+  IconGradienter,
   IconClock,
   IconComponents,
   IconDownload,
@@ -50,20 +50,23 @@ import drumsConnector from '~/assets/images/drums-connector.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      ChatGPT for your Enterprise
+      Private LLM for your Enterprise
     </>
   ),
   subtitle: (
     <>
+    Revolutionlize your business with AI
+    <br></br>
     Find the information you need, faster
     <br></br>
      AI-powered search engine across your companys docs, apps, and people    
+
     </>
   ),
   callToAction: {
     text: 'Talk to us',
     href: 'https://zcal.co/i/cL7eACvt',
-    icon: IconDownload,
+    icon: IconGradienter,
     targetBlank: true,
   },
   image: {
@@ -103,13 +106,13 @@ export const socialProofHome: SocialProofProps = {
 export const heroHomeTwo: HeroProps = {
   title: (
     <> <span>
-      25+ integrations available </span> 
+      Integrate with any data sources </span> 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-      We can connect to any datasource, you can point at. No matter where your data resides, we got you covered. 
+      We can connect to any datasource, you can point at. No matter where your data resides, we got you covered. We have 25+ integrations to different softwares and extending it beyond 200 soon 
       </span>{' '}
     </>
   ),
@@ -191,28 +194,27 @@ export const featuresHomeTwo: FeaturesProps = {
       </>
     ),
     subtitle:
-      "We believe everyone could contribute more if there were fewer repetitive tasks and more time for creative thinking. Gen AI offers an unprecedented opportunity to enable this. However, current solutions are inadequate because they are:",
+      "To automate all repetitive tasks so that you everyone can contribute creatively. We are the best solution because: ",
   },
   items: [
     {
-      title: 'Slow and Complex',
+      title: 'Supercharge every role',
       description:
-        'Gen AI tool chain is fragmented and current platforms cannot operate across multiple enterprise applications.',
+        'Gen AI tool chain can 10x every employee ability and skillset.',
       icon: IconBrandTailwind,
     },
     {
-      title: 'High Risk',
+      title: 'Data Security',
       description:
-        'Lack of robust security measures cause leakage of private data. LLM outcomes are not observable or explainable.',
+        'Enterprises need robust security measures and do not want leakage of private data to LLMs.',
       icon: IconComponents,
     },
     {
-      title: 'Low ROI',
+      title: 'Reliability',
       description:
-        'Public LLMs are susceptible to hallucinations when using enterprise data, making them unreliable.',
+        'All answers come with sources which they reference. Only reliable information without fear of hallucination.',
       icon: IconListCheck,
     },
-
   ],
 };
 
@@ -286,10 +288,10 @@ export const contentHomeThree: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   content:
-    'Accurate (With Sources)',
+    'Accurate',
   items: [
     {
-      title: 'Maximizes accuracy at the lowest possible cost',
+      title: 'We provide sources for every information which is out there',
       },
     {
       title: 'Gives probabilty on answers to find the most accurate answer ',

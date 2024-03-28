@@ -63,10 +63,10 @@ export const headerData: HeaderProps = {
       label: 'Blog',
       href: '/blog',
     },
-    // {
-    //   label: 'Contact',
-    //   href: '/contact',
-    // },
+    {
+      label: 'Pricing',
+      href: '/pricing',
+    },
   ],
   actions: [
     {
@@ -76,7 +76,7 @@ export const headerData: HeaderProps = {
     },
   ],
   isSticky: true,
-  showToggleTheme: true,
+  // showToggleTheme: true,
   showRssFeed: false,
   position: 'right',
 };

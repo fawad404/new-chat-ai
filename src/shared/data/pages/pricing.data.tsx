@@ -31,10 +31,67 @@ export const pricingPricing: PricingProps = {
   },
   prices: [
     {
-      title: 'standard',
+      title: 'Basic',
       subtitle: 'Optimal choice for small teams',
-      price: 69,
-      period: 'per month',
+      price: 8,
+      period: 'per user per month',
+      items: [
+        {
+          description: '25+ connectors',
+        },
+        {
+          description: 'Models (GPT-4, Claude, LLama2, Private LLMs',
+        },
+        {
+          description: 'Best search out there',
+        },
+        {
+          description: 'Google SSO',
+        },
+        {
+          description: 'Slackbot in unlimited channels',
+        },
+      ],
+      callToAction: {
+        targetBlank: true,
+        text: 'Contact us',
+        href: '/',
+      },
+      hasRibbon: false,
+      ribbonTitle: 'Popular',
+    },
+    {
+      title: 'Standard',
+      subtitle: 'Optimal choice for teams',
+      price: 12,
+      period: 'per user per month',
+      items: [
+        {
+          description: 'Everything in standard',
+        },
+        {
+          description: 'Query History',
+        },
+        {
+          description: 'Priority Support',
+        },
+        {
+          description: 'Integrations with Custom Data',
+        },
+      ],
+      callToAction: {
+        targetBlank: true,
+        text: 'Contact us',
+        href: '/',
+      },
+      hasRibbon: true,
+      ribbonTitle: 'Popular',
+    },
+    {
+      title: 'Enterprise',
+      subtitle: 'Custom',
+      price: 12,
+      period: 'per user per month',
       items: [
         {
           description: 'A larger variety of premium website templates to choose from.',
@@ -51,7 +108,7 @@ export const pricingPricing: PricingProps = {
       ],
       callToAction: {
         targetBlank: true,
-        text: 'Free 15-day trial',
+        text: 'Get Started',
         href: '/',
       },
       hasRibbon: true,
