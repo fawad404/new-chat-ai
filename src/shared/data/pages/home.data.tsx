@@ -44,6 +44,7 @@ import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
 import drumsChat from '~/assets/images/drums-chat.png';
 import drumsConnector from '~/assets/images/drums-connector.png';
+import dataProfessionalsImage from '~/assets/images/data-professionals.png';
 
 
 // Hero data on Home page *******************
@@ -224,9 +225,7 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'GAIN INSTANT ACCESS TO PROGRAMS ',
-    subtitle: 'Designed to developo top in-demand business skills',
-    tagline: 'Content',
+    title: 'WHY GET DRUMS',
   },
   content:
     'Data Professional',
@@ -248,7 +247,7 @@ export const contentHomeOne: ContentProps = {
     },
   ],
   image: {
-    src: cameraFrontImg,
+    src: dataProfessionalsImage,
     alt: 'Colorful Image',
   },
   isReversed: false,
@@ -302,7 +301,7 @@ export const contentHomeThree: ContentProps = {
     },
   ],
   image: {
-    src: cameraFrontImg,
+    src: dataProfessionalsImage,
     alt: 'Colorful Image',
   },
   isReversed: false,

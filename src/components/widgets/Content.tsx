@@ -25,7 +25,7 @@ const Content = ({
     <div className="mx-auto max-w-7xl">
       <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
         <div className="self-center md:basis-1/2">
-          {content && <div className="mb-8 lg:mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</div>}
+          {content && <div className="mb-8 lg:mb-12 text-xl text-gray-600 dark:text-slate-400 font-bold">{content}</div>}
           <ItemGrid
             items={items}
             columns={1}
