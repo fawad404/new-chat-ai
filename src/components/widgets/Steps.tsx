@@ -38,13 +38,14 @@ const Steps = ({
       {isImageDisplayed && (
         <div className="relative md:basis-1/2">
           {image && (
-            <Image
+              <Image
+              className="mx-auto w-full rounded-lg"
               src={image.src}
-              width={400}
-              height={768}
+              width={828}
+              height={828}
               alt={image.alt}
+              sizes="(max-width: 768px) 100vw, 432px"
               placeholder="blur"
-              className="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
               quality={50}
             />
           )}

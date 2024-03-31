@@ -53,8 +53,8 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                             defaultIcon={IconCheck}
                             containerClass="gap-2 md:gap-y-2"
                             panelClass="flex items-start space-x-2"
-                            iconClass="w-4 h-4 mt-1.5 mr-2 rtl:mr-0 rtl:ml-2 mr-1.5 flex items-center justify-center rounded-full border-2 border-primary-600 bg-primary-600 text-white dark:text-slate-200"
-                          />
+                            iconClass="h-12 w-12 flex items-center justify-center rounded-md text-white icon-bg-blue p-2 md:p-3 mt-1.5 mb-4 mr-4 rtl:ml-4 rtl:mr-0"
+                            />
                         </div>
                       )}
                     </div>

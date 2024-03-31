@@ -5,7 +5,7 @@ import {
   IconBrandTailwind,
   IconBrandTwitter,
   IconBulb,
-  IconGradienter,
+  IconArrowBigRight,
   IconClock,
   IconComponents,
   IconDownload,
@@ -68,7 +68,7 @@ export const heroHome: HeroProps = {
   callToAction: {
     text: 'Talk to us',
     href: 'https://zcal.co/i/cL7eACvt',
-    icon: IconGradienter,
+    icon: IconArrowBigRight,
     targetBlank: true,
   },
   image: {
@@ -705,6 +705,7 @@ export const callToAction2Home: CallToActionProps = {
       title: 'Talk to us',
       description: 'Book a call and talk to us',
       href: 'https://zcal.co/i/cL7eACvt',
+      icon: IconArrowBigRight,
     },
   ],
 };

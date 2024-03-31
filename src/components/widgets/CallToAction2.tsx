@@ -2,25 +2,27 @@ import { IconChevronRight } from '@tabler/icons-react';
 import { CallToActionProps, Item } from '~/shared/types';
 
 const Card = ({ title, description, href, form }: Item) => (
-  <div className="card mb-6 px-5 py-4">
-    <div className="flex items-center justify-between">
-      <div className="w-full">
-        <h3 className="mb-3 text-xl font-bold text-gray-700 dark:text-white">{title}</h3>
-        <p className="text-gray-600 dark:text-slate-400">{description}</p>
-      </div>
-      {href && (
-        <div className="flex h-10 w-10 items-center justify-center">
-          <IconChevronRight className="h-6 w-6 text-primary-600 dark:text-slate-200" />
+  <div className="mb-6 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <div className="px-5 py-4 bg-white dark:bg-gray-800">
+      <div className="flex items-center justify-between">
+        <div className="w-full">
+          <h3 className="mb-2 text-xl font-semibold text-gray-800 dark:text-white">{title}</h3>
+          <p className="text-sm text-gray-600 dark:text-gray-400">{description}</p>
         </div>
-      )}
+        {href && (
+          <div className="flex h-10 w-10 items-center justify-center ml-4">
+            <IconChevronRight className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+          </div>
+        )}
+      </div>
     </div>
     {form && (
-      <div className="mt-2">
-        <form className="rounded-md border border-gray-400 bg-white shadow-md">
+      <div className="mt-4 px-5 py-4 bg-gray-50 dark:bg-gray-700">
+        <form className="rounded-md shadow-sm">
           <div className="flex items-center">
             {form.icon && (
-              <span className="rounded-bl rounded-tl border-r-[1px] border-gray-400 px-2 py-2 dark:bg-[#3b3b3b]">
-                <form.icon className="h-6 w-6 text-primary-600 dark:text-gray-400" />
+              <span className="inline-flex items-center justify-center rounded-l-md border border-r-0 border-gray-300 bg-gray-200 px-3 dark:border-gray-600 dark:bg-gray-600">
+                <form.icon className="h-5 w-5 text-blue-600 dark:text-blue-400" />
               </span>
             )}
             <input
@@ -28,11 +30,11 @@ const Card = ({ title, description, href, form }: Item) => (
               name={form.input.name}
               autoComplete={form.input.autocomplete}
               placeholder={form.input.placeholder}
-              className="w-full py-2 pl-2 pr-4 dark:text-gray-300"
+              className="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md border border-gray-300 dark:border-gray-600 dark:bg-gray-600 dark:text-white focus:border-blue-500 focus:ring-blue-500 dark:focus:border-blue-400"
             />
             <button
               type={form.btn.type}
-              className="rounded-br rounded-tr border-l-[1px] border-gray-400 bg-primary-600 px-4 py-2 text-white"
+              className="ml-2 inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             >
               {form.btn.title}
             </button>
@@ -42,6 +44,7 @@ const Card = ({ title, description, href, form }: Item) => (
     )}
   </div>
 );
+
 
 const CallToAction2 = ({ title, subtitle, items }: CallToActionProps) => (
   <section className="bg-[#151617] text-white" id="callToActionTwo">
