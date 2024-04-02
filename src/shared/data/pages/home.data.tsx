@@ -45,6 +45,8 @@ import yassinPic from '~/assets/images/yassin.jpeg';
 import drumsChat from '~/assets/images/drums-chat.png';
 import drumsConnector from '~/assets/images/drums-connector.png';
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
+import securityImage from '~/assets/images/trusted.png';
+
 
 
 // Hero data on Home page *******************
@@ -276,7 +278,7 @@ export const contentHomeTwo: ContentProps = {
     },
   ],
   image: {
-    src: cameraBackImg,
+    src: securityImage,
     alt: 'Colorful Image',
   },
   isReversed: true,
