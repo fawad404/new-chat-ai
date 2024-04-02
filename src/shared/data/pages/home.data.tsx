@@ -36,8 +36,6 @@ import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
@@ -45,7 +43,9 @@ import yassinPic from '~/assets/images/yassin.jpeg';
 import drumsChat from '~/assets/images/drums-chat.png';
 import drumsConnector from '~/assets/images/drums-connector.png';
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
-import securityImage from '~/assets/images/trusted.png';
+import trustedImage from '~/assets/images/trusted.png';
+import accurateImage from '~/assets/images/accurate.png';
+
 
 
 
@@ -278,7 +278,7 @@ export const contentHomeTwo: ContentProps = {
     },
   ],
   image: {
-    src: securityImage,
+    src: trustedImage,
     alt: 'Colorful Image',
   },
   isReversed: true,
@@ -303,7 +303,7 @@ export const contentHomeThree: ContentProps = {
     },
   ],
   image: {
-    src: dataProfessionalsImage,
+    src: accurateImage,
     alt: 'Colorful Image',
   },
   isReversed: false,
