@@ -56,7 +56,7 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
-    It's like having ChatGPT specifically for your products. 
+    It&apos;s like having ChatGPT specifically for your products. 
 
     Completely Secure, Private & Works with your data
     <br></br>

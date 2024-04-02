@@ -24,7 +24,7 @@ export const pricingPricing: PricingProps = {
     title: 'Pays for itself in saved time and increased Efficiency',
     subtitle: (
       <>
-        Whether you're just getting started or are a large enterprise, we have a plan for you.{' '}
+        Whether you&apos;re just getting started or are a large enterprise, we have a plan for you.{' '}
       </>
     ),
   },
