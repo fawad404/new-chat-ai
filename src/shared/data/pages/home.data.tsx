@@ -711,3 +711,15 @@ export const callToAction2Home: CallToActionProps = {
     },
   ],
 };
+
+export const callToAction3Home: CallToActionProps = {
+  id: 'callToAction3-on-home',
+  hasBackground: false,
+  title: 'Revolutionize the way you do business?',
+  subtitle:
+    '10x your teams productivity and make AI work for you.',
+  callToAction: {
+    text: 'Talk to us',
+    href: 'https://zcal.co/i/cL7eACvt',
+  },
+};

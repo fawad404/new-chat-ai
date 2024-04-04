@@ -15,11 +15,13 @@ import FAQs2 from '~/components/widgets/FAQs2';
 import Pricing from '~/components/widgets/Pricing';
 import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
+import CallToAction from '~/components/widgets/CallToAction';
 import Contact from '~/components/widgets/Contact';
 import Features2 from '~/components/widgets/Features2';
 
 import {
   callToAction2Home,
+  callToAction3Home,
   contactHome,
   contentHomeOne,
   contentHomeTwo,
@@ -64,8 +66,9 @@ export default function Page() {
       <FAQs2 {...faqs2Home} />
       {/* <Pricing {...pricingHome} /> */}
       {/* <Team {...teamHome} />  */}
-      <CallToAction2 {...callToAction2Home} />
+      {/* <CallToAction2 {...callToAction2Home} /> */}
       {/* <Contact {...contactHome} /> */}
+      <CallToAction {...callToAction3Home} />
     </>
   );
 }
