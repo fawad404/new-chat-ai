@@ -4,8 +4,8 @@ import CTA from '../common/CTA';
 
 const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
   return (
-  <section id="heroOne" style={{ background: "linear-gradient(to bottom, #165FF2, #1D62F1, #EDF3FF)" }}>
-     <br></br><br></br><br></br><br></br>
+    <section id="heroOne" style={{ background: "linear-gradient(to bottom, #165FF2, #1D62F1, #EDF3FF)" }}>
+      <br></br><br></br><br></br><br></br>
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="mx-auto max-w-4xl pb-10 text-center md:pb-16">
@@ -29,17 +29,19 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
           </div>
           {image && (
             <div className="relative m-auto max-w-5xl">
-              <Image
-                className="mx-auto h-auto w-full rounded-md"
-                src={image.src}
-                alt={image.alt}
-                width={1024}
-                height={607}
-                sizes="(max-width: 64rem) 100vw, 1024px"
-                loading="eager"
-                placeholder="blur"
-                priority
-              />
+              <div className="rounded-md overflow-hidden">
+                <Image
+                  className="mx-auto h-auto w-full"
+                  src={image.src}
+                  alt={image.alt}
+                  width={1024}
+                  height={607}
+                  sizes="(max-width: 64rem) 100vw, 1024px"
+                  loading="eager"
+                  placeholder="blur"
+                  priority
+                />
+              </div>
             </div>
           )}
         </div>

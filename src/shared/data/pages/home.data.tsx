@@ -41,12 +41,11 @@ import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
 import drumsChat from '~/assets/images/drums-chat.png';
+import drumsApp from '~/assets/images/drums-webapp.png';
 import drumsConnector from '~/assets/images/drums-connector.png';
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
 import trustedImage from '~/assets/images/trusted.png';
 import accurateImage from '~/assets/images/accurate.png';
-
-
 
 
 // Hero data on Home page *******************
@@ -74,7 +73,7 @@ export const heroHome: HeroProps = {
     targetBlank: true,
   },
   image: {
-    src: drumsChat,
+    src: drumsApp,
     alt: 'Hero TailNext',
   },
 };
@@ -110,7 +109,7 @@ export const socialProofHome: SocialProofProps = {
 export const heroHomeTwo: HeroProps = {
   title: (
     <> <span>
-      Integrate with any data sources </span> 
+      Integrate with any data source </span> 
     </>
   ),
   subtitle: (
@@ -186,6 +185,9 @@ export const featuresHome: FeaturesProps = {
   },
 };
 
+
+
+
 // Features data on Home page *******************
 export const featuresHomeTwo: FeaturesProps = {
   id: 'features-on-home',
@@ -221,6 +223,43 @@ export const featuresHomeTwo: FeaturesProps = {
     },
   ],
 };
+
+// Features data on Home page *******************
+export const featuresHomeThree: FeaturesProps = {
+  id: 'features-on-home',
+  hasBackground: false,
+  columns: 3,
+  header: {
+    title: (
+      <>
+        All Features
+      </>
+    ),
+    subtitle:
+      "Why people use us",
+  },
+  items: [
+    {
+      title: 'Supercharge every role',
+      description:
+        'Gen AI tool chain can 10x every employee ability and skillset.',
+      icon: IconBrandTailwind,
+    },
+    {
+      title: 'Data Security',
+      description:
+        'Enterprises need robust security measures and do not want leakage of private data to LLMs.',
+      icon: IconComponents,
+    },
+    {
+      title: 'Reliability',
+      description:
+        'All answers come with sources which they reference. Only reliable information without fear of hallucination.',
+      icon: IconListCheck,
+    },
+  ],
+};
+
 
 // Content data on Home page *******************
 export const contentHomeOne: ContentProps = {

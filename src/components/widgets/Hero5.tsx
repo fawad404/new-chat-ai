@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { HeroProps } from '~/shared/types';
 import CTA from '../common/CTA';
 
-const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
+const Hero5 = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
   return (
     // <section id="heroOne" className="bg-[#EDF3FF]">
     <section id="heroOne">
@@ -48,4 +48,4 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
   );
 };
 
-export default Hero;
+export default Hero5;
