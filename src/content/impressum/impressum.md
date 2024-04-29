@@ -1,4 +1,4 @@
-# Impressum for Drums
+# Impressum for ChatSite
 
 ## Company Information
 
@@ -8,7 +8,7 @@
 
 ## Contact Information
 
-**Email:** [support@trydrums.com](mailto:support@trydrums.com)  
+**Email:** [support@chatsite.biz](mailto:support@chatsite.biz)  
 
 ## Legal Representation
 
@@ -34,6 +34,6 @@ Our website contains links to the websites of third parties (â€œexternal linksâ€
 
 ### Contact Us
 
-For any inquiries or concerns, please contact us at [support@trydrums.com](mailto:support@trydrums.com).
+For any inquiries or concerns, please contact us at [support@chatsite.biz](mailto:support@chatsite.biz).
 
 ---

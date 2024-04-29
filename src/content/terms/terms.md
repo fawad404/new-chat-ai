@@ -1,14 +1,14 @@
-# Drums Terms and Conditions
+# ChatSite Terms and Conditions
 
 ## Last Updated: March 14, 2024
 
-Welcome to Drums. These Terms and Conditions outline the rules and regulations for the use of Drums' Services. Drums is located at:
+Welcome to ChatSite. These Terms and Conditions outline the rules and regulations for the use of ChatSite' Services. ChatSite is located at:
 
 
 Imperial Research Ltd 
 London: 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ
 
-By accessing this website we assume you accept these terms and conditions in full. Do not continue to use Drums' website if you do not accept all of the terms and conditions stated on this page.
+By accessing this website we assume you accept these terms and conditions in full. Do not continue to use ChatSite' website if you do not accept all of the terms and conditions stated on this page.
 
 ### Interpretation and Definitions
 
@@ -17,12 +17,12 @@ By accessing this website we assume you accept these terms and conditions in ful
 For the purposes of these Terms and Conditions:
 
 - **"Affiliate"** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for election of directors or other managing authority.
-- **"Company"** (referred to as either "the Company", "We", "Us", or "Our" in this Agreement) refers to Drums.
+- **"Company"** (referred to as either "the Company", "We", "Us", or "Our" in this Agreement) refers to ChatSite.
 - **"Country"** refers to: [Your Country], United States
-- **"Service"** refers to the Website and all services offered by Drums.
+- **"Service"** refers to the Website and all services offered by ChatSite.
 - **"Terms and Conditions"** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.
 - **"Third-party Social Media Service"** means any services or content (including data, information, products, or services) provided by a third-party that may be displayed, included, or made available by the Service.
-- **"Website"** refers to Drums, accessible from [https://yourwebsite.com](https://yourwebsite.com)
+- **"Website"** refers to ChatSite, accessible from [https://yourwebsite.com](https://yourwebsite.com)
 - **"You"** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
 ### Acknowledgment
@@ -31,7 +31,7 @@ By accessing or using the Service, You agree to be bound by these Terms and Cond
 
 ### Links to Other Websites
 
-Our Service may contain links to third-party websites or services that are not owned or controlled by Drums. Drums assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services.
+Our Service may contain links to third-party websites or services that are not owned or controlled by ChatSite. ChatSite assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services.
 
 ### Termination
 
@@ -39,7 +39,7 @@ We may terminate or suspend your access immediately, without prior notice or lia
 
 ### Limitation of Liability
 
-In no event shall Drums or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your use of the Service.
+In no event shall ChatSite or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your use of the Service.
 
 ### "AS IS" and "AS AVAILABLE" Disclaimer
 
@@ -79,4 +79,4 @@ We reserve the right to modify or replace these Terms at any time. By continuing
 
 If you have any questions about these Terms and Conditions, you can contact us:
 
-- By email: [support@trydrums.com](mailto:support@trydrums.com)
+- By email: [support@chatsite.biz](mailto:support@chatsite.biz)

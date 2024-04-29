@@ -205,7 +205,7 @@ export const footerData: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
-     Drums LLM 2024. All rights reserved.  
+     ChatSite LLM 2024. All rights reserved.  
     </div>
   ),
 };
@@ -225,7 +225,7 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Contact',
-      texts: ['founders@trydrums.com'],
+      texts: ['founders@chatsite.biz'],
     },
     // {
     //   title: 'Phone',
@@ -245,7 +245,7 @@ export const footerData2: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm">
-       Drums Enterprise LLM 2024. All rights reserved.
+       ChatSite Enterprise LLM 2024. All rights reserved.
     </div>
   ),
 };

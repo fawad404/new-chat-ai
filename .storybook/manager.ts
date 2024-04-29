@@ -6,7 +6,7 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'Drums Enterprise LLM',
+    brandTitle: 'ChatSite Enterprise',
     brandUrl: 'https://github.com/asfandyar-malik',
     brandTarget: '_blank',
   }),

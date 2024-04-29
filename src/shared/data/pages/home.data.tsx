@@ -196,7 +196,7 @@ export const featuresHomeTwo: FeaturesProps = {
   header: {
     title: (
       <>
-        Why we built <span className="whitespace-nowrap">Drums</span>
+        Why we built <span className="whitespace-nowrap">ChatSite</span>
       </>
     ),
     subtitle:
@@ -266,7 +266,7 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'WHY GET DRUMS',
+    title: 'WHY GET ChatSite',
   },
   content:
     'Data Professional',
@@ -304,7 +304,7 @@ export const contentHomeTwo: ContentProps = {
     'Trusted',
   items: [
     {
-      title: 'Drums data governance redacts sensitive information before passing it to public LLMs. ',
+      title: 'ChatSite data governance redacts sensitive information before passing it to public LLMs. ',
     },
     {
       title: 'Get unbeatable security with top-tier encryption',
@@ -338,7 +338,7 @@ export const contentHomeThree: ContentProps = {
       title: 'Gives probabilty on answers to find the most accurate answer ',
     },
     {
-      title: 'Drums is future proof. Adding new integraitons and models',
+      title: 'ChatSite is future proof. Adding new integraitons and models',
     },
   ],
   image: {

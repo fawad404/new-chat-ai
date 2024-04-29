@@ -1,8 +1,8 @@
-### Drums Privacy Policy
+### ChatSite Privacy Policy
 
 #### Last Updated: March 15, 2024
 
-Welcome to Drums, a leading provider of enterprise-grade Large Language Models (LLMs) designed to empower businesses with advanced AI capabilities while ensuring supreme data privacy and security. This Privacy Policy outlines our commitment to protecting your privacy, detailing how we collect, use, and handle your personal and business information when you engage with our services.
+Welcome to ChatSite, a leading provider of enterprise-grade Large Language Models (LLMs) designed to empower businesses with advanced AI capabilities while ensuring supreme data privacy and security. This Privacy Policy outlines our commitment to protecting your privacy, detailing how we collect, use, and handle your personal and business information when you engage with our services.
 
 #### Understanding This Policy
 
@@ -25,7 +25,7 @@ Our use of Cookies and similar technologies helps track service engagement and p
 
 #### How We Use Your Data
 
-Drums leverages your information to:
+ChatSite leverages your information to:
 
 - **Deliver and optimize our Service**, ensuring efficient and tailored user experiences.
 - **Manage Accounts**, enabling access to different service functionalities.
@@ -40,14 +40,14 @@ You have the right to access, modify, or request the deletion of your Personal D
 
 #### Data Retention and Security
 
-Drums retains your Personal Data only as long as necessary for the purposes outlined in this policy, with robust security measures in place to protect your data. However, no internet-based service can guarantee absolute security.
+ChatSite retains your Personal Data only as long as necessary for the purposes outlined in this policy, with robust security measures in place to protect your data. However, no internet-based service can guarantee absolute security.
 
 #### Changes and Updates
 
 This Privacy Policy may be updated to reflect changes in our practices or service offerings. We will notify you of any significant updates, encouraging periodic review of this document for the latest information on our privacy practices.
 
-#### Contacting Drums
+#### Contacting ChatSite
 
-For questions or concerns regarding this Privacy Policy, please contact us at support@trydrums.com. We are dedicated to addressing your privacy and security concerns and ensuring the protection of your information.
+For questions or concerns regarding this Privacy Policy, please contact us at support@chatsite.biz. We are dedicated to addressing your privacy and security concerns and ensuring the protection of your information.
 
 ---
