@@ -266,7 +266,7 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'WHY GET ChatSite',
+    title: 'Why get Chat Site?',
   },
   content:
     'Data Professional',
@@ -442,7 +442,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Saad Saeed',
       job: 'CEO Layla',
-      testimonial: `Drums substantially increases our productivity and everything becomes very easy to find. I would say the best Enterprise and Secure chat out there`,
+      testimonial: `ChatSite substantially increases our productivity and everything becomes very easy to find. I would say the best Enterprise and Secure chat out there`,
       image: {
         src: saadPic,
         alt: 'Saad Saeed',
@@ -484,45 +484,45 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'What is Drums?',
-      description: `Drums is an Enterprise AI solution, seamlessly integrated into your organization’s existing IT infrastructure. She’s designed to enhance productivity, streamline processes, and empower your teams.
+      title: 'What is ChatSite?',
+      description: `ChatSite is an Enterprise AI solution, seamlessly integrated into your organization’s existing IT infrastructure. She’s designed to enhance productivity, streamline processes, and empower your teams.
       `,
     },
     {
-      title: 'How can Drums help my organization?',
-      description: `Drums is like a versatile AI colleague ready to support various vital roles within your organization. She can assist everyone from customer support specialists to finding any information for you, with sources.`,
+      title: 'How can ChatSite help my organization?',
+      description: `ChatSite is like a versatile AI colleague ready to support various vital roles within your organization. She can assist everyone from customer support specialists to finding any information for you, with sources.`,
     },
     {
-      title: 'Can Drums work with any data types?',
-      description: `Drums works with any data types, independent of where the data resides or in what format does it exist. `,
+      title: 'Can ChatSite work with any data types?',
+      description: `ChatSite works with any data types, independent of where the data resides or in what format does it exist. `,
     },
     {
-      title: "Is Drums Secure? ",
-      description: `Drums prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.`,
+      title: "Is ChatSite Secure? ",
+      description: `ChatSite prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.`,
     },
     {
       title: "Does keep our data private?",
-      description: `Drums offers private LLM deployment options to keep data within your organization. It never leaves your servers, jurisdiction, country`,
+      description: `ChatSite offers private LLM deployment options to keep data within your organization. It never leaves your servers, jurisdiction, country`,
     },
     {
       title: 'Is my company’s data used to train AI models?',
       description: `We never use your data to train our AI models. For your usecase, we can use your data to fine-tune the private results that you get. However, its private to your company`,
     },
     {
-      title: 'How does Drums work?',
-      description: `Drums transforms Enterprise Generative AI, making it easy to implement AI accurately in your system. Drums scalable architecture handles numerous tasks effortlessly. The DrumsFusion™ model merges top public LLMs with our specialized private LLMs for unmatched accuracy.`,
+      title: 'How does ChatSite work?',
+      description: `ChatSite transforms Enterprise Generative AI, making it easy to implement AI accurately in your system. ChatSite scalable architecture handles numerous tasks effortlessly. The ChatSiteFusion™ model merges top public LLMs with our specialized private LLMs for unmatched accuracy.`,
     },
     {
-      title: 'Can Drums integrate with existing enterprise applications?',
-      description: `Drums is readily integrated with multiple enterprise apps for quick deployment and seamless workflow integration. Other external apps could also be connected using APIs `,
+      title: 'Can ChatSite integrate with existing enterprise applications?',
+      description: `ChatSite is readily integrated with multiple enterprise apps for quick deployment and seamless workflow integration. Other external apps could also be connected using APIs `,
     },
     {
-      title: 'This seems fantastic. How can I begin using Drums?',
-      description: `The best way to check Drums game-changing potential is to try it yourself. Start by requesting a demo at https://zcal.co/i/cL7eACvt to learn what Drums can do for you. Work with Drums and start revolutionizing how you do business.`,
+      title: 'This seems fantastic. How can I begin using ChatSite?',
+      description: `The best way to check ChatSite game-changing potential is to try it yourself. Start by requesting a demo at https://zcal.co/i/cL7eACvt to learn what ChatSite can do for you. Work with ChatSite and start revolutionizing how you do business.`,
     },
     {
-      title: 'What industries can benefit from Drums?',
-      description: `Drums' adaptable AI capabilities serve a broad spectrum of industries, such as healthcare, retail, travel, hospitality, finance, manufacturing, e-commerce, technology, and beyond. Its versatility and customization options render it an indispensable tool for any business, regardless of the industry. `,
+      title: 'What industries can benefit from ChatSite?',
+      description: `ChatSite' adaptable AI capabilities serve a broad spectrum of industries, such as healthcare, retail, travel, hospitality, finance, manufacturing, e-commerce, technology, and beyond. Its versatility and customization options render it an indispensable tool for any business, regardless of the industry. `,
     },
   ],
 };
