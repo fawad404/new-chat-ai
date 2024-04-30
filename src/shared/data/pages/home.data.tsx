@@ -482,44 +482,44 @@ export const faqs2Home: FAQsProps = {
   items: [
     {
       title: 'What is ChatSite?',
-      description: `ChatSite is an Enterprise AI solution, seamlessly integrated into your organization’s existing IT infrastructure. She’s designed to enhance productivity, streamline processes, and empower your teams.
+      description: `ChatSite is custom AI chatbot builder, it trains ChatGPT on your data, and lets you easily add a chat widget to your website. Upload your documents or link your content, and get a chatbot that can answer any question about content.
       `,
     },
     {
-      title: 'How can ChatSite help my organization?',
-      description: `ChatSite is like a versatile AI colleague ready to support various vital roles within your organization. She can assist everyone from customer support specialists to finding any information for you, with sources.`,
+      title: 'What should my data look like?',
+      description: `Right now, you can upload one or multiple files (.pdf, .txt, .csv, .docx), paste text, or add a link to your website to be scraped.`,
     },
     {
-      title: 'Can ChatSite work with any data types?',
-      description: `ChatSite works with any data types, independent of where the data resides or in what format does it exist. `,
+      title: 'Is there a free plan?',
+      description: 'Yes by signing up for Chatclient, you automatically get a free plan. With the free plan, you will receive 15 message credits and 1 chatbot. It is a great way to test out Chatclient and see if it meets your needs',
     },
     {
       title: "Is ChatSite Secure? ",
-      description: `ChatSite prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.`,
+      description: 'ChatSite prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.',
     },
     {
       title: "Does keep our data private?",
       description: `ChatSite offers private LLM deployment options to keep data within your organization. It never leaves your servers, jurisdiction, country`,
     },
     {
-      title: 'Is my company’s data used to train AI models?',
-      description: `We never use your data to train our AI models. For your usecase, we can use your data to fine-tune the private results that you get. However, its private to your company`,
+      title: 'Can I give my chatbot instructions?',
+      description: `Yes, you can customize the base prompt in settings, assign a unique name to chatbot, define its personality traits, and set instructions for answering questions ex. (only answer in German).`,
     },
     {
-      title: 'How does ChatSite work?',
-      description: `ChatSite transforms Enterprise Generative AI, making it easy to implement AI accurately in your system. ChatSite scalable architecture handles numerous tasks effortlessly. The ChatSiteFusion™ model merges top public LLMs with our specialized private LLMs for unmatched accuracy.`,
+      title: 'Does it use GPT-3.5 or GPT-4',
+      description: `By default your chatbot uses gpt-3.5-turbo (but you have the option to use gpt-4 on the Popular and Unlimited plans`,
     },
     {
-      title: 'Can ChatSite integrate with existing enterprise applications?',
-      description: `ChatSite is readily integrated with multiple enterprise apps for quick deployment and seamless workflow integration. Other external apps could also be connected using APIs `,
+      title: 'Does it support other languages?',
+      description: `es, Chatclient supports about 95 languages. You can have your sources in any language and ask it questions in any language.`,
     },
     {
-      title: 'This seems fantastic. How can I begin using ChatSite?',
-      description: `The best way to check ChatSite game-changing potential is to try it yourself. Start by requesting a demo at https://zcal.co/i/cL7eACvt to learn what ChatSite can do for you. Work with ChatSite and start revolutionizing how you do business.`,
+      title: 'How can I add my chatbot to my website',
+      description: `You can embed an iframe or add a chat bubble to the bottom right of your website. To do that, create a chatbot and click "Embed on website". You can also use the API to communicate with your chatbot anywhere`,
     },
     {
-      title: 'What industries can benefit from ChatSite?',
-      description: `ChatSite' adaptable AI capabilities serve a broad spectrum of industries, such as healthcare, retail, travel, hospitality, finance, manufacturing, e-commerce, technology, and beyond. Its versatility and customization options render it an indispensable tool for any business, regardless of the industry. `,
+      title: 'How can we contact you ? ',
+      description: `You can contact us at support@chatclient.ai or through social media handles `,
     },
   ],
 };
