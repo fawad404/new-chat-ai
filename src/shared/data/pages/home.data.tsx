@@ -52,22 +52,19 @@ import accurateImage from '~/assets/images/accurate.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Custom ChatGPT for your organization
+      Reduce customer support by 90% with AI chatbots
     </>
   ),
   subtitle: (
     <>
-    It&apos;s like having ChatGPT specifically for your products. 
-
-    Completely Secure, Private & Works with your data
+    Chatsite will help you build a custom AI chatbot, 
+    embed it on your website and let it handle customer support, lead generation, user engagement, and lot more.
     <br></br>
-    <br></br>
-    You, Your Team, Everyone loves it
     <br></br>
     </>
   ),
   callToAction: {
-    text: 'Talk to us',
+    text: 'Try ChatSite for Free',
     href: 'https://zcal.co/i/cL7eACvt',
     icon: IconArrowBigRight,
     targetBlank: true,
@@ -109,13 +106,13 @@ export const socialProofHome: SocialProofProps = {
 export const heroHomeTwo: HeroProps = {
   title: (
     <> <span>
-      Integrate with any data source </span> 
+      Custom AI Chatbot like ChatGPT in One-Click! </span> 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-      We can connect to any datasource, you can point at. No matter where your data is, we got you covered.  
+      Empower your Business with Chatclient AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It's like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
@@ -196,29 +193,29 @@ export const featuresHomeTwo: FeaturesProps = {
   header: {
     title: (
       <>
-        Why we built <span className="whitespace-nowrap">ChatSite</span>
+        Empower Your Business with AI 
       </>
     ),
     subtitle:
-      "To automate all repetitive tasks so that you everyone can contribute creatively. We are the best solution because: ",
+      "Instant, Autonomous, Effortless ",
   },
   items: [
     {
-      title: 'Supercharge every role',
+      title: 'Instant Customization ',
       description:
-        'Gen AI tool chain can 10x every employee ability and skillset.',
+        'Train your AI chatbot in seconds, adapting quickly to any data format for a tailored user experience.',
       icon: IconBrandTailwind,
     },
     {
-      title: 'Data Security',
+      title: '24/7 Autonomous Assistance',
       description:
-        'Enterprises need robust security measures and do not want leakage of private data to LLMs.',
+        'Round-the-clock AI support, engaging and converting potential customers into loyal ones with ease.',
       icon: IconComponents,
     },
     {
-      title: 'Reliability',
+      title: 'Effortless Integration',
       description:
-        'All answers come with sources which they reference. Only reliable information without fear of hallucination.',
+        'Simply embed our chatbot widget on your website for immediate operational efficiency and boosted user engagement.',
       icon: IconListCheck,
     },
   ],
@@ -232,29 +229,29 @@ export const featuresHomeThree: FeaturesProps = {
   header: {
     title: (
       <>
-        All Features
+        How it works
       </>
     ),
     subtitle:
-      "Why people use us",
+      "Effortless Custom Chatbot Training in Three Easy Steps",
   },
   items: [
     {
-      title: 'Supercharge every role',
+      title: 'Provide Your Data',
       description:
-        'Gen AI tool chain can 10x every employee ability and skillset.',
+        'Upload your data, whether its a website URL, PDFs, CSV, docx files, or plain text. Our system will process all the content seamlessly for training.        ',
       icon: IconBrandTailwind,
     },
     {
-      title: 'Data Security',
+      title: 'Choose and Train',
       description:
-        'Enterprises need robust security measures and do not want leakage of private data to LLMs.',
+        'Select the documents or pages you want your chatbot to learn from, remove unwanted pages and kickstart the training with just a single click on create chatbot.        ',
       icon: IconComponents,
     },
     {
-      title: 'Reliability',
+      title: 'Deploy Your AI Chatbot ',
       description:
-        'All answers come with sources which they reference. Only reliable information without fear of hallucination.',
+        'Copy the embed code and add to your website. You now have your personalized AI chatbot, ready to answer any queries, enhancing customer engagement 24/7.',
       icon: IconListCheck,
     },
   ],
@@ -434,7 +431,7 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'Success stories',
+    title: 'What People Say About Chatsite.biz',
     subtitle:
       'Listen to our power customers reaching goals.',
   },
