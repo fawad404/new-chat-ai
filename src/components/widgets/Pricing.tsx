@@ -17,7 +17,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                 className="col-span-3 mx-auto flex w-full sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1"
                 key={`pricing-${index}`}
               >
-                {price && period && (
+                {price!== undefined && period && (
                   <div className="card max-w-sm flex flex-col justify-between text-center">
                     {hasRibbon && ribbonTitle && (
                       <div className="absolute right-[-5px] rtl:right-auto rtl:left-[-5px] top-[-5px] z-[1] h-[100px] w-[100px] overflow-hidden text-right">
