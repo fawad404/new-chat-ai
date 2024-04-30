@@ -54,22 +54,24 @@ export default function Page() {
       <Hero3 {...heroHomeTwo} />
       <Features {...featuresHomeTwo} />
       <Features {...featuresHomeThree} />
-      <Hero5 {...heroHomeThree} />
       <Testimonials {...testimonialsHome} />
+      <FAQs2 {...faqs2Home} />
+      <CallToAction {...callToAction3Home} />
+
+
+      {/* <Hero5 {...heroHomeThree} /> */}
       {/* <Hero4 {...heroHomeFour} /> */}
       {/* <Features {...featuresHome} /> */}
 
-      <Content {...contentHomeOne} />
+      {/* <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
-      <Content {...contentHomeThree} />
+      <Content {...contentHomeThree} /> */}
       {/* <Steps {...stepsHome} /> */}
-      <Features2 {...features2Services} />
-      <FAQs2 {...faqs2Home} />
+      {/* <Features2 {...features2Services} /> */}
       {/* <Pricing {...pricingHome} /> */}
       {/* <Team {...teamHome} />  */}
       {/* <CallToAction2 {...callToAction2Home} /> */}
       {/* <Contact {...contactHome} /> */}
-      <CallToAction {...callToAction3Home} />
     </>
   );
 }

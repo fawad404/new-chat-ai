@@ -439,7 +439,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Saad Saeed',
       job: 'CEO Layla',
-      testimonial: `ChatSite substantially increases our productivity and everything becomes very easy to find. I would say the best Enterprise and Secure chat out there`,
+      testimonial: `After integrating ChatSite, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are now customers. `,
       image: {
         src: saadPic,
         alt: 'Saad Saeed',
@@ -449,7 +449,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Teodor Rupi',
       job: 'CTO allO',
-      testimonial: `Love how it connects with all our data sources and how the team has been able to ship custom integrations for us.`,
+      testimonial: `Its a game changer for our business. This is substantially more accurate than any other chatbot in the market. Increasing our Lead satisfaction has been the biggest value add to us.`,
       image: {
         src: teodorPic,
         alt: 'Teodor Rupi',
@@ -459,7 +459,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Yassin Baum',
       job: 'CEO Mailscale.ai',
-      testimonial: `Its like a secure Chatgpt on our private data and private servers. We don't have to send it to American comapniess. Also the speed of output, with sources is very fast. Very happy with it`,
+      testimonial: `Took just 2 minute to integrate this tool with our servers. Customers love it and satisfaction has been through the roof`,
       image: {
         src: yassinPic,
         alt: 'Yassin Baum',
