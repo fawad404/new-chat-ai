@@ -92,13 +92,13 @@ export const pricingPricing: PricingProps = {
         text: 'Contact us',
         href: '/',
       },
-      hasRibbon: true,
+      hasRibbon: false,
       ribbonTitle: 'Popular',
     },
     {
       title: 'Standard',
       subtitle: 'Everything in Hobby, plus...',
-      price: 59,
+      price: 69,
       period: 'per user per month',
       items: [
         {
@@ -122,20 +122,20 @@ export const pricingPricing: PricingProps = {
     {
       title: 'Enterprise',
       subtitle: 'Starts at',
-      price: 999,
+      price: 399,
       period: 'per month',
       items: [
         {
-          description: 'Everything in Standard.',
+          description: '40,000 message credits/month included (Messages over the limit will use your OpenAI API Key)',
         },
         {
-          description: 'Hosted on your server or on your dedicated cloud',
+          description: '10 chatbots',
         },
         {
-          description: 'We build any feature you want us to and provide our engineers',
+          description: 'Use your own custom domains',
         },
         {
-          description: 'Founders do customer support',
+          description: '24/7 customer support',
         },
       ],
       callToAction: {
