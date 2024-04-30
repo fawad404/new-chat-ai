@@ -45,7 +45,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                         </span>
                       </div>
                       {items && (
-                        <div className="my-8 md:my-10 space-y-2 text-left">
+                        <div className="my-8 md:my-10 space-y-1 text-left">
                           <ItemGrid
                             id={id}
                             items={items}
@@ -53,7 +53,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                             defaultIcon={IconCheck}
                             containerClass="gap-2 md:gap-y-2"
                             panelClass="flex items-start space-x-2"
-                            iconClass="h-12 w-12 flex items-center justify-center rounded-md text-white icon-bg-blue p-2 md:p-3 mt-1.5 mb-4 mr-4 rtl:ml-4 rtl:mr-0"
+                            iconClass="h-2 w-2 flex items-center justify-center rounded-md text-white icon-bg-blue p-2 md:p-3 mt-1.5 mb-4 mr-4 rtl:ml-4 rtl:mr-0"
                             />
                         </div>
                       )}

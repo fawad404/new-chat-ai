@@ -31,7 +31,7 @@ export const pricingPricing: PricingProps = {
   prices: [
     {
       title: 'Free',
-      subtitle: 'Optimal choice for small teams',
+      subtitle: 'For small teams',
       price: 0,
       period: 'per user per month',
       items: [
