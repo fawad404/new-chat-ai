@@ -242,6 +242,16 @@ type HeroProps = {
   image?: Image;
 };
 
+// WIDGETS
+type HeroPropsDynamicMedia = {
+  title?: string | ReactElement;
+  subtitle?: string | ReactElement;
+  tagline?: string;
+  callToAction?: CallToActionType;
+  callToAction2?: CallToActionType;
+  image?: Image;
+};
+
 type FAQsProps = Widget & {
   header?: Header;
   items?: Array<Item>;

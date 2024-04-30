@@ -30,25 +30,31 @@ export const pricingPricing: PricingProps = {
   },
   prices: [
     {
-      title: 'Basic',
+      title: 'Free',
       subtitle: 'Optimal choice for small teams',
-      price: 8,
+      price: 1,
       period: 'per user per month',
       items: [
         {
-          description: '25+ connectors',
+          description: '20 message credits',
         },
         {
-          description: 'Models (GPT-4, Claude, LLama2, Private LLMs',
+          description: '1 Chatbot',
         },
         {
-          description: 'Best search out there',
+          description: '400,000 characters/chatbot',
         },
         {
-          description: 'Google SSO',
+          description: 'Embed on unlimited websites',
         },
         {
-          description: 'Slackbot in unlimited channels',
+          description: 'Upload multiple files',
+        },
+        {
+          description: 'Capture Leads',
+        },
+        {
+          description: 'View Chat History',
         },
       ],
       callToAction: {
@@ -60,22 +66,49 @@ export const pricingPricing: PricingProps = {
       ribbonTitle: 'Popular',
     },
     {
-      title: 'Standard',
-      subtitle: 'Optimal choice for teams',
-      price: 12,
+      title: 'Hobby',
+      subtitle: 'Everything in Free, plus...',
+      price: 15,
       period: 'per user per month',
       items: [
         {
-          description: 'Everything in basic',
+          description: '2,000 message credits/month',
         },
         {
-          description: 'Query History',
+          description: '2 chatbots',
         },
         {
-          description: 'Priority Support',
+          description: '10,000,000 characters/chatbot',
         },
         {
-          description: 'Integrations with Custom Data',
+          description: 'Unlimited links to train on',
+        },
+        {
+          description: 'API Access',
+        },
+      ],
+      callToAction: {
+        targetBlank: true,
+        text: 'Contact us',
+        href: '/',
+      },
+      hasRibbon: true,
+      ribbonTitle: 'Popular',
+    },
+    {
+      title: 'Standard',
+      subtitle: 'Everything in Hobby, plus...',
+      price: 59,
+      period: 'per user per month',
+      items: [
+        {
+          description: '10,000 message credits/month',
+        },
+        {
+          description: '5 chatbots',
+        },
+        {
+          description: 'Option to choose GPT-4 and GPT-4-Turbo',
         },
       ],
       callToAction: {

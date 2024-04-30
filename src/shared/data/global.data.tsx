@@ -70,8 +70,8 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'Build my business',
-      href: 'https://buy.stripe.com/test_28oaFSbK9emS97G7ss',
+      text: 'Try for free',
+      href: 'https://chat.chatsite.biz/',
       targetBlank: true,
     },
   ],
@@ -238,7 +238,7 @@ export const footerData2: FooterProps = {
   ],
   socials: [
     // { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Linkedin', icon: IconBrandLinkedin, href: 'https://www.linkedin.com/company/93144696' },
+    { label: 'Linkedin', icon: IconBrandLinkedin, href: 'https://www.linkedin.com/company/93384292' },
     // { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     // { label: 'RSS', icon: IconRss, href: '#' },
     // { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
