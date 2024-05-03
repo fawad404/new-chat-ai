@@ -64,7 +64,7 @@ export const heroHome: HeroProps = {
   ),
   callToAction: {
     text: 'Try ChatSite for Free',
-    href: 'https://zcal.co/i/cL7eACvt',
+    href: 'https://app.chatsite.biz',
     icon: IconArrowBigRight,
     targetBlank: true,
   },
@@ -111,7 +111,7 @@ export const heroHomeTwo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with Chatclient AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It's like having a Custom ChatGPT tailored specifically for your business!  
+      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It's like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
@@ -490,7 +490,7 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'Is there a free plan?',
-      description: 'Yes by signing up for Chatclient, you automatically get a free plan. With the free plan, you will receive 15 message credits and 1 chatbot. It is a great way to test out Chatclient and see if it meets your needs',
+      description: 'Yes by signing up for Chatsite, you automatically get a free plan. With the free plan, you will receive 15 message credits and 1 chatbot. It is a great way to test out Chatsite and see if it meets your needs',
     },
     {
       title: "Is ChatSite Secure? ",
@@ -510,7 +510,7 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'Does it support other languages?',
-      description: `es, Chatclient supports about 95 languages. You can have your sources in any language and ask it questions in any language.`,
+      description: `es, Chatsite supports about 95 languages. You can have your sources in any language and ask it questions in any language.`,
     },
     {
       title: 'How can I add my chatbot to my website',
@@ -518,7 +518,7 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'How can we contact you ? ',
-      description: `You can contact us at support@chatclient.ai or through social media handles `,
+      description: `You can contact us at support@chatsite.biz or through social media handles `,
     },
   ],
 };
@@ -739,9 +739,9 @@ export const callToAction2Home: CallToActionProps = {
     '',
   items: [
     {
-      title: 'Talk to us',
+      title: 'Try ChatSite for Free',
       description: 'Book a call and talk to us',
-      href: 'https://zcal.co/i/cL7eACvt',
+      href: 'https://app.chatsite.biz',
       icon: IconArrowBigRight,
     },
   ],
@@ -750,11 +750,12 @@ export const callToAction2Home: CallToActionProps = {
 export const callToAction3Home: CallToActionProps = {
   id: 'callToAction3-on-home',
   hasBackground: false,
-  title: 'Revolutionize the way you do business?',
+  title: 'Reduce customer support by 90% with AI chatbots',
   subtitle:
-    '10x your teams productivity and make AI work for you.',
+    'Chatsite will help you build a custom AI chatbot, embed it on your website and let it handle customer support, lead generation, user engagement, and lot more.',
   callToAction: {
-    text: 'Talk to us',
-    href: 'https://zcal.co/i/cL7eACvt',
+    text: 'Try ChatSite for Free',
+    href: 'https://app.chatsite.biz',
+    targetBlank: true,
   },
 };
