@@ -107,6 +107,11 @@ type Image = {
   alt: string;
 };
 
+type Video = {
+  link?: string;
+};
+
+
 type Item = {
   title?: string | boolean | number;
   description?: string | Array<string>;
@@ -240,6 +245,7 @@ type HeroProps = {
   callToAction?: CallToActionType;
   callToAction2?: CallToActionType;
   image?: Image;
+  video?: Video;
 };
 
 // WIDGETS
@@ -341,6 +347,10 @@ type StatsProps = Widget & {
 };
 
 type SocialProofProps = Widget & {
+  images: Array<Image>;
+};
+
+type ValidationProofProps = Widget & {
   images: Array<Image>;
 };
 

@@ -1,11 +1,5 @@
 import {
-  IconBrandFacebook,
-  IconBrandGithub,
-  IconBrandInstagram,
-  IconBrandTwitter,
   IconBrandLinkedin,
-  IconChevronDown,
-  IconRss,
 } from '@tabler/icons-react';
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 
@@ -71,7 +65,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Try for free',
-      href: 'https://chat.chatsite.biz/',
+      href: 'https://app.chatsite.biz',
       targetBlank: true,
     },
   ],

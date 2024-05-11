@@ -7,6 +7,7 @@ import Hero2 from '~/components/widgets/Hero2';
 import Hero3 from '~/components/widgets/Hero3';
 import Hero4 from '~/components/widgets/Hero4';
 import Hero5 from '~/components/widgets/Hero5';
+import Hero6 from '~/components/widgets/Hero6';
 import SocialProof from '../src/components/widgets/SocialProof';
 import Features from '~/components/widgets/Features';
 import Content from '~/components/widgets/Content';
@@ -41,6 +42,7 @@ import {
   heroHomeFour,
   featuresHomeTwo,
   featuresHomeThree,
+  validationProofHome,
 } from '~/shared/data/pages/home.data';
 
 export const metadata: Metadata = {
@@ -51,8 +53,9 @@ export default function Page() {
   return (
     <>
       <Hero2 {...heroHome} />
+      <SocialProof {...validationProofHome} />
       <SocialProof {...socialProofHome} />
-      <Hero3 {...heroHomeTwo} />
+      <Hero6 {...heroHomeTwo} />
       <Features {...featuresHomeTwo} />
       <Features {...featuresHomeThree} />
       <Testimonials {...testimonialsHome} />

@@ -1,0 +1,28 @@
+import Image from 'next/image';
+import { ValidationProofProps } from '~/shared/types';
+import WidgetWrapper from '../common/WidgetWrapper';
+
+const ValidationProof = ({ images, id, hasBackground = false }: ValidationProofProps) => (
+  <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
+    <h2 className="text-center text-xl font-bold mb-4">Trusted by companies of all sizes</h2> {/* Hardcoded heading */}
+    <div className="flex items-center justify-center gap-6 md:gap-9">
+      {images &&
+        images.map(({ src, alt, link }, index) => (
+          <div key={`item-social-proof-${index}`}>
+            <a href={link} target="_blank" rel="noopener">
+              <Image
+                src={src}
+                alt={alt}
+                className="h-auto w-12 opacity-50 contrast-50 grayscale duration-75 hover:opacity-100 hover:contrast-100 hover:grayscale-0 md:w-16"
+                object-fit="contain"
+                width={64}
+                height={64}
+              />
+            </a>
+          </div>
+        ))}
+    </div>
+  </WidgetWrapper>
+);
+
+export default ValidationProof;

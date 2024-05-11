@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { HeroProps } from '~/shared/types';
+import { IconChevronLeft, IconMoon, IconCheck, IconLanguage, IconCalendarOff, IconClock, IconUserPlus } from '@tabler/icons-react';
 import CTA from '../common/CTA';
 
 const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
@@ -20,8 +21,32 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image }:
                 </h1>
               )}
               <div className="mx-auto max-w-3xl">
-                {subtitle && <p className="mb-8 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
-                <div className="flex max-w-none flex-col flex-nowrap justify-center gap-4 sm:flex-row md:m-0 md:justify-start">
+                {subtitle && <p className="mb-4 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
+                <div className="flex flex-wrap justify-center gap-4 md:justify-start">
+                  <div className="flex items-center gap-2">
+                      <IconUserPlus className="text-primary-600 h-6 w-6" />
+                      <span>Personalized onboarding help</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <IconCheck className="text-primary-600 h-6 w-6" />
+                      <span>Friendly pricing as you scale</span>
+                    </div>
+                    <div className="w-full"></div>
+                    <div className="flex items-center gap-2">
+                      <IconLanguage className="text-primary-600 h-6 w-6" />
+                      <span>95+ languages supported</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <IconClock className="text-primary-600 h-6 w-6" />
+                      <span>14-day free trial</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <IconCalendarOff className="text-primary-600 h-6 w-6" />
+                      <span>Cancel anytime</span>
+                    </div>
+                </div>
+                <br></br>
+                <div className="mt-6 flex max-w-none flex-col flex-nowrap justify-center gap-4 sm:flex-row md:m-0 md:justify-start">
                   {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
                   {callToAction2 && <CTA callToAction={callToAction2} linkClass="btn" />}
                 </div>

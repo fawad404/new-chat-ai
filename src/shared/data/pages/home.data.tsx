@@ -6,13 +6,10 @@ import {
   IconBrandTwitter,
   IconBulb,
   IconArrowBigRight,
-  IconClock,
   IconComponents,
-  IconDownload,
   IconListCheck,
   IconMail,
   IconMapPin,
-  IconPhoneCall,
   IconRocket,
 } from '@tabler/icons-react';
 import {
@@ -30,7 +27,6 @@ import {
 } from '../../types';
 import heroImg from '~/assets/images/myimage.png';
 import heroImgAI from '~/assets/images/AddAI.png';
-import heroImgTwo from '~/assets/images/hero1.png';
 import buildEveryday from '~/assets/images/build-everday.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
@@ -41,10 +37,14 @@ import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
 import drumsApp from '~/assets/images/chatsite-chat.png';
-import drumsConnector from '~/assets/images/drums-connector.png';
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
 import trustedImage from '~/assets/images/trusted.png';
 import accurateImage from '~/assets/images/accurate.png';
+import microsoftLogo from '~/assets/images/microsoft-logo.png';
+import nvidiaLogo from '~/assets/images/nvidia-logo.png';
+import googleLogo from '~/assets/images/google-logo.jpg';
+import csaLogo from '~/assets/images/csa-logo.png';
+
 
 
 // Hero data on Home page *******************
@@ -102,6 +102,30 @@ export const socialProofHome: SocialProofProps = {
   ],
 };
 
+export const validationProofHome: SocialProofProps = {
+  id: 'socialProof-on-home',
+  hasBackground: false,
+  images: [
+    {
+      src: microsoftLogo,
+      alt: 'Microsoft Logo',
+    },
+    {
+      src: googleLogo,
+      alt: 'Google Logo',
+    },
+    {
+      src: nvidiaLogo,
+      alt: 'Nvidia Logo',
+    },
+    {
+      src: csaLogo,
+      alt: 'CSA Logo',
+    },
+  ],
+};
+
+
 export const heroHomeTwo: HeroProps = {
   title: (
     <> <span>
@@ -115,11 +139,26 @@ export const heroHomeTwo: HeroProps = {
       </span>{' '}
     </>
   ),
-  image: {
-    src: drumsConnector,
-    alt: 'Hero TailNext',
+  video: {
+    link: 'https://youtu.be/vlte2z8s_m8?si=14gq_uHDfMfRPHOf',
   },
 };
+
+export const heroHomeVideo: HeroProps = {
+  title: (
+    <> <span>
+      Custom AI Chatbot like ChatGPT in One-Click! </span> 
+    </>
+  ),
+  subtitle: (
+    <>
+      <span className="hidden md:inline">
+      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It's like having a Custom ChatGPT tailored specifically for your business!  
+      </span>{' '}
+    </>
+  ),
+};
+
 
 export const heroHomeThree: HeroProps = {
   title: (
