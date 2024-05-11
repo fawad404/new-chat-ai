@@ -46,11 +46,14 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                     </div>
                 </div>
                 <br></br>
+                <br></br>
+
                 <div className="mt-6 flex max-w-none flex-col flex-nowrap justify-center gap-4 sm:flex-row md:m-0 md:justify-start">
                   {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
                   {callToAction2 && <CTA callToAction={callToAction2} linkClass="btn" />}
                 </div>
 
+                <br></br>
                 <br></br>
 
                 <div className="flex flex-col gap-4 md:flex-row md:justify-start">
