@@ -4,8 +4,8 @@ import WidgetWrapper from '../common/WidgetWrapper';
 
 const SocialProof = ({ images, id, hasBackground = false }: SocialProofProps) => (
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
-    <h2 className="text-center text-xl font-bold mb-4">Trusted by companies of all sizes</h2> {/* Hardcoded heading */}
-    <div className="flex items-center justify-center gap-6 md:gap-9">
+    <h2 className="text-center text-xl font-bold mb-4">Trusted by companies of all sizes</h2>
+    <div className="flex items-center justify-center gap-10 md:gap-12">  
       {images &&
         images.map(({ src, alt, link }, index) => (
           <div key={`item-social-proof-${index}`}>
@@ -13,10 +13,10 @@ const SocialProof = ({ images, id, hasBackground = false }: SocialProofProps) =>
               <Image
                 src={src}
                 alt={alt}
-                className="h-auto w-12 opacity-50 contrast-50 grayscale duration-75 hover:opacity-100 hover:contrast-100 hover:grayscale-0 md:w-16"
+                className="h-auto w-24 md:w-28"  // Increased size classes for larger images
                 object-fit="contain"
-                width={64}
-                height={64}
+                width={220}  // Increased width from 80 to 120
+                height={220}  // Increased height from 80 to 120
               />
             </a>
           </div>

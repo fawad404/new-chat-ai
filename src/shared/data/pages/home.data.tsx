@@ -28,10 +28,9 @@ import {
 import heroImg from '~/assets/images/myimage.png';
 import heroImgAI from '~/assets/images/AddAI.png';
 import buildEveryday from '~/assets/images/build-everday.png';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
-import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
-import typescriptLogo from '~/assets/images/typescript-logo.png';
+import drumsLogo from '~/assets/images/drums-logo.png';
+import laylaLogo from '~/assets/images/layla-logo.png';
+import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
 import gasImg from '~/assets/images/gas.jpg';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
@@ -68,6 +67,12 @@ export const heroHome: HeroProps = {
     icon: IconArrowBigRight,
     targetBlank: true,
   },
+  callToAction2: {
+    text: 'Book a Demo',
+    href: 'https://zcal.co/i/-ANG-GrB',
+    icon: IconBulb,
+    targetBlank: true,
+  },
   image: {
     src: drumsApp,
     alt: 'Hero TailNext',
@@ -98,24 +103,18 @@ export const socialProofHome: SocialProofProps = {
   hasBackground: false,
   images: [
     {
-      link: 'https://nextjs.org/',
-      src: nextJsLogo,
-      alt: 'NextJs Logo',
+      link: 'https://trydrums.com',
+      src: drumsLogo,
+      alt: 'Drums Logo',
     },
     {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
+      src: laylaLogo,
+      alt: 'Layla',
     },
     {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
-    {
-      link: 'https://www.typescriptlang.org/',
-      src: typescriptLogo,
-      alt: 'Typescript Logo',
+      link: 'https://magicalpdf.com',
+      src: magicalPDFlogo,
+      alt: 'MagicalPDF Logo',
     },
   ],
 };

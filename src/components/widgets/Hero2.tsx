@@ -56,7 +56,7 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                 <div className="flex flex-col gap-4 md:flex-row md:justify-start">
                   {validationImages &&
                     validationImages.map(({ src, alt, link }, index) => (
-                      <a key={`item-social-proof-${index}`} href={link} target="_blank" rel="noopener" className="transition-opacity duration-300 hover:opacity-100 shadow-lg opacity-80 border-2 text-primary-600">
+                      <a key={`item-social-proof-${index}`} href={link} target="_blank" rel="noopener" className="transition-opacity duration-300 hover:opacity-100 shadow-lg opacity-80 border-2 rounded-lg text-primary-600">
                         <Image
                           src={src}
                           alt={alt}
