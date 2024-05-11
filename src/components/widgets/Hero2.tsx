@@ -3,7 +3,7 @@ import { HeroProps } from '~/shared/types';
 import { IconChevronLeft, IconMoon, IconCheck, IconLanguage, IconCalendarOff, IconClock, IconUserPlus } from '@tabler/icons-react';
 import CTA from '../common/CTA';
 
-const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
+const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, validationImages }: HeroProps) => {
   return (
     <section className="mt-[-72px] bg-primary-50 dark:bg-slate-800" id="heroTwo">
       <div className="mx-auto max-w-7xl px-4 pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
@@ -50,6 +50,25 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image }:
                   {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
                   {callToAction2 && <CTA callToAction={callToAction2} linkClass="btn" />}
                 </div>
+
+                <br></br>
+
+                <div className="flex items-center justify-center gap-4 md:gap-6">
+                  {validationImages &&
+                    validationImages.map(({ src, alt, link }, index) => (
+                      <a key={`item-social-proof-${index}`} href={link} target="_blank" rel="noopener" className="transition-opacity duration-300 hover:opacity-100 opacity-80">
+                        <Image
+                          src={src}
+                          alt={alt}
+                          className="h-auto w-24 md:w-32"
+                          objectFit="contain"
+                          width={90}
+                          height={90}
+                        />
+                      </a>
+                    ))}
+                </div>
+
               </div>
             </div>
           </div>

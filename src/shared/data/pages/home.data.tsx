@@ -72,6 +72,24 @@ export const heroHome: HeroProps = {
     src: drumsApp,
     alt: 'Hero TailNext',
   },
+  validationImages: [
+    {
+      src: microsoftLogo,
+      alt: 'Microsoft Logo',
+    },
+    {
+      src: googleLogo,
+      alt: 'Google Logo',
+    },
+    {
+      src: nvidiaLogo,
+      alt: 'Nvidia Logo',
+    },
+    {
+      src: csaLogo,
+      alt: 'CSA Logo',
+    },
+  ],
 };
 
 // SocialProof data on Home page *******************

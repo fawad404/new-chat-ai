@@ -246,6 +246,7 @@ type HeroProps = {
   callToAction2?: CallToActionType;
   image?: Image;
   video?: Video;
+  validationImages: Array<Image>;
 };
 
 // WIDGETS
