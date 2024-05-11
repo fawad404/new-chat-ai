@@ -37,11 +37,9 @@ export default function Page() {
       <FAQs2 {...faqs2Home} />
       <CallToAction {...callToAction3Home} />
 
-
       {/* <Hero5 {...heroHomeThree} /> */}
       {/* <Hero4 {...heroHomeFour} /> */}
       {/* <Features {...featuresHome} /> */}
-
       {/* <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
       <Content {...contentHomeThree} /> */}
