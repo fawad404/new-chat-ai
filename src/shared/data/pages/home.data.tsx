@@ -11,6 +11,13 @@ import {
   IconMail,
   IconMapPin,
   IconRocket,
+  IconNumber1,
+  IconNumber3,
+  IconNumber2,
+  IconRosetteNumber3,
+  IconNumber1Small,
+  IconNumber2Small,
+  IconNumber3Small,
 } from '@tabler/icons-react';
 import {
   CallToActionProps,
@@ -295,19 +302,20 @@ export const featuresHomeThree: FeaturesProps = {
       title: 'Provide Your Data',
       description:
         'Upload your data, whether its a website URL, PDFs, CSV, docx files, or plain text. Our system will process all the content seamlessly for training.        ',
-      icon: IconBrandTailwind,
+      icon: IconNumber1Small,
     },
     {
       title: 'Choose and Train',
       description:
         'Select the documents or pages you want your chatbot to learn from, remove unwanted pages and kickstart the training with just a single click on create chatbot.        ',
-      icon: IconComponents,
+      icon: IconNumber2Small,
+
     },
     {
       title: 'Deploy Your AI Chatbot ',
       description:
         'Copy the embed code and add to your website. You now have your personalized AI chatbot, ready to answer any queries, enhancing customer engagement 24/7.',
-      icon: IconListCheck,
+      icon: IconNumber3Small,
     },
   ],
 };
