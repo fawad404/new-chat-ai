@@ -152,7 +152,7 @@ export const heroHomeTwo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It's like having a Custom ChatGPT tailored specifically for your business!  
+      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
@@ -170,7 +170,7 @@ export const heroHomeVideo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It's like having a Custom ChatGPT tailored specifically for your business!  
+      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
