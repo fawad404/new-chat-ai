@@ -41,7 +41,7 @@ export default function RootLayout({ children }: LayoutProps) {
           <Footer2 />
         </Providers>
 
-        {/* <script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="661e48c07abb6768aec10b14"></script> */}
+        <script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="661e48c07abb6768aec10b14"></script>
 
       </body>
     </html>
