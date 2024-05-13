@@ -30,11 +30,13 @@ const Hero6 = ({ title, subtitle, tagline, callToAction, callToAction2, video }:
           </div>
 
           <div className="aspect-ratio-4-3 max-w-full mx-auto">
-            <iframe
-              className="w-full h-full"
-              src="https://www.loom.com/embed/043e92624262422aa7b11c5a3698b43d?sid=60ddce5b-0821-4e5e-b30d-277e516da574"
-              frameborder="0"
-              allowfullscreen></iframe>
+            
+          <iframe
+            className="w-full h-full"
+            src="https://www.loom.com/embed/043e92624262422aa7b11c5a3698b43d?sid=60ddce5b-0821-4e5e-b30d-277e516da574"
+            frameBorder="0"
+            allowFullScreen></iframe>
+
           </div>
       </div>
       </div>
