@@ -45,7 +45,7 @@ const Hero6 = ({ title, subtitle, tagline, callToAction, callToAction2, video }:
 
           <div className="aspect-ratio-16-9 max-w-full mx-auto mb-0" style={{ position: 'relative', width: '80%', textAlign: 'center' }}>
             <iframe
-              style={{ position: 'absolute', top: '0', left: '50%', transform: 'translateX(-50%)', width: '80%', height: '100%' }}
+              style={{ position: 'absolute', top: '0', left: '50%', transform: 'translateX(-50%)', width: '90%', height: '80%' }}
               src="https://www.loom.com/embed/043e92624262422aa7b11c5a3698b43d?sid=60ddce5b-0821-4e5e-b30d-277e516da574">
             </iframe>
           </div>
