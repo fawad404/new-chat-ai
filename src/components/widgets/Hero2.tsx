@@ -34,7 +34,7 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                     <div className="w-full"></div>
                     <div className="flex items-center gap-2">
                       <IconLanguage className="text-primary-600 h-6 w-6" />
-                      <span>95+ languages supported</span>
+                      <span>90+ languages supported</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <IconClock className="text-primary-600 h-6 w-6" />
@@ -55,7 +55,7 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
 
                 <br></br>
                 <br></br>
-
+                
                 <div className="flex flex-col gap-4 md:flex-row md:justify-start">
                   {validationImages &&
                     validationImages.map(({ src, alt, link }, index) => (

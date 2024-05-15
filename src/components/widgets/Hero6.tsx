@@ -20,7 +20,7 @@ const Hero6 = ({ title, subtitle, tagline, callToAction, callToAction2, video }:
               </h1>
             )}
             <div className="mx-auto max-w-3xl">
-              {subtitle && <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
+              {subtitle && <p className="text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
               
               <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
                 {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
@@ -28,16 +28,29 @@ const Hero6 = ({ title, subtitle, tagline, callToAction, callToAction2, video }:
               </div>
             </div>
           </div>
-
-          <div className="aspect-ratio-4-3 max-w-full mx-auto">
+{/* 
+          <div className="aspect-ratio-4-3 max-w-full mx-auto mb-0">
             <iframe
               className="w-full h-full"
               src="https://www.loom.com/embed/043e92624262422aa7b11c5a3698b43d?sid=60ddce5b-0821-4e5e-b30d-277e516da574">
-                
-              </iframe>
+            </iframe>
+          </div> */}
+
+          {/* <div className="aspect-ratio-16-9 max-w-full mx-auto mb-0">
+            <iframe
+              className="w-full h-full"
+              src="https://www.loom.com/embed/043e92624262422aa7b11c5a3698b43d?sid=60ddce5b-0821-4e5e-b30d-277e516da574">
+            </iframe>
+          </div> */}
+
+          <div className="aspect-ratio-16-9 max-w-full mx-auto mb-0" style={{ position: 'relative', width: '80%', textAlign: 'center' }}>
+            <iframe
+              style={{ position: 'absolute', top: '0', left: '50%', transform: 'translateX(-50%)', width: '80%', height: '100%' }}
+              src="https://www.loom.com/embed/043e92624262422aa7b11c5a3698b43d?sid=60ddce5b-0821-4e5e-b30d-277e516da574">
+            </iframe>
           </div>
           
-      </div>
+        </div>
       </div>
     </section>
   );
