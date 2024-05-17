@@ -11,7 +11,7 @@ const CallToAction = ({ title, subtitle, callToAction, id, hasBackground = true 
         {title && (
           <h2 className="leading-tighter font-heading mb-4 text-4xl font-bold tracking-tighter md:text-4xl text-white">{title}</h2>
         )}
-        {subtitle && <p className="text-xl text-gray-600 dark:text-slate-400 text-white">{subtitle}</p>}
+        {subtitle && <p className="text-xl text-white">{subtitle}</p>}
         {text && href && (
           <CTA
             callToAction={callToAction as CallToActionType}
