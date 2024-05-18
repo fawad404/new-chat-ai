@@ -3,26 +3,26 @@ import { CallToActionProps, Item } from '~/shared/types';
 
 const Card = ({ title, description, href, form }: Item) => (
   <div className="mb-6 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
-    <div className="px-5 py-4 bg-white dark:bg-gray-800">
+    <div className="px-5 py-4 bg-white">
       <div className="flex items-center justify-between">
         <div className="w-full">
-          <h3 className="mb-2 text-xl font-semibold text-gray-800 dark:text-white">{title}</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">{description}</p>
+          <h3 className="mb-2 text-xl font-semibold text-gray-800">{title}</h3>
+          <p className="text-sm text-gray-600">{description}</p>
         </div>
         {href && (
           <div className="flex h-10 w-10 items-center justify-center ml-4">
-            <IconChevronRight className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+            <IconChevronRight className="h-6 w-6 text-blue-600" />
           </div>
         )}
       </div>
     </div>
     {form && (
-      <div className="mt-4 px-5 py-4 bg-gray-50 dark:bg-gray-700">
+      <div className="mt-4 px-5 py-4 bg-gray-50">
         <form className="rounded-md shadow-sm">
           <div className="flex items-center">
             {form.icon && (
-              <span className="inline-flex items-center justify-center rounded-l-md border border-r-0 border-gray-300 bg-gray-200 px-3 dark:border-gray-600 dark:bg-gray-600">
-                <form.icon className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+              <span className="inline-flex items-center justify-center rounded-l-md border border-r-0 border-gray-300 bg-gray-200 px-3">
+                <form.icon className="h-5 w-5 text-blue-600" />
               </span>
             )}
             <input
@@ -30,7 +30,7 @@ const Card = ({ title, description, href, form }: Item) => (
               name={form.input.name}
               autoComplete={form.input.autocomplete}
               placeholder={form.input.placeholder}
-              className="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md border border-gray-300 dark:border-gray-600 dark:bg-gray-600 dark:text-white focus:border-blue-500 focus:ring-blue-500 dark:focus:border-blue-400"
+              className="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md border border-gray-300 focus:border-blue-500 focus:ring-blue-500"
             />
             <button
               type={form.btn.type}
@@ -45,14 +45,13 @@ const Card = ({ title, description, href, form }: Item) => (
   </div>
 );
 
-
 const CallToAction2 = ({ title, subtitle, items }: CallToActionProps) => (
   <section className="bg-[#151617] text-white" id="callToActionTwo">
     <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:pt-20">
       <div className="row-gap-10 grid gap-6 md:grid-cols-2">
         <div className="mx-auto md:my-auto md:ml-0 md:pb-6 md:pr-24">
           <h2 className="mb-3 flex justify-center text-6xl font-bold md:justify-start">{title}</h2>
-          <p className="text-center text-xl text-white dark:text-white  md:text-left">{subtitle}</p>
+          <p className="text-center text-xl text-white md:text-left">{subtitle}</p>
         </div>
         <div className="relative -mb-6">
           {items &&

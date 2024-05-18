@@ -9,7 +9,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
     {header && <Headline header={header} containerClass="max-w-5xl" titleClass="text-2xl sm:text-3xl" />}
     <div className="flex items-stretch justify-center">
-      <div className="grid grid-cols-3 gap-3 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+      <div className="grid grid-cols-3 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
         {prices &&
           prices.map(
             ({ title, subtitle, price, period, items, callToAction, hasRibbon = false, ribbonTitle }, index) => (
@@ -17,7 +17,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                 className="col-span-3 mx-auto flex w-full sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1"
                 key={`pricing-${index}`}
               >
-                {price!== undefined && period && (
+                {price !== undefined && period && (
                   <div className="card max-w-sm flex flex-col justify-between text-center">
                     {hasRibbon && ribbonTitle && (
                       <div className="absolute right-[-5px] rtl:right-auto rtl:left-[-5px] top-[-5px] z-[1] h-[100px] w-[100px] overflow-hidden text-right">
@@ -33,14 +33,14 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                         </h3>
                       )}
                       {subtitle && (
-                        <p className="font-light sm:text-lg text-gray-600 dark:text-slate-400">{subtitle}</p>
+                        <p className="font-light sm:text-lg text-gray-600">{subtitle}</p>
                       )}
                       <div className="my-8">
                         <div className="flex items-center justify-center text-center mb-1">
                           <span className="text-5xl">$</span>
                           <span className="text-6xl font-extrabold">{price}</span>
                         </div>
-                        <span className="text-base leading-6 lowercase text-gray-600 dark:text-slate-400">
+                        <span className="text-base leading-6 lowercase text-gray-600">
                           {period}
                         </span>
                       </div>
@@ -54,7 +54,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                             containerClass="gap-2 md:gap-y-2"
                             panelClass="flex items-start space-x-2"
                             iconClass="h-2 w-2 flex items-center justify-center rounded-md text-white icon-bg-blue p-2 md:p-3 mt-1.5 mb-4 mr-4 rtl:ml-4 rtl:mr-0"
-                            />
+                          />
                         </div>
                       )}
                     </div>

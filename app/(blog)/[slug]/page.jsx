@@ -8,7 +8,7 @@ export const dynamicParams = false;
 
 const getFormattedDate = (date) => date;
 
-export async function generateMetadata({ params}) {
+export async function generateMetadata({ params }) {
   const post = await findPostBySlug(params.slug);
   if (!post) {
     return notFound();
@@ -51,12 +51,12 @@ export default async function Page({ params }) {
             />
           ) : (
             <div className="mx-auto max-w-3xl px-4 sm:px-6">
-              <div className="border-t dark:border-slate-700" />
+              <div className="border-t" />
             </div>
           )}
         </header>
         <div
-          className="prose-md prose-headings:font-heading prose-headings:leading-tighter container prose prose-lg mx-auto mt-8 max-w-3xl px-6 prose-headings:font-bold prose-headings:tracking-tighter prose-a:text-primary-600 prose-img:rounded-md prose-img:shadow-lg dark:prose-invert dark:prose-headings:text-slate-300 dark:prose-a:text-primary-400 sm:px-6 lg:prose-xl"
+          className="prose-md prose-headings:font-heading prose-headings:leading-tighter container prose prose-lg mx-auto mt-8 max-w-3xl px-6 prose-headings:font-bold prose-headings:tracking-tighter prose-a:text-primary-600 prose-img:rounded-md prose-img:shadow-lg"
           dangerouslySetInnerHTML={{
             __html: md({
               html: true,

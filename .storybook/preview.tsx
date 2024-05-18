@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Preview, ReactRenderer } from '@storybook/react';
-import { withThemeByClassName } from '@storybook/addon-themes';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 import { Inter as CustomFont } from 'next/font/google';
@@ -51,19 +50,10 @@ const preview: Preview = {
   },
   decorators: [
     (Story) => (
-      <div
-        className={`bg-white tracking-tight text-gray-900 antialiased dark:bg-slate-900 dark:text-slate-300 ${customFont.variable} font-sans`}
-      >
+      <div className={`bg-white tracking-tight text-gray-900 antialiased ${customFont.variable} font-sans`}>
         <Story />
       </div>
     ),
-    withThemeByClassName<ReactRenderer>({
-      themes: {
-        light: '',
-        dark: 'dark',
-      },
-      defaultTheme: 'light',
-    }),
   ],
 };
 

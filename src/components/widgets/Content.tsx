@@ -25,15 +25,15 @@ const Content = ({
     <div className="mx-auto max-w-7xl">
       <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
         <div className="self-center md:basis-1/2">
-          {content && <div className="mb-8 lg:mb-12 text-xl text-gray-600 dark:text-slate-400 font-bold">{content}</div>}
+          {content && <div className="mb-8 lg:mb-12 text-xl text-gray-600 font-bold">{content}</div>}
           <ItemGrid
             items={items}
             columns={1}
             defaultIcon={IconCheck}
             containerClass="gap-4 md:gap-y-6"
             panelClass="flex max-w-full"
-            titleClass="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2"
-            descriptionClass="mt-1 text-gray-600 dark:text-slate-400"
+            titleClass="text-lg font-medium leading-6 text-gray-900 mt-1 mb-2"
+            descriptionClass="mt-1 text-gray-600"
             iconClass="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full icon-bg-blue text-gray-50 mr-4 mt-1 p-1"
           />
         </div>

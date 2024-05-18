@@ -374,7 +374,7 @@ type FooterProps = {
 type HeaderProps = {
   links?: Array<MenuLink>;
   actions?: Array<CallToActionType>;
-  // actions?: Array<ActionLink>;
+  actions?: Array<ActionLink>;
   isSticky?: boolean;
   showToggleTheme?: boolean;
   showRssFeed?: boolean;

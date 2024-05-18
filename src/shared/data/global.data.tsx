@@ -19,40 +19,16 @@ export const announcementData: AnnouncementProps = {
 // Header data
 export const headerData: HeaderProps = {
   links: [
-    // {
-    //   label: 'Pages',
-    //   icon: IconChevronDown,
-    //   links: [
-    //     // {
-    //     //   label: 'Services',
-    //     //   href: '/services',
-    //     // },
-    //     // {
-    //     //   label: 'Pricing',
-    //     //   href: '/pricing',
-    //     // },
-    //     // {
-    //     //   label: 'About us',
-    //     //   href: '/about',
-    //     // },
-    //     {
-    //       label: 'Contact us',
-    //       href: '/contact',
-    //     },
-    //     // {
-    //     //   label: 'FAQs',
-    //     //   href: '/faqs',
-    //     // },
-    //     // {
-    //     //   label: 'Terms & Conditions',
-    //     //   href: '/terms',
-    //     // },
-    //     // {
-    //     //   label: 'Privacy Policy',
-    //     //   href: '/privacy',
-    //     // },
-    //   ],
-    // },
+    {
+      label: 'Pages',
+      icon: IconBrandLinkedin,
+      links: [
+        {
+          label: 'Contact us',
+          href: '/contact',
+        },
+      ],
+    },
     {
       label: 'Blog',
       href: '/blog',
@@ -70,7 +46,6 @@ export const headerData: HeaderProps = {
     },
   ],
   isSticky: true,
-  // showToggleTheme: true,
   showRssFeed: false,
   position: 'right',
 };
@@ -198,7 +173,7 @@ export const footerData: FooterProps = {
     { label: 'Linkedin', icon: IconBrandLinkedin, href: '#' },
   ],
   footNote: (
-    <div className="mr-4 text-sm dark:text-slate-400">
+    <div className="mr-4 text-sm">
      ChatSite LLM 2024. All rights reserved.  
     </div>
   ),
@@ -221,21 +196,9 @@ export const footerData2: FooterProps = {
       title: 'Contact',
       texts: ['founders@chatsite.biz'],
     },
-    // {
-    //   title: 'Phone',
-    //   texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
-    // },
-    // {
-    //   title: 'Email',
-    //   texts: ['Office: info@example.com', 'Site: https://example.com'],
-    // },
   ],
   socials: [
-    // { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
     { label: 'Linkedin', icon: IconBrandLinkedin, href: 'https://www.linkedin.com/company/93384292' },
-    // { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    // { label: 'RSS', icon: IconRss, href: '#' },
-    // { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 text-sm">

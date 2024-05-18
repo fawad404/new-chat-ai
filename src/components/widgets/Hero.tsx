@@ -10,7 +10,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
         <div className="py-12 md:py-20">
           <div className="mx-auto max-w-4xl pb-10 text-center md:pb-16">
             {tagline && (
-              <p className="text-base font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-200">
+              <p className="text-base font-semibold uppercase tracking-wide text-primary-600">
                 {tagline}
               </p>
             )}
@@ -20,7 +20,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
               </h1>
             )}
             <div className="mx-auto max-w-3xl">
-              {subtitle && <p className="mb-6 text-xl font-normal text-white white:text-slate-400">{subtitle}</p>}
+              {subtitle && <p className="mb-6 text-xl font-normal text-white">{subtitle}</p>}
               <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
                 {callToAction && <CTA callToAction={callToAction} linkClass="btn" />}
                 {callToAction2 && <CTA callToAction={callToAction2} linkClass="btn" />}

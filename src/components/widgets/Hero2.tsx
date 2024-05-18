@@ -5,13 +5,13 @@ import CTA from '../common/CTA';
 
 const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, validationImages }: HeroProps) => {
   return (
-    <section className="mt-[-72px] bg-primary-50 dark:bg-slate-800" id="heroTwo">
+    <section className="mt-[-72px] bg-primary-50" id="heroTwo">
       <div className="mx-auto max-w-7xl px-4 pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
         <div className="block py-12 text-center md:flex md:py-12 md:text-left lg:py-16">
           <div className="mx-auto flex max-w-5xl basis-[60%] items-center">
             <div className="max-w-3xl pb-12 pr-0 md:py-0 md:pr-8 md:pb-0 lg:pr-16">
               {tagline && (
-                <p className="text-base font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-200">
+                <p className="text-base font-semibold uppercase tracking-wide text-primary-600">
                   {tagline}
                 </p>
               )}
@@ -21,7 +21,7 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                 </h1>
               )}
               <div className="mx-auto max-w-3xl">
-                {subtitle && <p className="mb-4 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
+                {subtitle && <p className="mb-4 text-xl font-normal text-gray-800">{subtitle}</p>}
                 <div className="flex flex-wrap justify-center gap-4 md:justify-start">
                   <div className="flex items-center gap-2">
                       <IconUserPlus className="text-primary-600 h-6 w-6" />
@@ -79,7 +79,7 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
             <div className="relative m-auto h-full max-w-4xl object-cover">
               {image && (
                 <Image
-                  className="mx-auto h-full w-auto rounded-md object-cover drop-shadow-xl dark:bg-slate-700"
+                  className="mx-auto h-full w-auto rounded-md object-cover drop-shadow-xl"
                   src={image.src}
                   alt={image.alt}
                   width={540}
