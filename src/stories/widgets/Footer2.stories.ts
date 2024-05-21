@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Component from '~/components/widgets/Footer2';
+import Component from '~/components/widgets/Footer';
 import { footerData as mockData } from '~/shared/data/global.data';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Widgets/Footer2',
+  title: 'Widgets/Footer',
   component: Component,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout

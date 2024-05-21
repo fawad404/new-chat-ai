@@ -50,137 +50,137 @@ export const headerData: HeaderProps = {
   position: 'right',
 };
 
+// // Footer data
+// export const footerData: FooterProps = {
+//   title: 'TailNext',
+//   links: [
+//     {
+//       label: 'Terms & Conditions',
+//       href: '/terms',
+//     },
+//     {
+//       label: 'Privacy Policy',
+//       href: '/privacy',
+//     },
+//   ],
+//   columns: [
+//     {
+//       title: 'Product',
+//       links: [
+//         {
+//           label: 'Features',
+//           href: '/',
+//         },
+//         {
+//           label: 'Security',
+//           href: '/',
+//         },
+//         {
+//           label: 'Team',
+//           href: '/',
+//         },
+//         {
+//           label: 'Enterprise',
+//           href: '/',
+//         },
+//         {
+//           label: 'Customer stories',
+//           href: '/',
+//         },
+//         {
+//           label: 'Pricing',
+//           href: '/pricing',
+//         },
+//         {
+//           label: 'Resources',
+//           href: '/',
+//         },
+//       ],
+//     },
+//     {
+//       title: 'Platform',
+//       links: [
+//         {
+//           label: 'Developer API',
+//           href: '/',
+//         },
+//         {
+//           label: 'Partners',
+//           href: '/',
+//         },
+//       ],
+//     },
+//     {
+//       title: 'Support',
+//       links: [
+//         {
+//           label: 'Docs',
+//           href: '/',
+//         },
+//         {
+//           label: 'Community Forum',
+//           href: '/',
+//         },
+//         {
+//           label: 'Professional Services',
+//           href: '/',
+//         },
+//         {
+//           label: 'Skills',
+//           href: '/',
+//         },
+//         {
+//           label: 'Status',
+//           href: '/',
+//         },
+//       ],
+//     },
+//     {
+//       title: 'Company',
+//       links: [
+//         {
+//           label: 'About',
+//           href: '/',
+//         },
+//         {
+//           label: 'Blog',
+//           href: '/blog',
+//         },
+//         {
+//           label: 'Careers',
+//           href: '/',
+//         },
+//         {
+//           label: 'Press',
+//           href: '/',
+//         },
+//         {
+//           label: 'Inclusion',
+//           href: '/',
+//         },
+//         {
+//           label: 'Social Impact',
+//           href: '/',
+//         },
+//         {
+//           label: 'Shop',
+//           href: '/',
+//         },
+//       ],
+//     },
+//   ],
+//   socials: [
+//     { label: 'Linkedin', icon: IconBrandLinkedin, href: '#' },
+//   ],
+//   footNote: (
+//     <div className="mr-4 text-sm">
+//      ChatSite LLM 2024. All rights reserved.  
+//     </div>
+//   ),
+// };
+
 // Footer data
 export const footerData: FooterProps = {
-  title: 'TailNext',
-  links: [
-    {
-      label: 'Terms & Conditions',
-      href: '/terms',
-    },
-    {
-      label: 'Privacy Policy',
-      href: '/privacy',
-    },
-  ],
-  columns: [
-    {
-      title: 'Product',
-      links: [
-        {
-          label: 'Features',
-          href: '/',
-        },
-        {
-          label: 'Security',
-          href: '/',
-        },
-        {
-          label: 'Team',
-          href: '/',
-        },
-        {
-          label: 'Enterprise',
-          href: '/',
-        },
-        {
-          label: 'Customer stories',
-          href: '/',
-        },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
-        {
-          label: 'Resources',
-          href: '/',
-        },
-      ],
-    },
-    {
-      title: 'Platform',
-      links: [
-        {
-          label: 'Developer API',
-          href: '/',
-        },
-        {
-          label: 'Partners',
-          href: '/',
-        },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        {
-          label: 'Docs',
-          href: '/',
-        },
-        {
-          label: 'Community Forum',
-          href: '/',
-        },
-        {
-          label: 'Professional Services',
-          href: '/',
-        },
-        {
-          label: 'Skills',
-          href: '/',
-        },
-        {
-          label: 'Status',
-          href: '/',
-        },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        {
-          label: 'About',
-          href: '/',
-        },
-        {
-          label: 'Blog',
-          href: '/blog',
-        },
-        {
-          label: 'Careers',
-          href: '/',
-        },
-        {
-          label: 'Press',
-          href: '/',
-        },
-        {
-          label: 'Inclusion',
-          href: '/',
-        },
-        {
-          label: 'Social Impact',
-          href: '/',
-        },
-        {
-          label: 'Shop',
-          href: '/',
-        },
-      ],
-    },
-  ],
-  socials: [
-    { label: 'Linkedin', icon: IconBrandLinkedin, href: '#' },
-  ],
-  footNote: (
-    <div className="mr-4 text-sm">
-     ChatSite LLM 2024. All rights reserved.  
-    </div>
-  ),
-};
-
-// Footer2 data
-export const footerData2: FooterProps = {
   links: [
     {
       label: 'Terms & Conditions',

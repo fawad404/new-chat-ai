@@ -5,7 +5,7 @@ import { SITE } from '~/config.js';
 import Providers from '~/components/atoms/Providers';
 import Header from '~/components/widgets/Header';
 import Announcement from '~/components/widgets/Announcement';
-import Footer2 from '~/components/widgets/Footer2';
+import Footer from '~/components/widgets/Footer';
 
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: LayoutProps) {
         <Providers>
           <Header />
           <main>{children}</main>
-          <Footer2 />
+          <Footer />
         </Providers>
 
         {/* <script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="661e48c07abb6768aec10b14"></script> */}
