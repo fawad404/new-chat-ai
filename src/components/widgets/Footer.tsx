@@ -26,7 +26,7 @@ const Footer = () => {
             {socials.map(({ label, icon: Icon, href }, index) => (
               <li key={`item-social-${index}`}>
                 <a
-                  className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
+                  className="text-muted text-white inline-flex items-center rounded-lg p-2.5 text-sm hover:text-white focus:outline-none focus:ring-4 focus:text-white"
                   aria-label={label}
                   href={href}
                 >
