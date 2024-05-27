@@ -82,7 +82,7 @@ export const heroHome: HeroProps = {
   },
   image: {
     src: drumsApp,
-    alt: 'Hero TailNext',
+    alt: 'Hero ChatSite',
   },
   validationImages: [
     {

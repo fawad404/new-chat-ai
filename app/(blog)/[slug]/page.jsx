@@ -28,7 +28,7 @@ export default async function Page({ params }) {
   }
 
   return (
-    <section className="mx-auto py-8 sm:py-16 lg:py-20">
+    <section className="mx-auto py-8 sm:py-16 lg:py-20 bg-white text-black">
       <article>
         <header className={post.image ? 'text-center' : ''}>
           <p className="mx-auto max-w-3xl px-4 sm:px-6">
