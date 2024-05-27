@@ -1,6 +1,6 @@
 ### ChatSite Privacy Policy
 
-#### Last Updated: March 15, 2024
+#### Last Updated: May 15, 2024
 
 Welcome to ChatSite, a leading provider of enterprise-grade Large Language Models (LLMs) designed to empower businesses with advanced AI capabilities while ensuring supreme data privacy and security. This Privacy Policy outlines our commitment to protecting your privacy, detailing how we collect, use, and handle your personal and business information when you engage with our services.
 

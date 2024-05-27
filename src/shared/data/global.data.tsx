@@ -52,8 +52,8 @@ export const headerData: HeaderProps = {
 
 // // Footer data
 // export const footerData: FooterProps = {
-//   title: 'TailNext',
-//   links: [
+//   title: 'ChatSite',
+//   links: [ChatSite
 //     {
 //       label: 'Terms & Conditions',
 //       href: '/terms',

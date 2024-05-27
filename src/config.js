@@ -6,5 +6,5 @@ module.exports.SITE = {
   trailingSlash: false,
 
   title: 'ChatSite',
-  description: 'Custom ChatGPT on your private data, in a secure way and can be hosted on your server, without leaving your walls',
+  description: 'Private and Secure Support Bot for your Business',
 };

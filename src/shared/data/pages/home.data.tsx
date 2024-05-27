@@ -199,7 +199,7 @@ export const heroHomeThree: HeroProps = {
   ),
   image: {
     src: heroImgAI,
-    alt: 'Hero TailNext',
+    alt: 'Hero ChatSite',
   },
 };
 
@@ -218,7 +218,7 @@ export const heroHomeFour: HeroProps = {
   ),
   image: {
     src: buildEveryday,
-    alt: 'Hero TailNext',
+    alt: 'Hero ChatSite',
   },
 };
 
@@ -240,7 +240,7 @@ export const featuresHome: FeaturesProps = {
   isImageDisplayed: true,
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'Hero ChatSite',
   },
 };
 

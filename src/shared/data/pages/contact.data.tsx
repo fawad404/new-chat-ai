@@ -30,12 +30,12 @@ export const contact2Contact: ContactProps = {
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['Eggerstedtstr 26', 'Hamburg, EEUU'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +4917623607530', 'Mail: support@chatsite.biz'],
       icon: IconPhoneCall,
     },
     {
