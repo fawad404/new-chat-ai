@@ -38,11 +38,10 @@ import buildEveryday from '~/assets/images/build-everday.png';
 import drumsLogo from '~/assets/images/drums-logo.png';
 import laylaLogo from '~/assets/images/layla-logo.png';
 import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
-import gasImg from '~/assets/images/gas.jpg';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
-import drumsApp from '~/assets/images/chatsite-chat.png';
+import chatSiteApp from '~/assets/images/chatsite-chat.png';
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
 import trustedImage from '~/assets/images/trusted.png';
 import accurateImage from '~/assets/images/accurate.png';
@@ -81,7 +80,7 @@ export const heroHome: HeroProps = {
     targetBlank: true,
   },
   image: {
-    src: drumsApp,
+    src: chatSiteApp,
     alt: 'Hero ChatSite',
   },
   validationImages: [
@@ -417,7 +416,7 @@ export const stepsHome: StepsProps = {
   isReversed: false,
   isImageDisplayed: true,
   image: {
-    src: gasImg,
+    src: trustedImage,
     alt: 'Steps image',
   },
   header: {

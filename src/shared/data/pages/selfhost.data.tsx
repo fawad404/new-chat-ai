@@ -8,7 +8,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '~/shared/types';
-import hero2Img from '~/assets/images/hero2.jpg';
+import hero2Img from '~/assets/images/drums-chat.jpeg';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
