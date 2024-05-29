@@ -9,6 +9,8 @@ import Features from '~/components/widgets/Features';
 import Testimonials from '~/components/widgets/Testimonials';
 import FAQs2 from '~/components/widgets/FAQs2';
 import CallToAction from '~/components/widgets/CallToAction';
+import Stats from '~/components/widgets/Stats';
+
 
 import {
   callToAction3Home,
@@ -30,6 +32,7 @@ export default function Page() {
     <>
       <Hero2 {...heroHome} />
       <SocialProof {...socialProofHome} />
+      {/* <Stats {...statsAbout} /> */}
       <Hero6 {...heroHomeTwo} />
       <Features {...featuresHomeTwo} />
       <Features {...featuresHomeThree} />

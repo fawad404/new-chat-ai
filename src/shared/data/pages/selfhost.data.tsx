@@ -9,6 +9,9 @@ import {
   TestimonialsProps,
 } from '~/shared/types';
 import hero2Img from '~/assets/images/hero2.jpg';
+import saadPic from '~/assets/images/saad.jpeg';
+import teodorPic from '~/assets/images/teodor.jpeg';
+import yassinPic from '~/assets/images/yassin.jpeg';
 import {
   IconAdjustments,
   IconAward,
@@ -38,15 +41,10 @@ import {
 
 // Hero2 data on About page *******************
 export const hero2About: HeroProps = {
-  title: 'Great companies are made by great people',
+  title: 'Self Host to protect your customer data',
   subtitle:
-    'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui.',
-  tagline: 'About Us Demo Page',
-  callToAction: {
-    text: 'View jobs',
-    href: 'https://www.linkedin.com/',
-    targetBlank: true,
-  },
+    'Most AI models you use, use your data for training. They live with mantra "ask for forgiveness, rather than permission". Your however cannot take the risk with your customer data, therefore we launched this. We can protect you in 2 ways. Firstly, by using Open source Large Language Models and Secondly, by deploying it for you in you servers',
+  tagline: 'Self',
   callToAction2: {
     text: 'Contact us',
     href: '/contact',
@@ -63,16 +61,16 @@ export const statsAbout: StatsProps = {
   hasBackground: true,
   items: [
     {
-      title: 13269,
-      description: 'Downloads',
+      title: 236,
+      description: 'Companies',
     },
     {
-      title: 24.8,
-      description: 'Stars',
+      title: 210300,
+      description: 'Chat Messages',
     },
     {
-      title: 1767.77,
-      description: 'Forks',
+      title: 1227200,
+      description: 'Hours saved',
     },
     {
       title: 484000,
@@ -88,7 +86,7 @@ export const featuresFourAbout: FeaturesProps = {
   header: {
     title: 'Our mission',
     subtitle:
-      'Quisque laoreet nisi et lectus consectetur, at placerat libero dictum. Donec sed hendrerit turpis. Nunc vel nibh blandit, hendrerit turpis non, mattis magna. Duis feugiat dui mi, eget iaculis ligula gravida congue. Nam quis mauris id eros imperdiet imperdiet. In et dolor non nisi vestibulum rhoncus nec eget dolor.',
+      'We believe customer has right to their data and they should be protected. Most companies charge you fee to use their product and train on your data. We do not want software to go this direction. It has to be distributed, rather than 2-3 American companies hoarding on all data, that exists out there.',
     tagline: 'Mission and Values',
   },
 };
@@ -106,34 +104,23 @@ export const featuresFourAboutTwo: FeaturesProps = {
   items: [
     {
       title: 'Customer-centricity',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      description: 'We empower you, to server your customers the best',
       icon: IconUser,
     },
     {
       title: 'Innovation and adaptability',
       description:
-        'Etiam ornare, purus nec venenatis porttitor, velit leo convallis dui, at porttitor nibh tortor quis velit.',
+        'We believe in innovation and bringing the best and latest AI solutions to you.',
       icon: IconBulb,
     },
     {
       title: 'Quality assurance',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+      description: 'Extremely high quality for you and your customers ',
       icon: IconThumbUp,
     },
     {
-      title: 'Accessibility and customization',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconAdjustments,
-    },
-    {
-      title: 'Collaboration and partnership',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis.',
-      icon: IconHeartHandshake,
-    },
-    {
       title: 'Ethical and responsible design',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      description: 'We protect your customer data and give you all the power. ',
       icon: IconHomeEco,
     },
   ],
@@ -487,62 +474,32 @@ export const testimonials2About: TestimonialsProps = {
   },
   testimonials: [
     {
-      name: 'Jane Smith',
-      job: 'UX Designer',
-      testimonial: `Your templates have been a game-changer for my projects. They're not just beautifully designed; they're also incredibly easy to customize. Thanks to your templates, I've been able to save time and deliver stunning websites to my clients.`,
+      name: 'Saad Saeed',
+      job: 'CEO Layla',
+      testimonial: `After integrating ChatSite, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are ...`,
       image: {
-        src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Jane Smith',
+        src: saadPic,
+        alt: 'Saad Saeed',
       },
       href: '/',
     },
     {
-      name: 'John Doe',
-      job: 'Frontend Developer',
-      testimonial: `I can't say enough good things about your Next.js and Tailwind CSS templates. As a frontend developer, I appreciate the clean and well-organized code. These templates have significantly sped up my development process, and the results are always impressive.`,
+      name: 'Teodor Rupi',
+      job: 'CTO allO',
+      testimonial: `Its a game changer for our business. This is substantially more accurate than any other chatbot in the market. Increasing our Lead satisfaction has be...`,
       image: {
-        src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'John Doe',
+        src: teodorPic,
+        alt: 'Teodor Rupi',
       },
       href: '/',
     },
     {
-      name: 'Emily Turner',
-      job: 'Marketing Manager',
-      testimonial: `This templates have made our marketing campaigns stand out. The responsiveness and performance of the websites we've built with them have boosted our conversion rates. Thank you for helping us shine in the digital world!`,
+      name: 'Yassin Baum',
+      job: 'CEO Mailscale.ai',
+      testimonial: `Took just 2 minute to integrate this tool with our servers. Customers love it and satisfaction has been through the roof...`,
       image: {
-        src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Emily Turner',
-      },
-      href: '/',
-    },
-    {
-      name: 'Michael Clark',
-      job: 'Startup Founder',
-      testimonial: `I stumbled upon your templates while looking for a way to launch my startup quickly. Your templates not only saved me valuable time but also gave my business a professional and modern online presence. Highly recommended!`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Michael Clark',
-      },
-      href: '/',
-    },
-    {
-      name: 'Linda Johnson',
-      job: 'Freelance Web Designer',
-      testimonial: `I've been using your templates for my freelance projects, and my clients are always thrilled with the results. The templates are not only visually appealing but also user-friendly, making my job much easier.`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Linda Johnson',
-      },
-      href: '/',
-    },
-    {
-      name: 'David Rogers',
-      job: 'E-commerce Entrepreneur',
-      testimonial: `The speed and SEO-friendliness of the websites I've built with these templates have led to increased traffic and sales. I couldn't be happier!`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'David Rogers',
+        src: yassinPic,
+        alt: 'Yassin Baum',
       },
       href: '/',
     },
@@ -620,14 +577,14 @@ export const contactAbout: ContactProps = {
         type: 'text',
         label: 'Name',
         name: 'name',
-        placeholder: 'Introduce your name',
+        placeholder: 'Enter Name',
         autocomplete: 'off',
       },
       {
         type: 'email',
         label: 'Email address',
         name: 'email',
-        placeholder: 'Introduce your email address',
+        placeholder: 'Enter Email',
         autocomplete: 'on',
       },
     ],

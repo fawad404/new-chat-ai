@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Contact from '~/components/widgets/Contact';
+import Contact2 from '~/components/widgets/Contact2';
 
 import FAQs from '~/components/widgets/FAQs';
 import Features from '~/components/widgets/Features';
@@ -22,7 +22,7 @@ import {
   testimonials2About,
   featuresAbout,
   teamAbout,
-} from '~/shared/data/pages/about.data';
+} from '~/shared/data/pages/selfhost.data';
 
 export const metadata: Metadata = {
   title: `About us`,
@@ -35,13 +35,14 @@ const Page = () => {
       <Stats {...statsAbout} />
       <Features4 {...featuresFourAbout} />
       <Features4 {...featuresFourAboutTwo} />
-      <Steps {...stepsAbout} />
-      <Features3 {...features3About} />
-      <Features {...featuresAbout} />
-      <Team2 {...teamAbout} />
+      {/* <Steps {...stepsAbout} /> */}
+      {/* <Features3 {...features3About} /> */}
+      {/* <Features {...featuresAbout} /> */}
+      {/* <Team2 {...teamAbout} /> */}
       <Testimonials2 {...testimonials2About} />
-      <FAQs {...faqsAbout} />
-      <Contact {...contactAbout} />
+      {/* <FAQs {...faqsAbout} /> */}
+      <Contact2 {...contactAbout} />
+      
     </>
   );
 };

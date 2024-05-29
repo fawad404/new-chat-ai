@@ -20,14 +20,12 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Pages',
-      icon: IconBrandLinkedin,
-      links: [
-        {
-          label: 'Contact us',
-          href: '/contact',
-        },
-      ],
+      label: 'We host on your server',
+      href: '/selfhost',
+    },
+    {
+      label: 'Contact us',
+      href: '/contact',
     },
     {
       label: 'Blog',
