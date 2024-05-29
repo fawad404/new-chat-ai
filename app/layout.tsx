@@ -1,14 +1,11 @@
 import { Metadata } from 'next';
-
 import { SITE } from '~/config.js';
-
 import Providers from '~/components/atoms/Providers';
 import Header from '~/components/widgets/Header';
-import Announcement from '~/components/widgets/Announcement';
 import Footer from '~/components/widgets/Footer';
-
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
+import Script from 'next/script';
 
 const customFont = CustomFont({ subsets: ['latin'], variable: '--font-custom' });
 
@@ -38,9 +35,14 @@ export default function RootLayout({ children }: LayoutProps) {
           <main>{children}</main>
           <Footer />
         </Providers>
-
-        {/* <script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="661e48c07abb6768aec10b14"></script> */}
-        <script id="__chatsiteSdk__" async src="https://widgets.chatsite.biz/chat-widget.js" data-chatbot-id="6638c0b21851b9e60e727176"></script>
+        {/* <Script
+          id="__chatsiteSdk__"
+          strategy="lazyOnload"
+          src="https://widgets.chatsite.biz/chat-widget.js"
+          data-chatbot-id="6638c0b21851b9e60e727176"
+        /> */}
+        <script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="661e48c07abb6768aec10b14"></script>
+        {/* <script id="__chatsiteSdk__" src="https://widgets.chatsite.biz/chat-widget.js" data-chatbot-id="664b10aedd9140af0b023ddd"></script> */}
       </body>
     </html>
   );
