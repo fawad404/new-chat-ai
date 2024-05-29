@@ -3,7 +3,7 @@ publishDate: 'Jan 15 2024'
 title: 'What Is GPT-4o? Exploring Its Use Cases In a Business'
 description: 'What Is GPT-4o? Exploring Its Use Cases In a Business'
 excerpt: 'What Is GPT-4o? Exploring Its Use Cases In a Business'
-image: '/drums-webapp.png'
+image: '/GPT-4o.png'
 tags: [markdown, blog]
 ---
 
@@ -18,6 +18,8 @@ The same AI model has been revealed as GPT-4o. The “GPT2” in the name doesn�
 OpenAI’s engineering teams consider it a significant change, justifying a new version number. However, marketing teams present it modestly as a continuation of GPT-4 rather than a complete overhaul.
 
 Let’s explore what’s new in GPT-4o, what it offers, and how to use it in a business.
+
+![Random Image 1](GPT-4o.png)
 
 #### What Is GPT-4o?
 
