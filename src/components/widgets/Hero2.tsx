@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { HeroProps } from '~/shared/types';
-import { IconChevronLeft, IconMoon, IconCheck, IconLanguage, IconCalendarOff, IconClock, IconUserPlus } from '@tabler/icons-react';
+import { IconUserPlus, IconCheck, IconLanguage, IconClock, IconCalendarOff } from '@tabler/icons-react';
 import CTA from '../common/CTA';
 
 const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, validationImages }: HeroProps) => {
@@ -24,26 +24,26 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                 {subtitle && <p className="mb-4 text-xl font-normal text-gray-800">{subtitle}</p>}
                 <div className="flex flex-wrap justify-center gap-4 md:justify-start">
                   <div className="flex items-center gap-2">
-                      <IconUserPlus className="text-primary-600 h-6 w-6" />
-                      <span>Personalized onboarding help</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <IconCheck className="text-primary-600 h-6 w-6" />
-                      <span>Friendly pricing as you scale</span>
-                    </div>
-                    <div className="w-full"></div>
-                    <div className="flex items-center gap-2">
-                      <IconLanguage className="text-primary-600 h-6 w-6" />
-                      <span>90+ languages supported</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <IconClock className="text-primary-600 h-6 w-6" />
-                      <span>14-day free trial</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <IconCalendarOff className="text-primary-600 h-6 w-6" />
-                      <span>Cancel anytime</span>
-                    </div>
+                    <IconUserPlus className="text-primary-600 h-6 w-6" />
+                    <span>Personalized onboarding help</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <IconCheck className="text-primary-600 h-6 w-6" />
+                    <span>Friendly pricing as you scale</span>
+                  </div>
+                  <div className="w-full"></div>
+                  <div className="flex items-center gap-2">
+                    <IconLanguage className="text-primary-600 h-6 w-6" />
+                    <span>90+ languages supported</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <IconClock className="text-primary-600 h-6 w-6" />
+                    <span>14-day free trial</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <IconCalendarOff className="text-primary-600 h-6 w-6" />
+                    <span>Cancel anytime</span>
+                  </div>
                 </div>
                 <br></br>
                 <br></br>
@@ -56,14 +56,14 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                 <br></br>
                 <br></br>
                 
-                <div className="flex flex-col gap-4 md:flex-row md:justify-start">
+                <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                   {validationImages &&
                     validationImages.map(({ src, alt, link }, index) => (
-                      <a key={`item-social-proof-${index}`} href={link} target="_blank" rel="noopener" className="transition-opacity duration-300 hover:opacity-100 shadow-lg opacity-80 border-2 rounded-lg text-primary-600">
+                      <a key={`item-social-proof-${index}`} href={link} target="_blank" rel="noopener" className="transition-opacity duration-300 hover:opacity-100 shadow-lg opacity-80 border-2 rounded-lg text-primary-600 flex-shrink-0">
                         <Image
                           src={src}
                           alt={alt}
-                          className="h-auto w-24 md:w-32"
+                          className="h-auto w-20 sm:w-24 md:w-28 lg:w-32"
                           objectFit="contain"
                           width={90}
                           height={90}
