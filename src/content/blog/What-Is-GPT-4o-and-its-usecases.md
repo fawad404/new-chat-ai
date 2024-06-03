@@ -3,7 +3,7 @@ publishDate: 'Jan 15 2024'
 title: 'What Is GPT-4o? Exploring Its Use Cases In a Business'
 description: 'What Is GPT-4o? Exploring Its Use Cases In a Business'
 excerpt: 'What Is GPT-4o? Exploring Its Use Cases In a Business'
-image: '/GPT-4o.png'
+image: '/3.png'
 tags: [markdown, blog]
 ---
 

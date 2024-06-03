@@ -3,7 +3,7 @@ publishDate: 'June 03 2024'
 title: 'The 5 Best AI Chatbot Builders'
 description: 'The 5 Best AI Chatbot Builders'
 excerpt: 'The 5 Best AI Chatbot Builders'
-image: '/drums-webapp.png'
+image: '/1.png'
 tags: [markdown, blog]
 ---
 ```markdown

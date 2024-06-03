@@ -3,7 +3,7 @@ publishDate: 'May 30 2024'
 title: 'Transforming Customer Support with AI: A Look Beyond HubSpot Live Chat'
 description: 'Best support tool'
 excerpt: 'best support tool'
-image: '/drums-webapp.png'
+image: '/2.png'
 tags: [markdown, blog]
 ---
 # Transforming Customer Support with AI: A Look Beyond HubSpot Live Chat
