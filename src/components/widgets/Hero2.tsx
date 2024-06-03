@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { HeroProps } from '~/shared/types';
 import { IconUserPlus, IconCheck, IconLanguage, IconClock, IconCalendarOff } from '@tabler/icons-react';
 import CTA from '../common/CTA';
+// import chatSiteChat from 'public/chatsite-chat.svg'
+
 
 const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, validationImages }: HeroProps) => {
   return (
@@ -86,7 +88,6 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                   height={405}
                   sizes="(min-width: 1920px) 749px, (min-width: 1540px) 43.89vw, (min-width: 1360px) 542px, (min-width: 780px) calc(39.29vw + 16px), calc(96.52vw - 22px)"
                   loading="eager"
-                  placeholder="blur"
                   priority
                 />
               )}
