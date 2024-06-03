@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { SITE } from '~/config.js';
 
 import Hero2 from '~/components/widgets/Hero2';
+import Hero1 from '~/components/widgets/Hero';
 import Hero6 from '~/components/widgets/Hero6';
 import SocialProof from '../src/components/widgets/SocialProof';
 import Features from '~/components/widgets/Features';
@@ -21,6 +22,7 @@ import {
   testimonialsHome,
   featuresHomeTwo,
   featuresHomeThree,
+  integrationHome
 } from '~/shared/data/pages/home.data';
 
 export const metadata: Metadata = {
@@ -38,6 +40,7 @@ export default function Page() {
       <Features {...featuresHomeThree} />
       <Testimonials {...testimonialsHome} />
       <FAQs2 {...faqs2Home} />
+      <Hero1 {...integrationHome} />
       <CallToAction {...callToAction3Home} />
 
       {/* <Hero5 {...heroHomeThree} /> */}

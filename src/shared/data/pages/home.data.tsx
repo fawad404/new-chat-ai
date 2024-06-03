@@ -43,6 +43,7 @@ import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
 import chatSiteApp from '~/assets/images/chatsite-chat.png';
 import chatSiteSVG from 'public/chatsite-chat.svg'
+import integrationSVG from 'public/integrations.svg'
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
 import trustedImage from '~/assets/images/trusted.png';
 import accurateImage from '~/assets/images/accurate.png';
@@ -83,6 +84,43 @@ export const heroHome: HeroProps = {
   image: {
     src: chatSiteSVG,
     alt: 'Hero ChatSite',
+  },
+  validationImages: [
+    {
+      src: microsoftLogo,
+      alt: 'Microsoft Logo',
+    },
+    {
+      src: googleLogo,
+      alt: 'Google Logo',
+    },
+    {
+      src: nvidiaLogo,
+      alt: 'Nvidia Logo',
+    },
+    {
+      src: csaLogo,
+      alt: 'CSA Logo',
+    },
+  ],
+};
+
+export const integrationHome: HeroProps = {
+  title: (
+    <>
+      Integrates with all your favourite tools
+    </>
+  ),
+  subtitle: (
+    <>
+    Integrates natively to all the platforms you have or where your data resides. 
+    <br></br>
+    <br></br>
+    </>
+  ),
+  image: {
+    src: integrationSVG,
+    alt: 'Integrations with all platforms',
   },
   validationImages: [
     {
@@ -263,21 +301,39 @@ export const featuresHomeTwo: FeaturesProps = {
   },
   items: [
     {
-      title: 'Instant Customization ',
+      title: '24/7 Instant Support',
+      description:
+        'Provide quality customer support around the clock with immediate responses.',
+      icon: IconBrandTailwind,
+    },
+    {
+      title: '90% Support Queries Automated',
+      description:
+        'Automate up to 90% of support queries, freeing up valuable time for your team.',
+      icon: IconComponents,
+    },
+    {
+      title: '200% Productivity Boost',
+      description:
+        ' Increase your support teams productivity by 200% with advanced GPT automation tools.',
+      icon: IconListCheck,
+    },
+    {
+      title: 'Set up with 45 seconds',
       description:
         'Train your AI chatbot in seconds, adapting quickly to any data format for a tailored user experience.',
       icon: IconBrandTailwind,
     },
     {
-      title: '24/7 Autonomous Assistance',
+      title: 'Self-Hosting Option',
       description:
-        'Round-the-clock AI support, engaging and converting potential customers into loyal ones with ease.',
+        'Dont let others steal your data. Comply with all regulations by hosting it yourself and the Best part, we do it for you.',
       icon: IconComponents,
     },
     {
-      title: 'Effortless Integration',
+      title: '50% more Leads',
       description:
-        'Simply embed our chatbot widget on your website for immediate operational efficiency and boosted user engagement.',
+        ' Improve lead generation and convert up to 50% more prospects into customers.',
       icon: IconListCheck,
     },
   ],
