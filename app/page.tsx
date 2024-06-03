@@ -11,6 +11,8 @@ import Testimonials from '~/components/widgets/Testimonials';
 import FAQs2 from '~/components/widgets/FAQs2';
 import CallToAction from '~/components/widgets/CallToAction';
 import Stats from '~/components/widgets/Stats';
+import Content from '~/components/widgets/Content';
+
 
 
 import {
@@ -22,7 +24,10 @@ import {
   testimonialsHome,
   featuresHomeTwo,
   featuresHomeThree,
-  integrationHome
+  integrationHome,
+  contentHomeOne,
+  contentHomeTwo,
+  contentHomeThree
 } from '~/shared/data/pages/home.data';
 
 export const metadata: Metadata = {
@@ -38,17 +43,18 @@ export default function Page() {
       <Hero6 {...heroHomeTwo} />
       <Features {...featuresHomeTwo} />
       <Features {...featuresHomeThree} />
+      <Content {...contentHomeOne} />
+      <Content {...contentHomeThree} /> 
       <Testimonials {...testimonialsHome} />
       <Hero1 {...integrationHome} />
       <FAQs2 {...faqs2Home} />
       <CallToAction {...callToAction3Home} />
 
+
+      {/* <Content {...contentHomeTwo} /> */}
       {/* <Hero5 {...heroHomeThree} /> */}
       {/* <Hero4 {...heroHomeFour} /> */}
-      {/* <Features {...featuresHome} /> */}
-      {/* <Content {...contentHomeOne} />
-      <Content {...contentHomeTwo} />
-      <Content {...contentHomeThree} /> */}
+ 
       {/* <Steps {...stepsHome} /> */}
       {/* <Features2 {...features2Services} /> */}
       {/* <Pricing {...pricingHome} /> */}

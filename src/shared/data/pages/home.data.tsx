@@ -325,7 +325,7 @@ export const featuresHomeTwo: FeaturesProps = {
       icon: IconBrandTailwind,
     },
     {
-      title: 'Self-Hosting Option',
+      title: 'Host on your Servers',
       description:
         'Dont let others steal your data. Comply with all regulations by hosting it yourself and the Best part, we do it for you.',
       icon: IconComponents,
