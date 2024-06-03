@@ -39,8 +39,8 @@ export default function Page() {
       <Features {...featuresHomeTwo} />
       <Features {...featuresHomeThree} />
       <Testimonials {...testimonialsHome} />
-      <FAQs2 {...faqs2Home} />
       <Hero1 {...integrationHome} />
+      <FAQs2 {...faqs2Home} />
       <CallToAction {...callToAction3Home} />
 
       {/* <Hero5 {...heroHomeThree} /> */}
