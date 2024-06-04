@@ -78,10 +78,10 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
             </div>
           </div>
           <div className="block flex-1 items-center md:flex">
-            <div className="relative m-auto h-full max-w-4xl object-cover">
+            <div className="relative m-auto h-full w-full max-w-4xl">
               {image && (
                 <Image
-                  className="mx-auto h-full w-auto rounded-md object-cover drop-shadow-xl"
+                  className="mx-auto h-auto w-full rounded-md object-cover drop-shadow-xl"
                   src={image.src}
                   alt={image.alt}
                   width={540}
