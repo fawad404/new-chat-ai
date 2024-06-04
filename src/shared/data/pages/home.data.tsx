@@ -385,22 +385,22 @@ export const contentHomeOne: ContentProps = {
     title: 'Why get Chat Site?',
   },
   content:
-    'Data Professional',
+    'Expert Customer Support Agent ',
   items: [
     {
-      title: 'Combs structured & unstructured data',
+      title: 'Custom Chatbot on all your data',
       description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+        'Add any data sources that you want. We even integrate with existing systems',
     },
     {
-      title: 'Discovers hidden insights',
+      title: 'Completely showcase your Companys brand',
       description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+        'Chatbot exactly reflects your companys brand',
     },
     {
-      title: 'Designs infographics and charts',
+      title: 'Foward to human, whenever its required',
       description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+        'Lets AI handle 90% of the queries and for special cases, escalate it to human.',
     },
   ],
   image: {
@@ -417,10 +417,10 @@ export const contentHomeTwo: ContentProps = {
   hasBackground: true,
   
   content:
-    'Trusted',
+    'Lead Generation Engine',
   items: [
     {
-      title: 'ChatSite data governance redacts sensitive information before passing it to public LLMs. ',
+      title: 'Let chatbot capture all your potential leads.',
     },
     {
       title: 'Get unbeatable security with top-tier encryption',
@@ -445,16 +445,16 @@ export const contentHomeThree: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   content:
-    'Accurate',
+    'AI Sales Agent',
   items: [
     {
-      title: 'We provide sources for every information which is out there',
+      title: 'Generate Leads from your website, while you sleep',
       },
     {
-      title: 'Gives probabilty on answers to find the most accurate answer ',
+      title: 'Booking meetings, Qualify leads, follow up and increase your Revenue ',
     },
     {
-      title: 'ChatSite is future proof. Adding new integraitons and models',
+      title: 'Turn your website into a pipeline generation machine',
     },
   ],
   image: {
