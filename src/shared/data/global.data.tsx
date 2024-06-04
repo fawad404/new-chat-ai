@@ -192,7 +192,7 @@ export const footerData: FooterProps = {
   columns: [
     {
       title: 'Contact',
-      texts: ['founders@chatsite.biz'],
+      texts: ['founders@chatsitepro.com'],
     },
   ],
   socials: [

@@ -550,7 +550,7 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What People Say About Chatsite.biz',
+    title: 'What People Say About ChatSitePro',
     subtitle:
       'Listen to our power customers reaching goals.',
   },
@@ -638,7 +638,7 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'How can we contact you ? ',
-      description: `You can contact us at support@chatsite.biz or through social media handles `,
+      description: `You can contact us at support@chatsitepro.com or through social media handles `,
     },
   ],
 };

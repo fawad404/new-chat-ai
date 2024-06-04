@@ -79,4 +79,4 @@ We reserve the right to modify or replace these Terms at any time. By continuing
 
 If you have any questions about these Terms and Conditions, you can contact us:
 
-- By email: [support@chatsite.biz](mailto:support@chatsite.biz)
+- By email: [support@chatsitepro.com](mailto:support@chatsitepro.com)

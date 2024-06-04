@@ -8,7 +8,7 @@
 
 ## Contact Information
 
-**Email:** [support@chatsite.biz](mailto:support@chatsite.biz)  
+**Email:** [support@chatsitepro.com](mailto:support@chatsitepro.com)  
 
 ## Legal Representation
 
@@ -34,6 +34,6 @@ Our website contains links to the websites of third parties (â€œexternal linksâ€
 
 ### Contact Us
 
-For any inquiries or concerns, please contact us at [support@chatsite.biz](mailto:support@chatsite.biz).
+For any inquiries or concerns, please contact us at [support@chatsitepro.com](mailto:support@chatsitepro.com).
 
 ---

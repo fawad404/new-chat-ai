@@ -35,7 +35,7 @@ export const contact2Contact: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +4917623607530', 'Mail: support@chatsite.biz'],
+      description: ['Mobile: +4917623607530', 'Mail: support@chatsitepro.com'],
       icon: IconPhoneCall,
     },
     {
