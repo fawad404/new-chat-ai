@@ -3,7 +3,7 @@ publishDate: 'May 29 2024'
 title: 'AI Chat Support Software is Transforming Customer Engagement'
 description: ''
 excerpt: ''
-image: '/what_is_chatsite.png'
+image: '/images.png'
 tags: [markdown, blog]
 ---
 
