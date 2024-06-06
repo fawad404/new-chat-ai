@@ -43,7 +43,7 @@ export default function RootLayout({ children }: LayoutProps) {
         /> */}
         {/* <script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="661e48c07abb6768aec10b14"></script> */}
       
-        <script id="__chatsiteSdk__" async src="https://widgets.chatsitepro.com/chat-widget.js" data-chatbot-id="664b10aedd9140af0b023ddd"></script>
+        <script id="__chatsiteSdk__" async src="https://widgets.chatsitepro.com/chat-widget.js" data-chatbot-id="6661b8afa45e7f2f2ce520b9"></script>
       </body>
     </html>
   );
