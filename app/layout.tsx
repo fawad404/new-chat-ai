@@ -35,15 +35,9 @@ export default function RootLayout({ children }: LayoutProps) {
           <main>{children}</main>
           <Footer />
         </Providers>
-        {/* <Script
-          id="__chatsiteSdk__"
-          strategy="lazyOnload"
-          src="https://widgets.chatsite.biz/chat-widget.js"
-          data-chatbot-id="6638c0b21851b9e60e727176"
-        /> */}
-        {/* <script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="661e48c07abb6768aec10b14"></script> */}
-      
-        <script id="__chatsiteSdk__" async src="https://widgets.chatsitepro.com/chat-widget.js" data-chatbot-id="6661b8afa45e7f2f2ce520b9"></script>
+
+        <script id="__chatsiteSdk__" async src="https://widgets.chatsitepro.com/chat-widget.js" data-chatbot-id="6673032ca45e7f2f2ce52158"></script>
+
       </body>
     </html>
   );
