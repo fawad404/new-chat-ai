@@ -71,7 +71,7 @@ export const heroHome: HeroProps = {
   ),
   callToAction: {
     text: 'Try ChatSite for Free',
-    href: 'https://app.chatsite.biz',
+    href: 'https://app.chatsitepro.com',
     icon: IconArrowBigRight,
     targetBlank: true,
   },
@@ -861,7 +861,7 @@ export const callToAction2Home: CallToActionProps = {
     {
       title: 'Try ChatSite for Free',
       description: 'Book a call and talk to us',
-      href: 'https://app.chatsite.biz',
+      href: 'https://app.chatsitepro.com',
       icon: IconArrowBigRight,
     },
   ],
@@ -875,7 +875,7 @@ export const callToAction3Home: CallToActionProps = {
     'Chatsite will help you build a custom AI chatbot, embed it on your website and let it handle customer support, lead generation, user engagement, and lot more.',
   callToAction: {
     text: 'Try ChatSite for Free',
-    href: 'https://app.chatsite.biz',
+    href: 'https://app.chatsitepro.com',
     targetBlank: true,
   },
 };
