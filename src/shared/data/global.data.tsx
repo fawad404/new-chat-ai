@@ -35,7 +35,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Try for free',
-      href: 'https://app.chatsite.biz',
+      href: 'https://app.chatsitepro.com',
       targetBlank: true,
     },
   ],
