@@ -5,7 +5,7 @@ import WidgetWrapper from '../common/WidgetWrapper';
 import ItemGrid from '../common/ItemGrid';
 import { IconCheck } from '@tabler/icons-react';
 
-const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) => (
+const Pricing = ({ header, prices, id, hasBackground = true }: PricingProps) => (
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
     {header && <Headline header={header} containerClass="max-w-5xl" titleClass="text-2xl sm:text-3xl" />}
     <div className="flex items-stretch justify-center">
