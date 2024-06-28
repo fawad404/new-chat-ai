@@ -6,7 +6,6 @@ excerpt: 'The 5 Best AI Chatbot Builders'
 image: '/1.png'
 tags: [markdown, blog]
 ---
-```markdown
 # The 5 Best AI Chatbot Builders
 **Maxwell Timothy**
 
@@ -178,4 +177,3 @@ Here's why we highly recommend Chatsite:
 - **Privacy First**: Chatsite prioritizes data security. Built-in GDPR compliance gives you peace of mind, knowing your customer information is always protected.
 
 Focus on building exceptional AI chatbots to solve problems for your customers. Sign up for a free Chatsite account right now.
-```
