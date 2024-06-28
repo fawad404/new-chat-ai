@@ -29,7 +29,7 @@ export default function RootLayout({ children }: LayoutProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="9R74iVP1lIOhW2T4PMG38s7oLM7trFsesu-Ic4XZpgI" />
       </head>
-      <body className="tracking-tight antialiased bg-white text-black">
+      <body className="tracking-tight antialiased bg-custom-white text-black">
         <Providers>
           <Header />
           <main>{children}</main>

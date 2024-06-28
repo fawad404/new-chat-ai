@@ -41,7 +41,7 @@ const Page = () => {
       {/* <Team2 {...teamAbout} /> */}
       <Testimonials2 {...testimonials2About} />
       {/* <FAQs {...faqsAbout} /> */}
-      <Contact2 {...contactAbout} />
+      {/* <Contact2 {...contactAbout} /> */}
       
     </>
   );

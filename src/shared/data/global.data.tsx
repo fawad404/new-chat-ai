@@ -24,10 +24,6 @@ export const headerData: HeaderProps = {
       href: '/selfhost',
     },
     {
-      label: 'Contact us',
-      href: '/contact',
-    },
-    {
       label: 'Blog',
       href: '/blog',
     },

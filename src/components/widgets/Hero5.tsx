@@ -26,6 +26,7 @@ const Hero5 = ({ title, subtitle, tagline, callToAction, callToAction2, image }:
               </div>
             </div>
           </div>
+          
           <div className="block flex-1 items-center md:flex">
             <div className="relative m-auto h-full w-full max-w-4xl">
               {image && (
