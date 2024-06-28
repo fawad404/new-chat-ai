@@ -36,7 +36,6 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
                 height={607}
                 sizes="(max-width: 64rem) 100vw, 1024px"
                 loading="eager"
-                placeholder="blur"
                 priority
               />
             </div>

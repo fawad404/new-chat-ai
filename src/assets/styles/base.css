@@ -30,6 +30,12 @@
   .bg-custom-blue {
     background-color: #165FF2;
   }
+
+  .bg-custom-white {
+    background-color: #ffffff;
+  }
+
+
 }
 
 .aspect-ratio-4-3 {

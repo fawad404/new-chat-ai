@@ -26,21 +26,23 @@ const Hero5 = ({ title, subtitle, tagline, callToAction, callToAction2, image }:
               </div>
             </div>
           </div>
-          {image && (
-            <div className="relative m-auto max-w-5xl">
-              <Image
-                className="mx-auto h-auto w-full rounded-md"
-                src={image.src}
-                alt={image.alt}
-                width={1024}
-                height={607}
-                sizes="(max-width: 64rem) 100vw, 1024px"
-                loading="eager"
-                placeholder="blur"
-                priority
-              />
+          <div className="block flex-1 items-center md:flex">
+            <div className="relative m-auto h-full w-full max-w-4xl">
+              {image && (
+                <Image
+                  className="mx-auto h-auto w-full rounded-md object-cover drop-shadow-xl"
+                  src={image.src}
+                  alt={image.alt}
+                  width={540}
+                  height={405}
+                  sizes="(min-width: 1920px) 749px, (min-width: 1540px) 43.89vw, (min-width: 1360px) 542px, (min-width: 780px) calc(39.29vw + 16px), calc(96.52vw - 22px)"
+                  loading="eager"
+                  priority
+                />
+              )}
             </div>
-          )}
+          </div> 
+
         </div>
       </div>
     </section>

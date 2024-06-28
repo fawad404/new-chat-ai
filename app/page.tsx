@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 
 import { SITE } from '~/config.js';
 
+import Hero3 from '~/components/widgets/Hero3';
+import Hero4 from '~/components/widgets/Hero4';
+import Hero5 from '~/components/widgets/Hero5';
 import Hero2 from '~/components/widgets/Hero2';
 import Hero1 from '~/components/widgets/Hero';
 import Hero6 from '~/components/widgets/Hero6';
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <Hero2 {...heroHome} />
+      <Hero3 {...heroHome} />
       <SocialProof {...socialProofHome} />
       {/* <Stats {...statsAbout} /> */}
       <Hero6 {...heroHomeTwo} />

@@ -49,7 +49,7 @@ const Header = () => {
 
   return (
     <header
-      className={`top-0 z-40 mx-auto w-full flex-none bg-[#EEF6FF] transition-all duration-100 ease-in md:bg-[#EEF6FF]/90 md:backdrop-blur-sm ${
+      className={`top-0 z-40 mx-auto w-full flex-none bg-custom-white transition-all duration-100 ease-in md:bg-custom-white/90 md:backdrop-blur-sm ${
         isSticky ? 'sticky' : 'relative'
       }`}
       id="header"
