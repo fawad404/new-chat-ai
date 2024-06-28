@@ -140,7 +140,7 @@ export const pricingPricing: PricingProps = {
       ],
       callToAction: {
         targetBlank: true,
-        text: 'Contact Founders',
+        text: 'Contact Us',
         href: 'mailto:founders@chatsitepro.com',
       },
       hasRibbon: false,
