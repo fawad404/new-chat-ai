@@ -43,7 +43,7 @@ export default function Page() {
       <Hero3 {...heroHome} />
       <SocialProof {...socialProofHome} />
       {/* <Stats {...statsAbout} /> */}
-      <Hero6 {...heroHomeTwo} />
+      {/* <Hero6 {...heroHomeTwo} /> */}
       <Features {...featuresHomeTwo} />
       <Features {...featuresHomeThree} />
       <Content {...contentHomeOne} />

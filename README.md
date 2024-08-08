@@ -1,6 +1,6 @@
-# ChatSite Enterprise LLM on your private data
+# Call Support Enterprise LLM on your private data
 
-**ChatSite Enterprise LLM** is Support GPT for your Websites
+**Call Support Enterprise LLM** is Support GPT for your Websites
 
 ## Features
 
@@ -14,7 +14,7 @@
 
 ## Getting started
 
-- Clone: `git clone https://github.com/asfandyar-malik/chatsite-landing`
+- Clone: `git clone https://github.com/asfandyar-malik/call-support-landing`
 - Enter in the directory: `cd tailnext`
 - Install dependencies: `npm install`
 - Start the development server: `npm run dev`

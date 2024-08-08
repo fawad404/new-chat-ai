@@ -41,8 +41,7 @@ import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
-import chatSiteApp from '~/assets/images/chatsite-chat.png';
-import chatSiteSVG from 'public/chatsite-chat.svg'
+import callSupportSVG from 'public/call-support.svg'
 import integrationSVG from 'public/integrations.svg'
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
 import trustedImage from '~/assets/images/trusted.png';
@@ -81,7 +80,7 @@ export const heroHome: HeroProps = {
     targetBlank: true,
   },
   image: {
-    src: chatSiteSVG,
+    src: callSupportSVG,
     alt: 'Hero CallSupport',
   },
   validationImages: [
