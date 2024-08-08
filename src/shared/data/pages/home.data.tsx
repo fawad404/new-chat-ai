@@ -58,7 +58,7 @@ import csaLogo from '~/assets/images/csa-logo.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Reduce customer support by 90% with AI chatbots
+      The agent who always picks up the phone.
     </>
   ),
   subtitle: (
