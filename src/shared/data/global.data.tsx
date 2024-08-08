@@ -20,10 +20,6 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'We host on your server',
-      href: '/selfhost',
-    },
-    {
       label: 'Blog',
       href: '/blog',
     },
@@ -35,7 +31,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Try for free',
-      href: 'https://app.chatsitepro.com',
+      href: 'https://app.callsupport.ai',
       targetBlank: true,
     },
   ],
@@ -188,11 +184,11 @@ export const footerData: FooterProps = {
   columns: [
     {
       title: 'Contact',
-      texts: ['founders@chatsitepro.com'],
+      texts: ['founders@callsupport.ai'],
     },
   ],
   socials: [
-    { label: 'Linkedin', icon: IconBrandLinkedin, href: 'https://www.linkedin.com/company/93384292' },
+    { label: 'Linkedin', icon: IconBrandLinkedin, href: 'https://www.linkedin.com/company/103872017' },
   ],
   footNote: (
     <div className="mr-4 text-sm">

@@ -33,7 +33,7 @@ export const heroServices: HeroProps = {
   },
   image: {
     src: heroImg,
-    alt: 'Hero ChatSite',
+    alt: 'Hero CallSupport',
   },
 };
 
@@ -156,7 +156,7 @@ export const features4Services: FeaturesProps = {
   isImageDisplayed: true,
   image: {
     src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-    alt: 'Hero ChatSite',
+    alt: 'Hero CallSupport',
   },
   items: [
     {
@@ -207,7 +207,7 @@ export const testimonialsServices: TestimonialsProps = {
     {
       name: 'Silver Jordan',
       job: 'Senior Marketer',
-      testimonial: `I had never found it so easy to customize a website. ChatSite's templates are incredibly flexible, and with Tailwind CSS, I've managed to give my website the look and feel I always wanted. Highly recommended!`,
+      testimonial: `I had never found it so easy to customize a website. CallSupport's templates are incredibly flexible, and with Tailwind CSS, I've managed to give my website the look and feel I always wanted. Highly recommended!`,
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Silver Jordan',
@@ -227,7 +227,7 @@ export const testimonialsServices: TestimonialsProps = {
     {
       name: 'Lisa Gordon',
       job: 'Project Manager',
-      testimonial: `Their templates are not only stunning but also user-friendly. The support I received from their community has been exceptional. I'm proud to say that I've built my dream website with ChatSite.`,
+      testimonial: `Their templates are not only stunning but also user-friendly. The support I received from their community has been exceptional. I'm proud to say that I've built my dream website with CallSupport.`,
       image: {
         src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Lisa Gordon',

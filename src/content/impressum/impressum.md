@@ -1,4 +1,4 @@
-# Impressum for ChatSite
+# Impressum for CallSupport
 
 ## Company Information
 
@@ -8,7 +8,7 @@
 
 ## Contact Information
 
-**Email:** [support@chatsitepro.com](mailto:support@chatsitepro.com)  
+**Email:** [support@callsupport.ai](mailto:support@callsupport.ai)  
 
 ## Legal Representation
 
@@ -34,6 +34,6 @@ Our website contains links to the websites of third parties (â€œexternal linksâ€
 
 ### Contact Us
 
-For any inquiries or concerns, please contact us at [support@chatsitepro.com](mailto:support@chatsitepro.com).
+For any inquiries or concerns, please contact us at [support@callsupport.ai](mailto:support@callsupport.ai).
 
 ---

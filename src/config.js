@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'ChatSite',
+  name: 'Call Support',
 
   origin: 'https://tailnext.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'ChatSite',
+  title: 'Call Support',
   description: 'Private and Secure Support Bot for your Business',
 };

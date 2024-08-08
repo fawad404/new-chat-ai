@@ -26,24 +26,24 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                 <div className="flex flex-wrap justify-center gap-4 md:justify-start">
                   <div className="flex items-center gap-2">
                     <IconUserPlus className="text-primary-600 h-6 w-6" />
-                    <span>Personalized onboarding help</span>
+                    <span>Always picks up the phone immediately </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <IconCheck className="text-primary-600 h-6 w-6" />
-                    <span>Friendly pricing as you scale</span>
+                    <span>Uninterrupted 24/7 availability </span>
                   </div>
                   <div className="w-full"></div>
                   <div className="flex items-center gap-2">
                     <IconLanguage className="text-primary-600 h-6 w-6" />
-                    <span>90+ languages supported</span>
+                    <span>Handles 1000s of calls simultaneously </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <IconClock className="text-primary-600 h-6 w-6" />
-                    <span>14-day free trial</span>
+                    <span> Answers all customer questions </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <IconCalendarOff className="text-primary-600 h-6 w-6" />
-                    <span>Cancel anytime</span>
+                    <span> Real-time order status updates </span>
                   </div>
                 </div>
                 <br></br>
@@ -96,7 +96,7 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
       </div>
 
       <div className="mx-auto text-center">
-        <p className="text-xl font-normal"> Used by <b>236 companies </b> and <b> 210,300 chat messages</b> served </p>
+        <p className="text-xl font-normal"> Used by <b>236 companies </b> and <b> 210,300 calls </b> answered </p>
         <br></br>
         <p className="text-xl font-normal"><b> 🇪🇺 Compliant with EU AI regulation </b></p>
         <br></br>

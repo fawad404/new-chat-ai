@@ -6,7 +6,7 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'ChatSite Enterprise',
+    brandTitle: 'Call Support',
     brandUrl: 'https://github.com/asfandyar-malik',
     brandTarget: '_blank',
   }),

@@ -3,7 +3,7 @@ import { HeroProps } from '~/shared/types';
 
 // Hero data on Pricing page *******************
 export const heroPricing: HeroProps = {
-  title: 'Plans and Prices',
+  title: 'Pricing that scales with you.',
   subtitle: (
     <>
       <span className="hidden md:inline">
@@ -13,7 +13,7 @@ export const heroPricing: HeroProps = {
       You can choose the plan that best suits your goals!
     </>
   ),
-  tagline: 'Demo Pricing Page',
+  tagline: 'For small teams',
 };
 
 // Pricing data on Pricing page *******************
@@ -141,7 +141,7 @@ export const pricingPricing: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Contact Us',
-        href: 'mailto:founders@chatsitepro.com',
+        href: 'mailto:founders@callsupport.ai',
       },
       hasRibbon: false,
       ribbonTitle: 'Popular',

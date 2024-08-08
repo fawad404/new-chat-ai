@@ -48,6 +48,6 @@ This Privacy Policy may be updated to reflect changes in our practices or servic
 
 #### Contacting ChatSite
 
-For questions or concerns regarding this Privacy Policy, please contact us at support@chatsitepro.com We are dedicated to addressing your privacy and security concerns and ensuring the protection of your information.
+For questions or concerns regarding this Privacy Policy, please contact us at support@callsupport.ai We are dedicated to addressing your privacy and security concerns and ensuring the protection of your information.
 
 ---

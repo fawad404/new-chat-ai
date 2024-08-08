@@ -63,27 +63,26 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
-    Chatsite will help you build a custom AI chatbot, 
-    embed it on your website and let it handle customer support, lead generation, user engagement, and lot more.
+    Replace your customer service with an AI phone agent.
     <br></br>
     <br></br>
     </>
   ),
   callToAction: {
-    text: 'Try ChatSite for Free',
-    href: 'https://app.chatsitepro.com',
+    text: 'Get started   for Free',
+    href: 'https://app.callsupport.ai',
     icon: IconArrowBigRight,
     targetBlank: true,
   },
   callToAction2: {
-    text: 'Book a Demo',
+    text: 'Book a call',
     href: 'https://zcal.co/i/-ANG-GrB',
     icon: IconBulb,
     targetBlank: true,
   },
   image: {
     src: chatSiteSVG,
-    alt: 'Hero ChatSite',
+    alt: 'Hero CallSupport',
   },
   validationImages: [
     {
@@ -197,7 +196,7 @@ export const heroHomeTwo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
+      Empower your Business with CallSupport AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
@@ -215,7 +214,7 @@ export const heroHomeVideo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with ChatSite AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
+      Empower your Business with CallSupport AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
@@ -237,7 +236,7 @@ export const heroHomeThree: HeroProps = {
   ),
   image: {
     src: heroImgAI,
-    alt: 'Hero ChatSite',
+    alt: 'Hero CallSupport',
   },
 };
 
@@ -256,7 +255,7 @@ export const heroHomeFour: HeroProps = {
   ),
   image: {
     src: buildEveryday,
-    alt: 'Hero ChatSite',
+    alt: 'Hero CallSupport',
   },
 };
 
@@ -278,7 +277,7 @@ export const featuresHome: FeaturesProps = {
   isImageDisplayed: true,
   image: {
     src: heroImg,
-    alt: 'Hero ChatSite',
+    alt: 'Hero CallSupport',
   },
 };
 
@@ -550,7 +549,7 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What People Say About ChatSitePro',
+    title: 'What People Say About CallSupport',
     subtitle:
       'Listen to our power customers reaching goals.',
   },
@@ -558,7 +557,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Saad Saeed',
       job: 'CEO Layla',
-      testimonial: `After integrating ChatSite, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are now customers. `,
+      testimonial: `After integrating CallSupport, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are now customers. `,
       image: {
         src: saadPic,
         alt: 'Saad Saeed',
@@ -600,8 +599,8 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'What is ChatSite?',
-      description: `ChatSite is custom AI chatbot builder, it trains ChatGPT on your data, and lets you easily add a chat widget to your website. Upload your documents or link your content, and get a chatbot that can answer any question about content.
+      title: 'What is CallSupport?',
+      description: `CallSupport is custom AI chatbot builder, it trains ChatGPT on your data, and lets you easily add a chat widget to your website. Upload your documents or link your content, and get a chatbot that can answer any question about content.
       `,
     },
     {
@@ -610,15 +609,15 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'Is there a free plan?',
-      description: 'Yes by signing up for Chatsite, you automatically get a free plan. With the free plan, you will receive 15 message credits and 1 chatbot. It is a great way to test out Chatsite and see if it meets your needs',
+      description: 'Yes by signing up for CallSupport, you automatically get a free plan. With the free plan, you will receive 15 message credits and 1 chatbot. It is a great way to test out Chatsite and see if it meets your needs',
     },
     {
-      title: "Is ChatSite Secure? ",
-      description: 'ChatSite prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.',
+      title: "Is CallSupport Secure? ",
+      description: 'CallSupport prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.',
     },
     {
       title: "Does keep our data private?",
-      description: `ChatSite offers private LLM deployment options to keep data within your organization. It never leaves your servers, jurisdiction, country`,
+      description: `CallSupport offers private LLM deployment options to keep data within your organization. It never leaves your servers, jurisdiction, country`,
     },
     {
       title: 'Can I give my chatbot instructions?',
@@ -630,7 +629,7 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'Does it support other languages?',
-      description: `es, Chatsite supports about 95 languages. You can have your sources in any language and ask it questions in any language.`,
+      description: `es, CallSupport supports about 95 languages. You can have your sources in any language and ask it questions in any language.`,
     },
     {
       title: 'How can I add my chatbot to my website',
@@ -638,7 +637,7 @@ export const faqs2Home: FAQsProps = {
     },
     {
       title: 'How can we contact you ? ',
-      description: `You can contact us at support@chatsitepro.com or through social media handles `,
+      description: `You can contact us at support@callsupport.ai or through social media handles `,
     },
   ],
 };
@@ -859,9 +858,9 @@ export const callToAction2Home: CallToActionProps = {
     '',
   items: [
     {
-      title: 'Try ChatSite for Free',
+      title: 'Try Call Support for Free',
       description: 'Book a call and talk to us',
-      href: 'https://app.chatsitepro.com',
+      href: 'https://zcal.co/i/-ANG-GrB',
       icon: IconArrowBigRight,
     },
   ],
@@ -870,12 +869,12 @@ export const callToAction2Home: CallToActionProps = {
 export const callToAction3Home: CallToActionProps = {
   id: 'callToAction3-on-home',
   hasBackground: false,
-  title: 'Reduce customer support by 90% with AI chatbots',
+  title: 'The agent who always picks up the phone.',
   subtitle:
-    'Chatsite will help you build a custom AI chatbot, embed it on your website and let it handle customer support, lead generation, user engagement, and lot more.',
+    'Replace your customer service with an AI phone agent.',
   callToAction: {
-    text: 'Try ChatSite for Free',
-    href: 'https://app.chatsitepro.com',
+    text: 'Try Call Support for Free',
+    href: 'https://app.callsupport.ai',
     targetBlank: true,
   },
 };

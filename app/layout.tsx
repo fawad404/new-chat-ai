@@ -36,8 +36,6 @@ export default function RootLayout({ children }: LayoutProps) {
           <Footer />
         </Providers>
 
-        <script id="__chatsiteSdk__" async src="https://widgets.chatsitepro.com/chat-widget.js" data-chatbot-id="6673032ca45e7f2f2ce52158"></script>
-
       </body>
     </html>
   );
