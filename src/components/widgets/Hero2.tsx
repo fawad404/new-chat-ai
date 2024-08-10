@@ -27,16 +27,16 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                 <div className="flex flex-wrap justify-center gap-4 md:justify-start">
                   <div className="flex items-center gap-2">
                     <IconUserPlus className="text-primary-600 h-6 w-6" />
-                    <span>Always picks up the phone immediately</span>
+                    <span>Do market research</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <IconCheck className="text-primary-600 h-6 w-6" />
-                    <span>Uninterrupted 24/7 availability </span>
+                    <span>Get viral content </span>
                   </div>
                   <div className="w-full"></div>
                   <div className="flex items-center gap-2">
                     <IconLanguage className="text-primary-600 h-6 w-6" />
-                    <span> Handles 1000s of calls simultaneouslys </span>
+                    <span> Get customer feedback </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <IconClock className="text-primary-600 h-6 w-6" />

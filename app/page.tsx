@@ -45,11 +45,11 @@ export default function Page() {
       {/* <Stats {...statsAbout} /> */}
       {/* <Hero6 {...heroHomeTwo} /> */}
       <Features {...featuresHomeTwo} />
-      <Features {...featuresHomeThree} />
-      <Content {...contentHomeOne} />
-      <Content {...contentHomeThree} /> 
+      {/* <Features {...featuresHomeThree} /> */}
+      {/* <Content {...contentHomeOne} /> */}
+      {/* <Content {...contentHomeThree} />  */}
       <Testimonials {...testimonialsHome} />
-      <Hero1 {...integrationHome} />
+      {/* <Hero1 {...integrationHome} /> */}
       <FAQs2 {...faqs2Home} />
       <CallToAction {...callToAction3Home} />
 

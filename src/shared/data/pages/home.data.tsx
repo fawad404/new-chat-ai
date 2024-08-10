@@ -41,7 +41,7 @@ import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
-import callSupportSVG from 'public/call-support.svg'
+import callSupportSVG from 'public/image1.png'
 import integrationSVG from 'public/integrations.svg'
 import dataProfessionalsImage from '~/assets/images/data-professionals.png';
 import trustedImage from '~/assets/images/trusted.png';
@@ -57,26 +57,26 @@ import csaLogo from '~/assets/images/csa-logo.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      The agent who always picks up the phone.
+      Get Street Interviews for YOUR Product
     </>
   ),
   subtitle: (
     <>
-    Replace your customer service with an AI phone agent.
+    do market research, get content ideas, get customer feedback
     <br></br>
     <br></br>
     </>
   ),
   callToAction: {
-    text: 'Get started   for Free',
-    href: 'https://app.callsupport.ai',
+    text: 'Get started for Free',
+    href: '/',
     icon: IconArrowBigRight,
     targetBlank: true,
   },
   callToAction2: {
     text: 'Book a call',
-    href: 'https://zcal.co/i/-ANG-GrB',
-    icon: IconBulb,
+    href: '/',
+    icon: IconArrowBigRight,
     targetBlank: true,
   },
   image: {
@@ -857,9 +857,9 @@ export const callToAction2Home: CallToActionProps = {
     '',
   items: [
     {
-      title: 'Try Call Support for Free',
+      title: 'Buy   ',
       description: 'Book a call and talk to us',
-      href: 'https://zcal.co/i/-ANG-GrB',
+      href: 'https://zcal.co/i/d4kbkj53',
       icon: IconArrowBigRight,
     },
   ],
@@ -868,11 +868,11 @@ export const callToAction2Home: CallToActionProps = {
 export const callToAction3Home: CallToActionProps = {
   id: 'callToAction3-on-home',
   hasBackground: false,
-  title: 'The agent who always picks up the phone.',
+  title: 'We interview on the streets for your products',
   subtitle:
-    'Replace your customer service with an AI phone agent.',
+    'From customer feebdack to product feedback, we interview on the streets for your products.',
   callToAction: {
-    text: 'Try Call Support for Free',
+    text: 'Buy Package Right now',
     href: 'https://app.callsupport.ai',
     targetBlank: true,
   },
