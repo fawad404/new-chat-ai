@@ -85,3 +85,7 @@
   opacity: 0;
   pointer-events: none; /* Ensure hidden elements don't interfere */
 }
+
+body {
+  zoom: 70%; /* This also zooms in the page */
+}

@@ -19,10 +19,10 @@ export const announcementData: AnnouncementProps = {
 // Header data
 export const headerData: HeaderProps = {
   links: [
-    {
-      label: 'Blog',
-      href: '/blog',
-    },
+    // {
+    //   label: 'Blog',
+    //   href: '/blog',
+    // },
     {
       label: 'Pricing',
       href: '/pricing',
@@ -31,7 +31,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Try for free',
-      href: 'https://app.callsupport.ai',
+      href: '#',
       targetBlank: true,
     },
   ],
@@ -184,7 +184,7 @@ export const footerData: FooterProps = {
   columns: [
     {
       title: 'Contact',
-      texts: ['founders@callsupport.ai'],
+      texts: ['founders@street-interview.biz'],
     },
   ],
   socials: [

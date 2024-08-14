@@ -1,4 +1,4 @@
-# Impressum for CallSupport
+# Impressum for StreetInterview
 
 ## Company Information
 
@@ -8,7 +8,7 @@
 
 ## Contact Information
 
-**Email:** [support@callsupport.ai](mailto:support@callsupport.ai)  
+**Email:** [team@street-.ai](mailto:support@street-interview.biz)  
 
 ## Legal Representation
 
@@ -34,6 +34,6 @@ Our website contains links to the websites of third parties (â€œexternal linksâ€
 
 ### Contact Us
 
-For any inquiries or concerns, please contact us at [support@callsupport.ai](mailto:support@callsupport.ai).
+For any inquiries or concerns, please contact us at [support@street-interview.biz](mailto:support@street-interview.biz).
 
 ---

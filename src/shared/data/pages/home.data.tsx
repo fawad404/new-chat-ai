@@ -81,7 +81,7 @@ export const heroHome: HeroProps = {
   },
   image: {
     src: callSupportSVG,
-    alt: 'Hero CallSupport',
+    alt: 'Hero StreetInterview',
   },
   validationImages: [
     {
@@ -195,7 +195,7 @@ export const heroHomeTwo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with CallSupport AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
+      Empower your Business with StreetInterview AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
@@ -213,7 +213,7 @@ export const heroHomeVideo: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with CallSupport AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
+      Empower your Business with StreetInterview AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
       </span>{' '}
     </>
   ),
@@ -235,7 +235,7 @@ export const heroHomeThree: HeroProps = {
   ),
   image: {
     src: heroImgAI,
-    alt: 'Hero CallSupport',
+    alt: 'Hero StreetInterview',
   },
 };
 
@@ -254,7 +254,7 @@ export const heroHomeFour: HeroProps = {
   ),
   image: {
     src: buildEveryday,
-    alt: 'Hero CallSupport',
+    alt: 'Hero StreetInterview',
   },
 };
 
@@ -276,7 +276,7 @@ export const featuresHome: FeaturesProps = {
   isImageDisplayed: true,
   image: {
     src: heroImg,
-    alt: 'Hero CallSupport',
+    alt: 'Hero StreetInterview',
   },
 };
 
@@ -291,7 +291,7 @@ export const featuresHomeTwo: FeaturesProps = {
   header: {
     title: (
       <>
-        Empower Your Business with AI 
+        Get Viral Marketing for your Business
       </>
     ),
     subtitle:
@@ -299,39 +299,21 @@ export const featuresHomeTwo: FeaturesProps = {
   },
   items: [
     {
-      title: '24/7 Instant Support',
+      title: 'Best in case market research',
       description:
-        'Provide quality customer support around the clock with immediate responses.',
+        'Understand your customers, like never before and get customer feedback. ',
       icon: IconBrandTailwind,
     },
     {
-      title: '90% Support Queries Automated',
+      title: 'Get excellent Content for your social media',
       description:
-        'Automate up to 90% of support queries, freeing up valuable time for your team.',
+        'We film the content with our host and edit it and send it to you',
       icon: IconComponents,
     },
     {
-      title: '200% Productivity Boost',
+      title: 'Make your brand stand out',
       description:
-        ' Increase your support teams productivity by 200% with advanced GPT automation tools.',
-      icon: IconListCheck,
-    },
-    {
-      title: 'Set up with 45 seconds',
-      description:
-        'Train your AI chatbot in seconds, adapting quickly to any data format for a tailored user experience.',
-      icon: IconBrandTailwind,
-    },
-    {
-      title: 'Host on your Servers',
-      description:
-        'Dont let others steal your data. Comply with all regulations by hosting it yourself and the Best part, we do it for you.',
-      icon: IconComponents,
-    },
-    {
-      title: '50% more Leads',
-      description:
-        ' Improve lead generation and convert up to 50% more prospects into customers.',
+        'Everybody and their mom is doing basic videos. Set yourself apart with cool street interviews',
       icon: IconListCheck,
     },
   ],
@@ -548,7 +530,7 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What People Say About CallSupport',
+    title: 'What People Say About StreetInterview',
     subtitle:
       'Listen to our power customers reaching goals.',
   },
@@ -556,7 +538,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Saad Saeed',
       job: 'CEO Layla',
-      testimonial: `After integrating CallSupport, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are now customers. `,
+      testimonial: `After integrating StreetInterview, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are now customers. `,
       image: {
         src: saadPic,
         alt: 'Saad Saeed',
@@ -598,45 +580,9 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'What is CallSupport?',
-      description: `CallSupport is custom AI chatbot builder, it trains ChatGPT on your data, and lets you easily add a chat widget to your website. Upload your documents or link your content, and get a chatbot that can answer any question about content.
+      title: 'Does this include editing, filming and also host?',
+      description: `Yes exactly! You just have to tell us what kind of questions you want answered, and thats it. You get the edited videos in 4k
       `,
-    },
-    {
-      title: 'What should my data look like?',
-      description: `Right now, you can upload one or multiple files (.pdf, .txt, .csv, .docx), paste text, or add a link to your website to be scraped.`,
-    },
-    {
-      title: 'Is there a free plan?',
-      description: 'Yes by signing up for CallSupport, you automatically get a free plan. With the free plan, you will receive 15 message credits and 1 chatbot. It is a great way to test out Chatsite and see if it meets your needs',
-    },
-    {
-      title: "Is CallSupport Secure? ",
-      description: 'CallSupport prioritizes data security and privacy, adhering to authentication, authorization, and data governance standards. It redacts sensitive information before using Public LLMs and offers private LLM deployment options to keep data within your organization. We are in process of complying with SOC 2 Type I & II, HIPAA, GDPR, ISO 27001:2022 standards. Read our trust report for details.',
-    },
-    {
-      title: "Does keep our data private?",
-      description: `CallSupport offers private LLM deployment options to keep data within your organization. It never leaves your servers, jurisdiction, country`,
-    },
-    {
-      title: 'Can I give my chatbot instructions?',
-      description: `Yes, you can customize the base prompt in settings, assign a unique name to chatbot, define its personality traits, and set instructions for answering questions ex. (only answer in German).`,
-    },
-    {
-      title: 'Does it use GPT-3.5 or GPT-4',
-      description: `By default your chatbot uses gpt-3.5-turbo (but you have the option to use gpt-4 on the Popular and Unlimited plans`,
-    },
-    {
-      title: 'Does it support other languages?',
-      description: `es, CallSupport supports about 95 languages. You can have your sources in any language and ask it questions in any language.`,
-    },
-    {
-      title: 'How can I add my chatbot to my website',
-      description: `You can embed an iframe or add a chat bubble to the bottom right of your website. To do that, create a chatbot and click "Embed on website". You can also use the API to communicate with your chatbot anywhere`,
-    },
-    {
-      title: 'How can we contact you ? ',
-      description: `You can contact us at support@callsupport.ai or through social media handles `,
     },
   ],
 };
@@ -873,7 +819,7 @@ export const callToAction3Home: CallToActionProps = {
     'From customer feebdack to product feedback, we interview on the streets for your products.',
   callToAction: {
     text: 'Buy Package Right now',
-    href: 'https://app.callsupport.ai',
+    href: '#',
     targetBlank: true,
   },
 };

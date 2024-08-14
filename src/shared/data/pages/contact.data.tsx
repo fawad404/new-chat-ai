@@ -35,7 +35,7 @@ export const contact2Contact: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +4917623607530', 'Mail: support@callsupport.ai'],
+      description: ['Mobile: +4917623607530', 'Mail: founder@street-interview.biz'],
       icon: IconPhoneCall,
     },
     {

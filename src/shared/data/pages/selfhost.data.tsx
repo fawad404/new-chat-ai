@@ -51,7 +51,7 @@ export const hero2About: HeroProps = {
   },
   image: {
     src: hero2Img,
-    alt: 'Hero CallSupport',
+    alt: 'Hero StreetInterview',
   },
 };
 
@@ -132,7 +132,7 @@ export const stepsAbout: StepsProps = {
   hasBackground: true,
   isImageDisplayed: false,
   header: {
-    title: 'History of CallSupport',
+    title: 'History of StreetInterview',
     subtitle:
       'Duis sit amet magna et sapien cursus fermentum. Curabitur ac mauris non magna condimentum scelerisque. Aliquam nunc ipsum, semper ac scelerisque sit amet, pulvinar vitae libero.',
     tagline: 'Company History',
@@ -476,7 +476,7 @@ export const testimonials2About: TestimonialsProps = {
     {
       name: 'Saad Saeed',
       job: 'CEO Layla',
-      testimonial: `After integrating CallSupport, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are ...`,
+      testimonial: `After integrating StreetInterview, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are ...`,
       image: {
         src: saadPic,
         alt: 'Saad Saeed',
@@ -562,7 +562,7 @@ export const contactAbout: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +4917623607530', 'Mail: support@callsupport.ai'],
+      description: ['Mobile: +4917623607530', 'Mail: support@street-interview.biz'],
       icon: IconPhoneCall,
     },
     {

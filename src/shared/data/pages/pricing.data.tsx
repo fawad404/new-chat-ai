@@ -141,7 +141,7 @@ export const pricingPricing: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Contact Us',
-        href: 'mailto:founders@callsupport.ai',
+        href: 'mailto:founders@street-interview.biz',
       },
       hasRibbon: false,
       ribbonTitle: 'Popular',

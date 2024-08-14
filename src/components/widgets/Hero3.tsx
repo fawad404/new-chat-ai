@@ -95,12 +95,12 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
         </div>
       </div>
 
-      <div className="mx-auto text-center">
+      {/* <div className="mx-auto text-center">
         <p className="text-xl font-normal"> Used by <b>236 companies </b> and <b> 210,300 calls </b> answered </p>
         <br></br>
         <p className="text-xl font-normal"><b> 🇪🇺 Compliant with EU AI regulation </b></p>
         <br></br>
-      </div>    
+      </div>     */}
 
     </section>
   );
