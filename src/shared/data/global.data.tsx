@@ -23,10 +23,10 @@ export const headerData: HeaderProps = {
     //   label: 'Blog',
     //   href: '/blog',
     // },
-    {
-      label: 'Pricing',
-      href: '/pricing',
-    },
+    // {
+    //   label: 'Pricing',
+    //   href: '/pricing',
+    // },
   ],
   actions: [
     {
