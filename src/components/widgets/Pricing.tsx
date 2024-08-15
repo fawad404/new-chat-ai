@@ -9,12 +9,12 @@ const Pricing = ({ header, prices, id, hasBackground = true }: PricingProps) => 
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
     {header && <Headline header={header} containerClass="max-w-5xl" titleClass="text-2xl sm:text-3xl" />}
     <div className="flex items-stretch justify-center">
-      <div className="grid grid-cols-3 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
         {prices &&
           prices.map(
             ({ title, subtitle, price, period, items, callToAction, hasRibbon = false, ribbonTitle }, index) => (
               <div
-                className="col-span-3 mx-auto flex w-full sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1"
+                className="col-span-1 mx-auto flex w-full"
                 key={`pricing-${index}`}
               >
                 {price !== undefined && period && (
@@ -37,7 +37,7 @@ const Pricing = ({ header, prices, id, hasBackground = true }: PricingProps) => 
                       )}
                       <div className="my-8">
                         <div className="flex items-center justify-center text-center mb-1">
-                          <span className="text-5xl">$</span>
+                          <span className="text-5xl">€</span>
                           <span className="text-6xl font-extrabold">{price}</span>
                         </div>
                         <span className="text-base leading-6 lowercase text-gray-600">

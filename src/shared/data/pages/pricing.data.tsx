@@ -21,127 +21,91 @@ export const pricingPricing: PricingProps = {
   id: 'pricing-on-pricing',
   hasBackground: true,
   header: {
-    title: 'Pays for itself in saved time and increased Efficiency',
+    title: 'Go Viral with Street Interviews. ',
     subtitle: (
       <>
-        Whether you&apos;re just getting started or are a large enterprise, we have a plan for you.{' '}
+        Cancel anytime and pricing which scales with you.{' '}
       </>
     ),
   },
   prices: [
     {
-      title: 'Free',
+      title: 'Start',
       subtitle: 'For small teams',
-      price: 0,
-      period: 'per user per month',
+      price: '5k',
+      period: 'per month',
       items: [
         {
-          description: '20 message credits',
+          description: '20 Video Interviews (30-60 seconds)',
         },
         {
-          description: '1 Chatbot',
+          description: 'Properly Edited',
         },
         {
-          description: '400,000 characters/chatbot',
+          description: 'Select your own Questions',
         },
         {
-          description: 'Embed on unlimited websites',
-        },
-        {
-          description: 'Upload multiple files',
-        },
-        {
-          description: 'Capture Leads',
-        },
-        {
-          description: 'View Chat History',
+          description: 'Select your own Target Audience',
         },
       ],
       callToAction: {
         targetBlank: true,
         text: 'Contact us',
-        href: '/',
+        href: '/contact',
       },
       hasRibbon: false,
       ribbonTitle: 'Popular',
     },
     {
-      title: 'Hobby',
+      title: 'Medium',
       subtitle: 'Everything in Free, plus...',
-      price: 15,
-      period: 'per user per month',
+      price: '10k',
+      period: 'per month',
       items: [
         {
-          description: '2,000 message credits/month',
+          description: '40 Video Interviews (30-60 seconds)',
         },
         {
-          description: '2 chatbots',
+          description: 'Edited for you',
         },
         {
-          description: '10,000,000 characters/chatbot',
+          description: 'Select your own Questions',
         },
         {
-          description: 'Unlimited links to train on',
-        },
-        {
-          description: 'API Access',
+          description: 'Select your own Target Audience',
         },
       ],
       callToAction: {
         targetBlank: true,
         text: 'Contact us',
-        href: '/',
-      },
-      hasRibbon: false,
-      ribbonTitle: 'Popular',
-    },
-    {
-      title: 'Standard',
-      subtitle: 'Everything in Hobby, plus...',
-      price: 69,
-      period: 'per user per month',
-      items: [
-        {
-          description: '10,000 message credits/month',
-        },
-        {
-          description: '5 chatbots',
-        },
-        {
-          description: 'Option to choose GPT-4 and GPT-4-Turbo',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Contact us',
-        href: '/',
+        href: '/contact',
       },
       hasRibbon: true,
       ribbonTitle: 'Popular',
     },
     {
-      title: 'Enterprise',
-      subtitle: 'Starts at',
-      price: 399,
+      title: 'Standard',
+      subtitle: 'Everything in Hobby, plus...',
+      price: '20k',
       period: 'per month',
       items: [
         {
-          description: '40,000 message credits/month included (Messages over the limit will use your OpenAI API Key)',
+          description: '100 Videos per month',
         },
         {
-          description: '10 chatbots',
+          description: 'Edited for you',
         },
         {
-          description: 'Use your own custom domains',
+          description: 'Select your own Questions',
         },
         {
-          description: '24/7 customer support',
+          description: 'Select your target Audience',
         },
       ],
       callToAction: {
         targetBlank: true,
-        text: 'Contact Us',
-        href: 'mailto:founders@street-interview.biz',
+        text: 'Contact us',
+        href: '/contact',
       },
       hasRibbon: false,
       ribbonTitle: 'Popular',

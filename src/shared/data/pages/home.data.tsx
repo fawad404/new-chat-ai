@@ -68,7 +68,7 @@ export const heroHome: HeroProps = {
     </>
   ),
   callToAction: {
-    text: 'Get started for Free',
+    text: 'Book it now',
     href: '/',
     icon: IconArrowBigRight,
     targetBlank: true,
@@ -600,7 +600,7 @@ export const pricingHome: PricingProps = {
   prices: [
     {
       title: 'standard',
-      price: 99,
+      price: '99',
       period: 'per year',
       items: [
         {

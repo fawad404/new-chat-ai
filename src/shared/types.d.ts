@@ -190,7 +190,7 @@ type Price = {
   title?: string;
   subtitle?: string;
   description?: string;
-  price?: number;
+  price?: string;
   period?: string;
   items?: Array<Item>;
   callToAction?: CallToActionType;

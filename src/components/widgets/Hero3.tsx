@@ -26,24 +26,20 @@ const Hero2 = ({ title, subtitle, tagline, callToAction, callToAction2, image, v
                 <div className="flex flex-wrap justify-center gap-4 md:justify-start">
                   <div className="flex items-center gap-2">
                     <IconUserPlus className="text-primary-600 h-6 w-6" />
-                    <span>Always picks up the phone immediately </span>
+                    <span> Market Research for your product </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <IconCheck className="text-primary-600 h-6 w-6" />
-                    <span>Uninterrupted 24/7 availability </span>
+                    <span>Authentic Live Feedback </span>
                   </div>
                   <div className="w-full"></div>
                   <div className="flex items-center gap-2">
                     <IconLanguage className="text-primary-600 h-6 w-6" />
-                    <span>Handles 1000s of calls simultaneously </span>
+                    <span>Social Media Content </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <IconClock className="text-primary-600 h-6 w-6" />
-                    <span> Answers all customer questions </span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <IconCalendarOff className="text-primary-600 h-6 w-6" />
-                    <span> Real-time order status updates </span>
+                    <span> Validate your marketing message </span>
                   </div>
                 </div>
                 <br></br>
