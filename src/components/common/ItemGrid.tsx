@@ -43,17 +43,16 @@ const ItemGrid = ({
                     typeof image === 'string' ? (
                       <img
                         src={image}
-                        alt={title}
+                        alt={String(title) || ''} 
                         className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
                       />
                     ) : (
                       <Image
-                        src={image}
-                        alt={title}
-                        width={100} // You can customize width and height
-                        height={100}
-                        className={twMerge('w-[100%] h-[100%] mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
-                      />
+                      src={image}
+                      alt={String(title) || ''}  // Convert title to string or provide an empty string fallback
+                      className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
+                    />
+
                     )
                   ) : Icon ? (
                     <Icon className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)} />
