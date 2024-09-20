@@ -30,6 +30,8 @@ import {
   integrationHome,
   contentHomeOne,
   contentHomeTwo,
+  heroHomeThree,
+  heroHomeFour,
   contentHomeThree
 } from '~/shared/data/pages/home.data';
 
@@ -43,20 +45,26 @@ export default function Page() {
       <Hero3 {...heroHome} />
       <SocialProof {...socialProofHome} />
       {/* <Stats {...statsAbout} /> */}
-      {/* <Hero6 {...heroHomeTwo} /> */}
+
+      {/* have to change to content and add video */}
+      <Hero6 {...heroHomeTwo} />  
+
       <Features {...featuresHomeTwo} />
-      {/* <Features {...featuresHomeThree} /> */}
-      {/* <Content {...contentHomeOne} /> */}
-      {/* <Content {...contentHomeThree} />  */}
+      <Features {...featuresHomeThree} />
+      <Content {...contentHomeOne} />
+      <Content {...contentHomeThree} /> 
       <Testimonials {...testimonialsHome} />
       {/* <Hero1 {...integrationHome} /> */}
       <FAQs2 {...faqs2Home} />
       <CallToAction {...callToAction3Home} />
 
 
-      {/* <Content {...contentHomeTwo} /> */}
-      {/* <Hero5 {...heroHomeThree} /> */}
-      {/* <Hero4 {...heroHomeFour} /> */}
+      <Content {...contentHomeTwo} />
+      <Hero5 {...heroHomeThree} />
+
+      {/* change the long image  */}
+      
+      <Hero4 {...heroHomeFour} />
  
       {/* <Steps {...stepsHome} /> */}
       {/* <Features2 {...features2Services} /> */}

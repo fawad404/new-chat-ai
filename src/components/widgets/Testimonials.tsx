@@ -13,7 +13,8 @@ const Testimonials = ({
   id,
   hasBackground = false,
 }: TestimonialsProps) => (
-  <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
+  <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="relative">
+    <img className="absolute bottom-0 right-0 -mb-20 md:-mb-0 md:-mr-16 lg:-mr-28 sm:-mr-0 top-40 md:top-0" src="https://static.shuffle.dev/components/preview/2f808e47-944e-42cf-b821-2358251e0600/assets/public/saturn-assets/images/testimonials/circle-star-bg.svg" alt="" />
     {header && <Headline header={header} titleClass="text-2xl sm:text-3xl" />}
     <div className="flex items-stretch justify-center">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">

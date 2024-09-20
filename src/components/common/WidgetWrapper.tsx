@@ -4,6 +4,7 @@ import Background from './Background';
 
 const WidgetWrapper = ({ children, id, hasBackground=false, containerClass }: WrapperTagProps) => (
   <section className="relative not-prose scroll-mt-[72px] bg-custom-white" id={id}>
+
     <Background hasBackground={hasBackground} />
     <div
       className={twMerge(

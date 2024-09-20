@@ -118,6 +118,7 @@ type Item = {
   href?: string;
   form?: SmallForm;
   icon?: Icon;
+  image? : string | StaticImageData;
   callToAction?: CallToActionType;
 };
 
@@ -130,6 +131,7 @@ type ItemGrid = {
   containerClass?: string;
   panelClass?: string;
   iconClass?: string;
+  image?: string  | StaticImageData;
   titleClass?: string;
   descriptionClass?: string;
   actionClass?: string;

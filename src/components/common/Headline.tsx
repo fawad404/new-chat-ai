@@ -5,7 +5,7 @@ const Headline = ({ header, containerClass, titleClass, subtitleClass }: Headlin
   const { title, subtitle, tagline, position } = header;
 
   return (
-    <div className="mb-4">
+    <div className="mb-4 relative">
       {(title || subtitle || tagline) && (
         <div
           className={twMerge(
@@ -14,6 +14,7 @@ const Headline = ({ header, containerClass, titleClass, subtitleClass }: Headlin
             }`,
             containerClass,
           )}
+          
         >
           {tagline && (
             <p className="text-base font-semibold uppercase tracking-wide text-primary-600">

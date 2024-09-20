@@ -38,19 +38,24 @@ import buildEveryday from '~/assets/images/build-everday.png';
 import drumsLogo from '~/assets/images/drums-logo.png';
 import laylaLogo from '~/assets/images/layla-logo.png';
 import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
+import cloudSecuritylogo from '~/assets/images/csa-logo.png';
 import saadPic from '~/assets/images/saad.jpeg';
 import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
 import callSupportSVG from 'public/image1.png'
 import integrationSVG from 'public/integrations.svg'
-import dataProfessionalsImage from '~/assets/images/data-professionals.png';
-import trustedImage from '~/assets/images/trusted.png';
-import accurateImage from '~/assets/images/accurate.png';
+import dataProfessionalsImage from '~/assets/images/stages-of-personal-growth.png';
+import trustedImage from '~/assets/images/trusted-settings.png';
+import accurateImage from '~/assets/images/ai-sales-agent.png';
 import microsoftLogo from '~/assets/images/microsoft-logo.png';
 import nvidiaLogo from '~/assets/images/nvidia-logo.png';
 import googleLogo from '~/assets/images/google-logo.jpg';
 import csaLogo from '~/assets/images/csa-logo.png';
 
+
+import marketingResearchImage from '~/assets/images/marketing-research.png';
+import socialMediaContentImage from '~/assets/images/social-media-content.png';
+import standOutCrowdImage from '~/assets/images/stand-crowd.png';
 
 
 // Hero data on Home page *******************
@@ -151,6 +156,7 @@ export const socialProofHome: SocialProofProps = {
       alt: 'Drums Logo',
     },
     {
+      link: 'https://layla.com',
       src: laylaLogo,
       alt: 'Layla',
     },
@@ -158,6 +164,26 @@ export const socialProofHome: SocialProofProps = {
       link: 'https://magicalpdf.com',
       src: magicalPDFlogo,
       alt: 'MagicalPDF Logo',
+    },
+    {
+      link: 'https://cloudsecurity.com',
+      src: cloudSecuritylogo,
+      alt: 'CloudSecurity Logo',
+    },
+    {
+      link: 'https://micorsoft.com',
+      src: microsoftLogo,
+      alt: 'microsoft Logo',
+    },
+    {
+      link: 'https://nvidia.com',
+      src: nvidiaLogo,
+      alt: 'nvidia Logo',
+    },
+    {
+      link: 'https://google.com',
+      src: googleLogo,
+      alt: 'google Logo',
     },
   ],
 };
@@ -289,32 +315,24 @@ export const featuresHomeTwo: FeaturesProps = {
   hasBackground: false,
   columns: 3,
   header: {
-    title: (
-      <>
-        Get Viral Marketing for your Business
-      </>
-    ),
-    subtitle:
-      "Instant, Autonomous, Effortless ",
+    title: <>Unlock Viral Marketing for Your Business</>,
+    subtitle: 'Instant, Autonomous, Effortless',
   },
   items: [
     {
-      title: 'Best in case market research',
-      description:
-        'Understand your customers, like never before and get customer feedback. ',
-      icon: IconBrandTailwind,
+      title: 'Cutting-edge market research',
+      description: 'Discover your customers like never before and gather valuable feedback.',
+      image: marketingResearchImage, // Use the path to your image
     },
     {
-      title: 'Get excellent Content for your social media',
-      description:
-        'We film the content with our host and edit it and send it to you',
-      icon: IconComponents,
+      title: 'High-quality social content',
+      description: 'We produce content with our host, edit it, and deliver it ready for your platform.',
+      image: socialMediaContentImage, // Use the path to your image
     },
     {
-      title: 'Make your brand stand out',
-      description:
-        'Everybody and their mom is doing basic videos. Set yourself apart with cool street interviews',
-      icon: IconListCheck,
+      title: 'Stand out from the crowd',
+      description: 'Elevate your brand with captivating street interviews that break the norm.',
+      image: standOutCrowdImage, // Use the path to your image
     },
   ],
 };
@@ -327,30 +345,30 @@ export const featuresHomeThree: FeaturesProps = {
   header: {
     title: (
       <>
-        How it works
+        How it Works
       </>
     ),
     subtitle:
-      "Effortless Custom Chatbot Training in Three Easy Steps",
+      "Easily Build a Custom Chatbot in Three Simple Steps",
   },
   items: [
     {
-      title: 'Provide Your Data',
+      title: 'Submit Your Data',
       description:
-        'Upload your data, whether its a website URL, PDFs, CSV, docx files, or plain text. Our system will process all the content seamlessly for training.        ',
+        'Upload any type of content—website URLs, PDFs, CSVs, Word documents, or plain text. Our system will handle the content preparation for training.',
       icon: IconNumber1Small,
     },
     {
-      title: 'Choose and Train',
+      title: 'Select and Train',
       description:
-        'Select the documents or pages you want your chatbot to learn from, remove unwanted pages and kickstart the training with just a single click on create chatbot.        ',
+        "Choose the documents or sections you'd like your chatbot to learn from, remove irrelevant data, and initiate the training process with a single click.",
       icon: IconNumber2Small,
 
     },
     {
-      title: 'Deploy Your AI Chatbot ',
+      title: 'Launch Your AI Chatbot',
       description:
-        'Copy the embed code and add to your website. You now have your personalized AI chatbot, ready to answer any queries, enhancing customer engagement 24/7.',
+        'Embed the provided code into your site. Your customized AI chatbot will be ready to assist visitors, boosting customer interactions around the clock.',
       icon: IconNumber3Small,
     },
   ],
@@ -362,25 +380,25 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Why get Chat Site?',
+    title: 'Why Choose Chat Site?',
   },
   content:
-    'Expert Customer Support Agent ',
+    'Your Expert Customer Support Solution ',
   items: [
     {
-      title: 'Custom Chatbot on all your data',
+      title: 'Perfectly Reflect Your Brand',
       description:
-        'Add any data sources that you want. We even integrate with existing systems',
+        'Let AI handle the majority of inquiries—around 90%. For unique or complex cases, the chatbot will escalate the issue to a human agent.',
     },
     {
-      title: 'Completely showcase your Companys brand',
+      title: 'Perfectly Reflect Your Brand',
       description:
-        'Chatbot exactly reflects your companys brand',
+        'Your chatbot will fully represent your company’s brand, creating a consistent and professional image.',
     },
     {
-      title: 'Foward to human, whenever its required',
+      title: 'Seamless Human Handoff',
       description:
-        'Lets AI handle 90% of the queries and for special cases, escalate it to human.',
+        'Let AI handle the majority of inquiries—around 90%. For unique or complex cases, the chatbot will escalate the issue to a human agent.',
     },
   ],
   image: {
@@ -397,19 +415,19 @@ export const contentHomeTwo: ContentProps = {
   hasBackground: true,
   
   content:
-    'Lead Generation Engine',
+    'Prospect Acquisition System',
   items: [
     {
-      title: 'Let chatbot capture all your potential leads.',
+      title: 'Allow the chatbot to capture all your potential leads seamlessly',
     },
     {
-      title: 'Get unbeatable security with top-tier encryption',
+      title: 'Experience unbeatable security with industry-leading encryption',
     },
     {
-      title: 'Customizable, private models',
+      title: 'Customize private models tailored to your unique requirements',
     },
     {
-      title: 'Enjoy compliance with all leading standards ',
+      title: 'Ensure compliance with all major regulatory standards ',
     },
   ],
   image: {
@@ -428,13 +446,13 @@ export const contentHomeThree: ContentProps = {
     'AI Sales Agent',
   items: [
     {
-      title: 'Generate Leads from your website, while you sleep',
+      title: 'Effortlessly capture leads from your website 24/7.',
       },
     {
-      title: 'Booking meetings, Qualify leads, follow up and increase your Revenue ',
+      title: 'Schedule meetings, qualify prospects, and boost revenue. ',
     },
     {
-      title: 'Turn your website into a pipeline generation machine',
+      title: 'Transform your website into a powerful lead generation machine.',
     },
   ],
   image: {
@@ -530,15 +548,15 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What People Say About StreetInterview',
+    title: 'What People Are Saying About StreetInterview',
     subtitle:
-      'Listen to our power customers reaching goals.',
+      'Discover how our unique approach is helping brands connect and stand out.',
   },
   testimonials: [
     {
       name: 'Saad Saeed',
       job: 'CEO Layla',
-      testimonial: `After integrating StreetInterview, we have seen substantial increase in customer engagement and sales leads. Many users who we would have otherwise lost are now customers. `,
+      testimonial: `Since using StreetInterview, we've experienced a significant boost in customer engagement and sales leads. Many users, who we might have lost otherwise… `,
       image: {
         src: saadPic,
         alt: 'Saad Saeed',
@@ -548,7 +566,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Teodor Rupi',
       job: 'CTO allO',
-      testimonial: `Its a game changer for our business. This is substantially more accurate than any other chatbot in the market. Increasing our Lead satisfaction has been the biggest value add to us.`,
+      testimonial: `This has been a game changer for us. It’s far more accurate than any other chatbot, and it’s led to a major increase in lead satisfaction…`,
       image: {
         src: teodorPic,
         alt: 'Teodor Rupi',
@@ -558,7 +576,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Yassin Baum',
       job: 'CEO Mailscale.ai',
-      testimonial: `Took just 2 minute to integrate this tool with our servers. Customers love it and satisfaction has been through the roof`,
+      testimonial: `Integration took just two minutes. Our customers love it, and the satisfaction rates have skyrocketed ever since…`,
       image: {
         src: yassinPic,
         alt: 'Yassin Baum',
@@ -580,8 +598,38 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'Does this include editing, filming and also host?',
-      description: `Yes exactly! You just have to tell us what kind of questions you want answered, and thats it. You get the edited videos in 4k
+      title: 'What exactly is a street interview?',
+      description: `A street interview involves approaching real people in public spaces to ask questions related to your brand or industry, providing authentic and engaging content.
+      `,
+    },
+    {
+      title: 'How do street interviews help my business?',
+      description: `Street interviews create genuine, unscripted content that resonates with audiences, making your brand more relatable and increasing engagement on social media.
+      `,
+    },
+    {
+      title: 'Can I choose the questions for the street interview?',
+      description: `Yes, you can either provide the questions or work with our team to craft questions that best align with your business goals.
+      `,
+    },
+    {
+      title: 'Where are the street interviews conducted?',
+      description: `Street interviews are typically conducted in high-traffic public areas, but we can also choose locations that match your target audience.
+      `,
+    },
+    {
+      title: 'Do you provide the host for the street interviews?',
+      description: `Yes, we provide a professional host who is skilled at engaging people and conducting dynamic, on-the-spot interviews.
+      `,
+    },
+    {
+      title: 'Can I use the street interview content across different platforms?',
+      description: `Absolutely! The content is optimized for use on various platforms, including social media, websites, and even ads.
+      `,
+    },
+    {
+      title: 'How long are the street interviews?',
+      description: `The interviews typically last 3-5 minutes, but we can adjust the length based on your needs and the platform requirements.
       `,
     },
   ],
@@ -814,11 +862,11 @@ export const callToAction2Home: CallToActionProps = {
 export const callToAction3Home: CallToActionProps = {
   id: 'callToAction3-on-home',
   hasBackground: false,
-  title: 'We interview on the streets for your products',
+  title: 'Engage Your Customers Directly on the Street',
   subtitle:
-    'From customer feebdack to product feedback, we interview on the streets for your products.',
+    'From invaluable insights to real-time reactions, we bring the voice of your customers directly to you through street interviews.',
   callToAction: {
-    text: 'Buy Package Right now',
+    text: 'Explore Our Packages Now',
     href: '#',
     targetBlank: true,
   },

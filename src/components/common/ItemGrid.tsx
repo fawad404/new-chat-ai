@@ -2,6 +2,8 @@ import { twMerge } from 'tailwind-merge';
 import type { ItemGrid as ItemGridType } from '~/shared/types';
 import CTA from './CTA';
 
+import Image from 'next/image';
+
 const ItemGrid = ({
   id,
   items,
@@ -32,11 +34,28 @@ const ItemGrid = ({
             containerClass,
           )}
         >
-          {items.map(({ title, description, icon: Icon, callToAction }, index) => (
+          {items.map(({ title, description, image, icon: Icon, callToAction }, index) => (
             <div key={id ? `item-${id}-${index}` : `item-grid-${index}`}>
-              <div className={(twMerge('flex flex-row max-w-md'), panelClass)}>
+              <div className={twMerge('flex flex-row max-w-md', panelClass)}>
                 <div className="flex justify-center">
-                  {Icon ? (
+                  {image ? (
+                    // Use the Next.js Image component if image is StaticImageData
+                    typeof image === 'string' ? (
+                      <img
+                        src={image}
+                        alt={title}
+                        className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
+                      />
+                    ) : (
+                      <Image
+                        src={image}
+                        alt={title}
+                        width={100} // You can customize width and height
+                        height={100}
+                        className={twMerge('w-[100%] h-[100%] mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
+                      />
+                    )
+                  ) : Icon ? (
                     <Icon className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)} />
                   ) : DefaultIcon ? (
                     <DefaultIcon className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)} />
@@ -45,9 +64,7 @@ const ItemGrid = ({
                 <div className="mt-0.5">
                   {title && <h3 className={twMerge('text-xl font-bold', titleClass)}>{title}</h3>}
                   {description && (
-                    <p
-                      className={twMerge(`text-gray-600 ${title ? 'mt-3' : ''}`, descriptionClass)}
-                    >
+                    <p className={twMerge(`text-gray-600 ${title ? 'mt-3' : ''}`, descriptionClass)}>
                       {description}
                     </p>
                   )}
