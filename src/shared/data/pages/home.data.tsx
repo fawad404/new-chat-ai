@@ -33,8 +33,8 @@ import {
   TestimonialsProps,
 } from '../../types';
 import heroImg from '~/assets/images/myimage.png';
-import heroImgAI from '~/assets/images/AddAI.png';
-import buildEveryday from '~/assets/images/build-everday.png';
+import heroImgAI from '~/assets/images/celestial-1.png';
+import buildEveryday from '~/assets/images/laravel-backpack.avif';
 import drumsLogo from '~/assets/images/drums-logo.png';
 import laylaLogo from '~/assets/images/layla-logo.png';
 import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
@@ -226,7 +226,7 @@ export const heroHomeTwo: HeroProps = {
     </>
   ),
   video: {
-    link: 'https://youtu.be/vlte2z8s_m8?si=14gq_uHDfMfRPHOf',
+    link: 'https://youtu.be/5wOhrU2V-SI?si=ddHZ125NuqH-m9tY',
   },
 };
 
