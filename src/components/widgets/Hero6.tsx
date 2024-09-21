@@ -45,7 +45,7 @@ const Hero6 = ({ title, subtitle, tagline, callToAction, callToAction2, video }:
 
           <div className="aspect-ratio-16-9 max-w-full mx-auto mb-0" style={{ position: 'relative', width: '80%', textAlign: 'center' }}>
           
-
+          
           <iframe
   style={{
     position: 'absolute',
@@ -55,13 +55,10 @@ const Hero6 = ({ title, subtitle, tagline, callToAction, callToAction2, video }:
     width: '90%',
     height: '80%',
   }}
-  src="https://www.youtube.com/embed/5wOhrU2V-SI?si=ddHZ125NuqH-m9tY"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerPolicy="strict-origin-when-cross-origin"
-  allowFullScreen
-></iframe>
+  src="https://www.youtube.com/embed/wtzTe6GqfWg" 
+          title="dreams: asking twitch streamer about their dreams" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
           </div>
           

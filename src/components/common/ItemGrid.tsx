@@ -44,20 +44,20 @@ const ItemGrid = ({
                       <img
                         src={image}
                         alt={String(title) || ''} 
-                        className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
+                        className={twMerge('w-24 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
                       />
                     ) : (
                       <Image
                       src={image}
                       alt={String(title) || ''}  // Convert title to string or provide an empty string fallback
-                      className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
+                      className={twMerge('w-24 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)}
                     />
 
                     )
                   ) : Icon ? (
-                    <Icon className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)} />
+                    <Icon className={twMerge('w-24 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)} />
                   ) : DefaultIcon ? (
-                    <DefaultIcon className={twMerge('w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)} />
+                    <DefaultIcon className={twMerge('w-24 h-6 mr-2 rtl:mr-0 rtl:ml-2', iconClass)} />
                   ) : null}
                 </div>
                 <div className="mt-0.5">

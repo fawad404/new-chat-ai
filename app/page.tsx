@@ -52,18 +52,20 @@ export default function Page() {
       <Features {...featuresHomeTwo} />
       <Features {...featuresHomeThree} />
       <Content {...contentHomeOne} />
-      <Content {...contentHomeThree} /> 
+      {/* <Content {...contentHomeThree} />  */}
       <Testimonials {...testimonialsHome} />
       {/* <Hero1 {...integrationHome} /> */}
       <FAQs2 {...faqs2Home} />
       <CallToAction {...callToAction3Home} />
 
 
-      <Content {...contentHomeTwo} />
-      <Hero5 {...heroHomeThree} />
+      {/* <Content {...contentHomeTwo} /> */}
 
       {/* change the long image  */}
       
+      {/* <Hero5 {...heroHomeThree} /> */}
+
+      {/* linting error  */}
       <Hero4 {...heroHomeFour} />
  
       {/* <Steps {...stepsHome} /> */}

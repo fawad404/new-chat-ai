@@ -34,7 +34,7 @@ import {
 } from '../../types';
 import heroImg from '~/assets/images/myimage.png';
 import heroImgAI from '~/assets/images/celestial-1.png';
-import buildEveryday from '~/assets/images/laravel-backpack.avif';
+import buildEveryday from '~/assets/images/yaar-img.jpg';
 import drumsLogo from '~/assets/images/drums-logo.png';
 import laylaLogo from '~/assets/images/layla-logo.png';
 import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
@@ -215,13 +215,18 @@ export const validationProofHome: SocialProofProps = {
 export const heroHomeTwo: HeroProps = {
   title: (
     <> <span>
-      Custom AI Chatbot like ChatGPT in One-Click! </span> 
+      Turn Real Reactions Into Viral Brand Power </span> 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-      Empower your Business with StreetInterview AI! Simply share your website link or upload your documents, and get a Conversational AI Chatbot ready in just 2 minutes. This fully customized AI bot will be exclusively trained for your company, providing instant answers to your customers. It&apos;s like having a Custom ChatGPT tailored specifically for your business!  
+      After watching countless people explode their personal brands through street interviews, we thought, 
+  'Why not turn them into ad creatives?' In today’s world, attention is more valuable than ever, and 
+  entertaining content is the only way to truly engage your audience. Our viral street interviews not only 
+  perform organically but also excel in paid media, capturing live customer reactions and direct feedback 
+  about your brand. Content has never been more impactful, and now it&apos;s the most powerful way to connect 
+  with your customers and let the world know your brand exists.
       </span>{' '}
     </>
   ),
@@ -268,13 +273,17 @@ export const heroHomeThree: HeroProps = {
 export const heroHomeFour: HeroProps = {
   title: (
     <>
-      We build everyday
+      Meet Asfandyar 
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        We are always testing new AI models, in different industries with varying amount of custom data
+      At StreetInterview, we’re revolutionizing the way brands connect with their audience through high-impact content. We’ve worked with emerging brands and industry leaders alike to craft content that not only informs but also captivates.
+
+From product launches to customer success stories, we create content that engages audiences at every level, driving conversions and building long-term loyalty. Our unique approach leverages deep audience insights and cutting-edge techniques, ensuring your brand message is clear, compelling, and resonates with your target market.
+
+Whether you're looking to create interactive interviews, viral social media content, or in-depth blogs, StreetInterview is your partner for exceptional, result-driven content that speaks to your audience and delivers results.
       </span>
     </>
   ),
@@ -321,17 +330,17 @@ export const featuresHomeTwo: FeaturesProps = {
   items: [
     {
       title: 'Cutting-edge market research',
-      description: 'Discover your customers like never before and gather valuable feedback.',
+      description: 'Dive deep into your customers’ minds through real, unfiltered street interviews. Watch your product spark genuine reactions and collect invaluable feedback that drives innovation.',
       image: marketingResearchImage, // Use the path to your image
     },
     {
       title: 'High-quality social content',
-      description: 'We produce content with our host, edit it, and deliver it ready for your platform.',
+      description: 'We create dynamic, attention-grabbing street interviews featuring your brand. From filming to editing, we handle everything and deliver ready-to-post content that thrives on all platforms.',
       image: socialMediaContentImage, // Use the path to your image
     },
     {
       title: 'Stand out from the crowd',
-      description: 'Elevate your brand with captivating street interviews that break the norm.',
+      description: 'Break away from the ordinary! Our viral street interviews are designed to give your brand a fresh, engaging edge that connects with audiences and turns heads everywhere.',
       image: standOutCrowdImage, // Use the path to your image
     },
   ],
@@ -345,7 +354,7 @@ export const featuresHomeThree: FeaturesProps = {
   header: {
     title: (
       <>
-        How it Works
+        How We Elevate Your Brand
       </>
     ),
     subtitle:
@@ -353,22 +362,22 @@ export const featuresHomeThree: FeaturesProps = {
   },
   items: [
     {
-      title: 'Submit Your Data',
+      title: 'Send Us Your Product',
       description:
-        'Upload any type of content—website URLs, PDFs, CSVs, Word documents, or plain text. Our system will handle the content preparation for training.',
+        'Ship us your product, and we’ll work with it hands-on, integrating it seamlessly into our street interview content to create authentic interactions and real customer reactions.',
       icon: IconNumber1Small,
     },
     {
-      title: 'Select and Train',
+      title: 'Custom Content Creation',
       description:
-        "Choose the documents or sections you'd like your chatbot to learn from, remove irrelevant data, and initiate the training process with a single click.",
+        "Our team hits the streets, capturing engaging interviews that showcase your product in a fun, relatable way. We craft viral-worthy content tailored to grab attention and spark conversations around your brand.",
       icon: IconNumber2Small,
 
     },
     {
-      title: 'Launch Your AI Chatbot',
+      title: 'Amplify Your Brand’s Visibility',
       description:
-        'Embed the provided code into your site. Your customized AI chatbot will be ready to assist visitors, boosting customer interactions around the clock.',
+        'Watch your brand get noticed! From organic traction to targeted paid media, our viral street interviews get your content in front of the right audience, ensuring your brand stands out and resonates.',
       icon: IconNumber3Small,
     },
   ],
@@ -380,25 +389,25 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Why Choose Chat Site?',
+    title: 'Why Choose Street Interviews for Your Brand?',
   },
   content:
-    'Your Expert Customer Support Solution ',
+    'Your Dynamic Content Solution ',
   items: [
     {
       title: 'Perfectly Reflect Your Brand',
       description:
-        'Let AI handle the majority of inquiries—around 90%. For unique or complex cases, the chatbot will escalate the issue to a human agent.',
+        "Capture real reactions from real people. Our street interviews put your product in front of everyday consumers, providing unfiltered, genuine feedback that showcases your brand's true impact.",
     },
     {
-      title: 'Perfectly Reflect Your Brand',
+      title: 'Engage Your Audience with High-Impact Content',
       description:
-        'Your chatbot will fully represent your company’s brand, creating a consistent and professional image.',
+        'We create social content that cuts through the noise. With street interviews, your brand becomes the star of the show, delivering captivating and shareable content that resonates with your target audience.',
     },
     {
-      title: 'Seamless Human Handoff',
+      title: 'Stand Out with Viral-Worthy Engagement',
       description:
-        'Let AI handle the majority of inquiries—around 90%. For unique or complex cases, the chatbot will escalate the issue to a human agent.',
+        'Differentiate your brand with content that feels fresh and relatable. Our street interviews break through traditional marketing strategies, allowing you to connect with consumers in a way that feels both spontaneous and unforgettable.',
     },
   ],
   image: {
@@ -556,7 +565,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Saad Saeed',
       job: 'CEO Layla',
-      testimonial: `Since using StreetInterview, we've experienced a significant boost in customer engagement and sales leads. Many users, who we might have lost otherwise… `,
+      testimonial: `Since we started collaborating with StreetInterview for our content needs, we've seen a dramatic rise in engagement. The tailored content they provide resonates deeply with our audience, keeping them engaged longer and turning more leads into loyal customers`,
       image: {
         src: saadPic,
         alt: 'Saad Saeed',
@@ -566,7 +575,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Teodor Rupi',
       job: 'CTO allO',
-      testimonial: `This has been a game changer for us. It’s far more accurate than any other chatbot, and it’s led to a major increase in lead satisfaction…`,
+      testimonial: `StreetInterview has transformed how we approach customer interaction. Their data-driven content strategies have not only boosted customer satisfaction but also significantly increased conversions. It's like having a secret weapon for content!`,
       image: {
         src: teodorPic,
         alt: 'Teodor Rupi',
@@ -576,7 +585,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Yassin Baum',
       job: 'CEO Mailscale.ai',
-      testimonial: `Integration took just two minutes. Our customers love it, and the satisfaction rates have skyrocketed ever since…`,
+      testimonial: `We needed high-quality content, and StreetInterview delivered in record time. Our customers appreciate the clear and consistent messaging, and we've seen incredible satisfaction and retention rates as a result. This has been a game-changer for our brand.`,
       image: {
         src: yassinPic,
         alt: 'Yassin Baum',
