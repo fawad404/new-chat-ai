@@ -222,7 +222,7 @@ export const heroHomeTwo: HeroProps = {
     <>
       <span className="hidden md:inline">
       After watching countless people explode their personal brands through street interviews, we thought, 
-  'Why not turn them into ad creatives?' In today’s world, attention is more valuable than ever, and 
+  Why not turn them into ad creatives? In today&apos;s world, attention is more valuable than ever, and 
   entertaining content is the only way to truly engage your audience. Our viral street interviews not only 
   perform organically but also excel in paid media, capturing live customer reactions and direct feedback 
   about your brand. Content has never been more impactful, and now it&apos;s the most powerful way to connect 
@@ -279,11 +279,11 @@ export const heroHomeFour: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-      At StreetInterview, we’re revolutionizing the way brands connect with their audience through high-impact content. We’ve worked with emerging brands and industry leaders alike to craft content that not only informs but also captivates.
+      At StreetInterview, we&apos;re revolutionizing the way brands connect with their audience through high-impact content. We&apos;ve worked with emerging brands and industry leaders alike to craft content that not only informs but also captivates.
 
 From product launches to customer success stories, we create content that engages audiences at every level, driving conversions and building long-term loyalty. Our unique approach leverages deep audience insights and cutting-edge techniques, ensuring your brand message is clear, compelling, and resonates with your target market.
 
-Whether you're looking to create interactive interviews, viral social media content, or in-depth blogs, StreetInterview is your partner for exceptional, result-driven content that speaks to your audience and delivers results.
+Whether you&apos;re looking to create interactive interviews, viral social media content, or in-depth blogs, StreetInterview is your partner for exceptional, result-driven content that speaks to your audience and delivers results.
       </span>
     </>
   ),

@@ -56,9 +56,13 @@ const Hero6 = ({ title, subtitle, tagline, callToAction, callToAction2, video }:
     height: '80%',
   }}
   src="https://www.youtube.com/embed/wtzTe6GqfWg" 
-          title="dreams: asking twitch streamer about their dreams" 
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  title="dreams: asking twitch streamer about their dreams" 
+  frameBorder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin" 
+  allowFullScreen
+></iframe>
+
 
           </div>
           
