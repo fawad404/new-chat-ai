@@ -56,6 +56,7 @@ export default function Page() {
       <Testimonials {...testimonialsHome} />
       {/* <Hero1 {...integrationHome} /> */}
       <FAQs2 {...faqs2Home} />
+      <Hero4 {...heroHomeFour} />
       <CallToAction {...callToAction3Home} />
 
 
@@ -66,7 +67,6 @@ export default function Page() {
       {/* <Hero5 {...heroHomeThree} /> */}
 
       {/* linting error  */}
-      <Hero4 {...heroHomeFour} />
  
       {/* <Steps {...stepsHome} /> */}
       {/* <Features2 {...features2Services} /> */}

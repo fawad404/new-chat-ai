@@ -34,7 +34,7 @@ import {
 } from '../../types';
 import heroImg from '~/assets/images/myimage.png';
 import heroImgAI from '~/assets/images/celestial-1.png';
-import buildEveryday from '~/assets/images/yaar-img.jpg';
+import buildEveryday from '~/assets/images/yaar-img2.png';
 import drumsLogo from '~/assets/images/drums-logo.png';
 import laylaLogo from '~/assets/images/layla-logo.png';
 import magicalPDFlogo from '~/assets/images/magical-pdf-logo.png';
@@ -44,7 +44,7 @@ import teodorPic from '~/assets/images/teodor.jpeg';
 import yassinPic from '~/assets/images/yassin.jpeg';
 import callSupportSVG from 'public/image1.png'
 import integrationSVG from 'public/integrations.svg'
-import dataProfessionalsImage from '~/assets/images/stages-of-personal-growth.png';
+import dataProfessionalsImage from '~/assets/images/yaar-img.png';
 import trustedImage from '~/assets/images/trusted-settings.png';
 import accurateImage from '~/assets/images/ai-sales-agent.png';
 import microsoftLogo from '~/assets/images/microsoft-logo.png';
@@ -288,7 +288,7 @@ Whether you&apos;re looking to create interactive interviews, viral social media
     </>
   ),
   image: {
-    src: buildEveryday,
+    src: callSupportSVG,
     alt: 'Hero StreetInterview',
   },
 };
